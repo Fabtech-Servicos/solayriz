@@ -1,124 +1,16 @@
-<!--Start mainmenu area-->
-<section class="mainmenu-area stricky">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-12">
-                <div class="inner-content clearfix">
-                    <nav class="main-menu clearfix">
-                        <div class="navbar-header clearfix">
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                        </div>
-                        <div class="navbar-collapse collapse clearfix">
-                            <ul class="navigation clearfix">
-                                <li class="dropdown current"><a href="index.html">Home</a>
-                                    <ul>
-                                        <li><a href="index.html">Solartech</a></li>
-                                        <li><a href="index-2.html">Hydrotech</a></li>
-                                        <li><a href="index-3.html">Windtech</a></li>
-                                        <li><a href="index-4.html">Fueltech</a></li>
-                                        <li><a href="index-5.html">Geotech</a></li>
-                                        <li><a href="index-6.html">MassTech</a></li>
-                                        <li class="dropdown"><a href="#">Header Styles</a>
-                                            <ul>
-                                                <li><a href="index.html">Header Style 01</a></li>
-                                                <li><a href="index-2.html">Header Style 02</a></li>
-                                                <li><a href="index-3.html">Header Style 03</a></li>
-                                                <li><a href="index-4.html">Header Style 04</a></li>
-                                                <li><a href="index-5.html">Header Style 05</a></li>
-                                                <li><a href="index-6.html">Header Style 06</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown"><a href="about.html">About us</a>
-                                    <ul>
-                                        <li><a href="about.html">About Company</a></li>
-                                        <li><a href="faq.html">FAQ’s</a></li>
-                                        <li><a href="404-page.html">Error Page</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown"><a href="services.html">Services</a>
-                                    <ul>
-                                        <li><a href="ser-installation.html">Installation</a></li>
-                                        <li><a href="ser-maintenance.html">Maintenance</a></li>
-                                        <li><a href="ser-monitoring.html">Monitoring</a></li>
-                                        <li><a href="ser-consultation.html">Consultation</a></li>
-                                        <li><a href="ser-roof-solution.html">Roof Solution</a></li>
-                                        <li><a href="ser-inverter-repair.html">Inverter Repair</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown"><a href="project.html">Projects</a>
-                                    <ul>
-                                        <li><a href="project.html">2 Columns Creative</a></li>
-                                        <li><a href="project-v2.html">3 Columns Modern</a></li>
-                                        <li><a href="project-v3.html">4 Columns Classic</a></li>
-                                        <li><a href="project-v4.html">Projects Fullwidth</a></li>
-                                        <li><a href="project-v5.html">Masonry Style</a></li>
-                                        <li><a href="project-single.html">Projects Single</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown"><a href="blog.html">Blog</a>
-                                    <ul>
-                                        <li><a href="blog.html">Blog Style 01</a></li>
-                                        <li><a href="blog-v2.html">Blog Style 02</a></li>
-                                        <li><a href="blog-v3.html">Blog Style 03</a></li>
-                                        <li><a href="blog-single.html">Blog Single Post</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown"><a href="shop.html">Shop</a>
-                                    <ul>
-                                        <li><a href="shop.html">Our Products</a></li>
-                                        <li><a href="shop-single.html">Products Single</a></li>
-                                        <li><a href="shopping-cart.html">Shopping Cart</a></li>
-                                        <li><a href="checkout.html">Checkout</a></li>
-                                        <li><a href="account.html">My Account</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="contact.html">Contact</a></li>
-                            </ul>
-                        </div>
-                    </nav>
-
-                    <div class="mainmenu-right">
-                        <div class="outer-search-box">
-                            <div class="seach-toggle"><i class="fa fa-search"></i></div>
-                            <ul class="search-box">
-                                <li>
-                                    <form method="post" action="index.html">
-                                        <div class="form-group">
-                                            <input type="search" name="search" placeholder="Search Here" required>
-                                            <button type="submit"><i class="fa fa-search"></i></button>
-                                        </div>
-                                    </form>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="cart-box">
-                            <a href="shoping-cart.html"><span class="icon-cart"><span class="number">0</span></span></a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--End mainmenu area-->
 
 <!--Main Slider-->
 <section class="main-slider">
     <div class="rev_slider_wrapper fullwidthbanner-container" id="rev_slider_one_wrapper" data-source="gallery">
         <div class="rev_slider fullwidthabanner" id="rev_slider_one" data-version="5.4.1">
             <ul>
-                <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1689" data-masterspeed="default"
+<!--                $sliders as $key => $slider-->
+                <?php foreach ($sliders as $slider): ?>
+                <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="<?= $slider->id ?>" data-masterspeed="default"
                     data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/slides/v1-1.jpg"
                     data-title="Slide Title" data-transition="parallaxvertical">
 
-                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="/images/slides/v1-1.jpg">
+                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="<?= "/files/Sliders/photo/" . $slider->photo ?>">
 
                     <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['1000','900','700','450']" data-whitespace="normal"
                          data-hoffset="['15','15','15','15']" data-voffset="['-150','-130','-120','-125']" data-x="['center','center','center','center']" data-y="['middle','middle','middle','middle']" data-textalign="['top','top','top','top']" data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},
@@ -133,15 +25,15 @@
                          data-hoffset="['15','15','15','15']" data-voffset="['-55','-60','-55','-65']" data-x="['center','center','center','center']" data-y="['middle','middle','middle','middle']" data-textalign="['top','top','top','top']" data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1500,"ease":"Power3.easeInOut"},
                         {"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]' style="z-index: 7; white-space: nowrap;">
                         <div class="slide-content middle-slide text-center">
-                            <div class="text">Independent Personal & business</div>
+                            <div class="text"><?= $slider->name ?></div>
                         </div>
                     </div>
                     <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['1000','900','700','450']" data-whitespace="normal"
                          data-hoffset="['15','15','15','15']" data-voffset="['55','30','25','5']" data-x="['center','center','center','center']" data-y="['middle','middle','middle','middle']" data-textalign="['top','top','top','top']" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
                          style="z-index: 7; white-space: nowrap;">
-                        <div class="slide-content middle-slide text-center">
+                        <div class="slide-content middle-slide text-center" style="">
                             <div class="big-title">
-                                Energize the<br> future with solar power
+                                <?= $slider->description ?>
                             </div>
                         </div>
                     </div>
@@ -155,92 +47,7 @@
                         </div>
                     </div>
                 </li>
-
-                <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1687" data-masterspeed="default"
-                    data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/slides/v1-2.jpg"
-                    data-title="Slide Title" data-transition="parallaxvertical">
-
-                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="/images/slides/v1-2.jpg">
-
-                    <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['1000','900','700','450']" data-whitespace="normal"
-                         data-hoffset="['15','15','15','15']" data-voffset="['-150','-130','-120','-125']" data-x="['center','center','center','center']" data-y="['middle','middle','middle','middle']" data-textalign="['top','top','top','top']" data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},
-                        {"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]' style="z-index: 7; white-space: nowrap;">
-                        <div class="slide-content middle-slide text-center">
-                            <div class="icon-holder">
-                                <span class="icon-solar"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['1000','900','700','450']" data-whitespace="normal"
-                         data-hoffset="['15','15','15','15']" data-voffset="['-55','-60','-55','-65']" data-x="['center','center','center','center']" data-y="['middle','middle','middle','middle']" data-textalign="['top','top','top','top']" data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1500,"ease":"Power3.easeInOut"},
-                        {"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]' style="z-index: 7; white-space: nowrap;">
-                        <div class="slide-content middle-slide text-center">
-                            <div class="text">Energy Solution For Street</div>
-                        </div>
-                    </div>
-                    <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['1000','900','700','450']" data-whitespace="normal"
-                         data-hoffset="['15','15','15','15']" data-voffset="['55','30','25','5']" data-x="['center','center','center','center']" data-y="['middle','middle','middle','middle']" data-textalign="['top','top','top','top']" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-                         style="z-index: 7; white-space: nowrap;">
-                        <div class="slide-content middle-slide text-center">
-                            <div class="big-title">
-                                Smart city<br> lighting control service
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['1000','900','700','450']" data-whitespace="normal"
-                         data-hoffset="['15','15','15','15']" data-voffset="['200','155','140','110']" data-x="['center','center','center','center']" data-y="['middle','middle','middle','middle']" data-textalign="['top','top','top','top']" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1500,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-                         style="z-index: 7; white-space: nowrap;">
-                        <div class="slide-content middle-slide text-center">
-                            <div class="btn-box">
-                                <a class="btn-one" href="#"><b>Read More</b><span class="icon-null"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-
-                <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1688" data-masterspeed="default"
-                    data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/slides/v1-3.jpg"
-                    data-title="Slide Title" data-transition="parallaxvertical">
-                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="/images/slides/v1-3.jpg">
-
-
-                    <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['1000','900','700','450']" data-whitespace="normal"
-                         data-hoffset="['15','15','15','15']" data-voffset="['-150','-130','-120','-125']" data-x="['center','center','center','center']" data-y="['middle','middle','middle','middle']" data-textalign="['top','top','top','top']" data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},
-                        {"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]' style="z-index: 7; white-space: nowrap;">
-                        <div class="slide-content middle-slide text-center">
-                            <div class="icon-holder">
-                                <span class="icon-power-1"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['1000','900','700','450']" data-whitespace="normal"
-                         data-hoffset="['15','15','15','15']" data-voffset="['-55','-60','-55','-65']" data-x="['center','center','center','center']" data-y="['middle','middle','middle','middle']" data-textalign="['top','top','top','top']" data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1500,"ease":"Power3.easeInOut"},
-                        {"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]' style="z-index: 7; white-space: nowrap;">
-                        <div class="slide-content middle-slide text-center">
-                            <div class="text">Specially For Residential</div>
-                        </div>
-                    </div>
-                    <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['1000','900','700','450']" data-whitespace="normal"
-                         data-hoffset="['15','15','15','15']" data-voffset="['55','30','25','5']" data-x="['center','center','center','center']" data-y="['middle','middle','middle','middle']" data-textalign="['top','top','top','top']" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-                         style="z-index: 7; white-space: nowrap;">
-                        <div class="slide-content middle-slide text-center">
-                            <div class="big-title">
-                                Custom energy<br> solutions for homeowners
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['1000','900','700','450']" data-whitespace="normal"
-                         data-hoffset="['15','15','15','15']" data-voffset="['200','155','140','110']" data-x="['center','center','center','center']" data-y="['middle','middle','middle','middle']" data-textalign="['top','top','top','top']" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1500,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-                         style="z-index: 7; white-space: nowrap;">
-                        <div class="slide-content middle-slide text-center">
-                            <div class="btn-box">
-                                <a class="btn-one" href="#"><b>Read More</b><span class="icon-null"></span></a>
-                            </div>
-                        </div>
-                    </div>
-
-                </li>
-
+                <?php endforeach; ?>
             </ul>
         </div>
     </div>

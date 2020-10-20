@@ -10,7 +10,7 @@ tpj(document).ready(function() {
             jsFileLocation: "plugins/revolution/js/",
             sliderLayout: "fullwidth",
             dottedOverlay: "none",
-            delay: 5000,
+            delay: 4000,
             navigation: {
                 keyboardNavigation: "off",
                 keyboard_direction: "horizontal",
@@ -91,7 +91,7 @@ tpj(document).ready(function() {
             jsFileLocation: "plugins/revolution/js/",
             sliderLayout: "fullwidth",
             dottedOverlay: "none",
-            delay: 5000,
+            delay: 4000,
             navigation: {
                 keyboardNavigation: "off",
                 keyboard_direction: "horizontal",
@@ -173,7 +173,7 @@ tpj(document).ready(function() {
             jsFileLocation: "plugins/revolution/js/",
             sliderLayout: "fullwidth",
             dottedOverlay: "none",
-            delay: 5000,
+            delay: 4000,
             navigation: {
                 keyboardNavigation: "off",
                 keyboard_direction: "horizontal",

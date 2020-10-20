@@ -234,7 +234,7 @@
 <!-- thm custom script -->
 <script src="/js/site/custom.js"></script>
 
-<?= $this->fetch('script-footer') ?>
+<?php echo $this->fetch('scriptBottom'); ?>
 
 </html>
 

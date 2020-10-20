@@ -30,9 +30,8 @@
             <div class="box-body">
               <?php
                 echo $this->Form->control('name');
-//                echo $this->Form->control('description');
+                echo $this->Form->control('description',['id' => 'editor']);
                 echo $this->Form->control('photo',['type' => 'file']);
-//                echo $this->Form->control('photo_dir');
               ?>
             </div>
             <!-- /.box-body -->
@@ -45,4 +44,14 @@
       </div>
   </div>
   <!-- /.row -->
+
+      <?php $this->start('scriptBottom'); ?>
+      <?php echo $this->Html->script([
+          'ckeditor/ckeditor',
+      ]); ?>
+      <script>
+          ClassicEditor
+              .create( document.querySelector( '#editor' ) ).then( editor => {  } ).catch( error => { } );
+      </script>
+      <?php  $this->end(); ?>
 </section>

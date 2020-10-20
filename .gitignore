@@ -5,6 +5,7 @@
 /logs/*
 /tmp/*
 /vendor/*
+.htaccess
 
 /webroot/files
 /webroot/files/*
@@ -19,6 +20,7 @@
 Icon?
 ehthumbs.db
 Thumbs.db
+
 
 # Tool specific files #
 #######################
