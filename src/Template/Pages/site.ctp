@@ -42,7 +42,7 @@
                          style="z-index: 7; white-space: nowrap;">
                         <div class="slide-content middle-slide text-center">
                             <div class="btn-box">
-                                <a class="btn-one" href="#"><b>Read More</b><span class="icon-null"></span></a>
+                                <a class="btn-one" href="#"><b>Orçamento</b><span class="icon-null"></span></a>
                             </div>
                         </div>
                     </div>
@@ -64,24 +64,24 @@
                         <span class="icon-solar-energy"></span>
                     </div>
                     <div class="image-box-one">
-                        <img src="/images/resources/about-1.png" alt="Awesome Image">
+                        <img src="/images/resources/a1.png" alt="Awesome Image">
                     </div>
                     <div class="image-box-two">
-                        <img src="/images/resources/about-2.png" alt="Awesome Image">
+                        <img src="/images/resources/a2.png" alt="Awesome Image">
                     </div>
                     <div class="image-box-three">
-                        <img src="/images/resources/about-3.png" alt="Awesome Image">
+                        <img src="/images/resources/a3.png" alt="Awesome Image">
                     </div>
                     <div class="image-box-four">
-                        <img src="/images/resources/about-4.png" alt="Awesome Image">
+                        <img src="/images/resources/a4.png" alt="Awesome Image">
                     </div>
                 </div>
             </div>
             <div class="col-xl-6">
                 <div class="about-text">
                     <div class="sec-title">
-                        <p>About Our Company</p>
-                        <div class="title">Simplicity & Efficiency</div>
+                        <p>Sobre a nossa empresa</p>
+                        <div class="title">Simplicidade & eficiência</div>
                         <div class="border-box"></div>
                     </div>
                     <div class="inner-content">
@@ -96,7 +96,7 @@
                                     <span class="icon-farm"></span>
                                 </div>
                                 <div class="title">
-                                    <h3>Solar In<br> Agriculture Farm</h3>
+                                    <h3><br>Fazenda Agrícola</h3>
                                 </div>
                             </li>
                             <li class="single-solar-box">
@@ -104,7 +104,7 @@
                                     <span class="icon-farming-and-gardening"></span>
                                 </div>
                                 <div class="title">
-                                    <h3>Solar In<br> Residential Areas</h3>
+                                    <h3></br>Áreas residenciais</h3>
                                 </div>
                             </li>
                         </ul>

@@ -36,7 +36,13 @@
                 echo $this->Form->control('vision',['id' => 'editor2']);
                 echo $this->Form->control('title_mission');
                 echo $this->Form->control('mission',['id' => 'editor3']);
+                echo $this->Form->control('title_value');
+                echo $this->Form->control('value');
+                echo $this->Form->control('title_state');
+                echo $this->Form->control('state');
                 echo $this->Form->control('photo', ['type' => 'file']);
+                echo $this->Form->control('photo2', ['type' => 'file']);
+                echo $this->Form->control('map', ['type' => 'file']);
                 //echo $this->Form->control('photo_dir');
               ?>
             </div>

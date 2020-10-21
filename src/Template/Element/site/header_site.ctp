@@ -14,7 +14,7 @@
                         </div>
                         <div class="top-right-style1 float-right">
                             <div class="for-enquiry float-left fix">
-                                <p><span class="icon-question"></span>For Enquiry: +31 541.754.3010</p>
+                                <p><span class="icon-question"></span>Telefone: (79) 98866-8644</p>
                             </div>
                             <ul class="top-social-style1 sociallinks-style-one float-right fix">
                                 <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -37,7 +37,7 @@
                 <div class="col-xl-12 col-lg-12 col-md-12">
                     <div class="header-style1 clearfix">
                         <div class="headers1-logo float-left">
-                            <a href="index.html">
+                            <a href="/">
                                 <img style="width: 280px; margin-top: -27px;" src="/images/resources/solayris.png" alt="Awesome Logo">
                             </a>
                         </div>
@@ -60,14 +60,14 @@
                                             <img src="/images/icon/header-icon-2.png" alt="Awesome Image">
                                         </div>
                                         <div class="text">
-                                            <h3>Mail Us On</h3>
-                                            <p>info@solartech.com</p>
+                                            <h3>Email</h3>
+                                            <p>solayrizengenharia@gmail.com</p>
                                         </div>
                                     </div>
                                 </li>
                             </ul>
                             <div class="headers1-button">
-                                <a class="btn-one" href="#"><b>Consultation</b><span class="icon-null"></span></a>
+                                <a class="btn-one" href="#"><b>Orçamento</b><span class="icon-null"></span></a>
                             </div>
                         </div>
                     </div>
@@ -92,7 +92,7 @@
                             </div>
                             <div class="navbar-collapse collapse clearfix">
                                 <ul class="navigation clearfix">
-                                    <li class="dropdown current"><a href="index.html">Home</a>
+                                    <li class="dropdown current"><a href="/">Home</a>
                                         <ul>
                                             <li><a href="index.html">Solartech</a></li>
                                             <li><a href="index-2.html">Hydrotech</a></li>

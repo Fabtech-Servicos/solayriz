@@ -15,8 +15,14 @@ use Cake\ORM\Entity;
  * @property string|null $vision
  * @property string|null $title_mission
  * @property string|null $mission
+ * @property string|null $title_value
+ * @property string|null $value
+ * @property string|null $title_state
+ * @property string|null $state
  * @property string|null $photo
+ * @property string|null $photo2
  * @property string|null $photo_dir
+ * * @property string|null $map
  */
 class About extends Entity
 {
@@ -38,7 +44,13 @@ class About extends Entity
         'vision' => true,
         'title_mission' => true,
         'mission' => true,
+        'title_value' => true,
+        'value' => true,
+        'title_state' => true,
+        'state' => true,
         'photo' => true,
-        'photo_dir' => true
+        'photo2' => true,
+        'photo_dir' => true,
+        'map' => true
     ];
 }

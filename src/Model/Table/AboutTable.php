@@ -46,6 +46,26 @@ class AboutTable extends Table
                     'type' => 'photo_type', // defaults to `type`
                 ],
             ],
+
+            'photo2' => [
+                'fields' => [
+                    // if these fields or their defaults exist
+                    // the values will be set.
+                    'dir' => 'photo2_dir', // defaults to `dir`
+                    'size' => 'photo2_size', // defaults to `size`
+                    'type' => 'photo2_type', // defaults to `type`
+                ],
+            ],
+
+            'map' => [
+                'fields' => [
+                    // if these fields or their defaults exist
+                    // the values will be set.
+                    'dir' => 'map_dir', // defaults to `dir`
+                    'size' => 'map_size', // defaults to `size`
+                    'type' => 'map_type', // defaults to `type`
+                ],
+            ],
         ]);
     }
 
@@ -93,7 +113,32 @@ class AboutTable extends Table
             ->allowEmptyString('mission');
 
         $validator
+            ->scalar('title_value')
+            ->maxLength('title_value', 100)
+            ->allowEmptyString('title_value');
+
+        $validator
+            ->scalar('value')
+            ->allowEmptyString('value');
+
+        $validator
+            ->scalar('title_state')
+            ->maxLength('title_state', 100)
+            ->allowEmptyString('title_state');
+
+        $validator
+            ->scalar('state')
+            ->allowEmptyString('state');
+
+
+        $validator
             ->allowEmptyString('photo');
+
+        $validator
+            ->allowEmptyString('photo2');
+
+        $validator
+            ->allowEmptyString('map');
 
 
         return $validator;
