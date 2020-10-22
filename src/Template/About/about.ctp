@@ -267,7 +267,7 @@
     <div class="container">
         <div class="sec-title text-center">
             <p>Solayriz Slz Engenharia</p>
-            <div class="title">Projetos</div>
+            <div class="title">Projetos Recentes</div>
             <div class="border-box center"></div>
         </div>
         <div class="row">

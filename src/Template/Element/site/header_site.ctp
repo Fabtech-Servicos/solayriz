@@ -92,31 +92,10 @@
                             </div>
                             <div class="navbar-collapse collapse clearfix">
                                 <ul class="navigation clearfix">
-                                    <li class="dropdown current"><a href="/">Home</a>
+                                    <li class="dropdown current"><a href="/">Início</a></li>
+                                    <li class="dropdown"><a href="about.html">Solayriz</a>
                                         <ul>
-                                            <li><a href="index.html">Solartech</a></li>
-                                            <li><a href="index-2.html">Hydrotech</a></li>
-                                            <li><a href="index-3.html">Windtech</a></li>
-                                            <li><a href="index-4.html">Fueltech</a></li>
-                                            <li><a href="index-5.html">Geotech</a></li>
-                                            <li><a href="index-6.html">MassTech</a></li>
-                                            <li class="dropdown"><a href="#">Header Styles</a>
-                                                <ul>
-                                                    <li><a href="index.html">Header Style 01</a></li>
-                                                    <li><a href="index-2.html">Header Style 02</a></li>
-                                                    <li><a href="index-3.html">Header Style 03</a></li>
-                                                    <li><a href="index-4.html">Header Style 04</a></li>
-                                                    <li><a href="index-5.html">Header Style 05</a></li>
-                                                    <li><a href="index-6.html">Header Style 06</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="about.html">About us</a>
-                                        <ul>
-                                            <li><a href="about.html">About Company</a></li>
-                                            <li><a href="faq.html">FAQ’s</a></li>
-                                            <li><a href="404-page.html">Error Page</a></li>
+                                            <li><a href="/sobre/5">Sobre</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown"><a href="services.html">Services</a>

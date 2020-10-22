@@ -37,9 +37,9 @@
                 echo $this->Form->control('title_mission');
                 echo $this->Form->control('mission',['id' => 'editor3']);
                 echo $this->Form->control('title_value');
-                echo $this->Form->control('value');
+                echo $this->Form->control('value',['id' => 'editor4']);
                 echo $this->Form->control('title_state');
-                echo $this->Form->control('state');
+                echo $this->Form->control('state',['id' => 'editor5']);
                 echo $this->Form->control('photo', ['type' => 'file']);
                 echo $this->Form->control('photo2', ['type' => 'file']);
                 echo $this->Form->control('map', ['type' => 'file']);
@@ -59,19 +59,25 @@
       <?php $this->start('scriptBottom'); ?>
       <?php echo $this->Html->script([
           'ckeditor/ckeditor',
-          'ckeditor/translations/pt-br',
       ]); ?>
       <script>
-          ClassicEditor
-              .create( document.querySelector( '#editor' ) ).then( editor => {  } ).catch( error => { } );
+          CKEDITOR.replace( 'editor' );
       </script>
+
       <script>
-          ClassicEditor
-              .create( document.querySelector( '#editor2' ) ).then( editor => {  } ).catch( error => { } );
+          CKEDITOR.replace( 'editor2' );
       </script>
+
       <script>
-          ClassicEditor
-              .create( document.querySelector( '#editor3' ) ).then( editor => {  } ).catch( error => { } );
+          CKEDITOR.replace( 'editor3' );
+      </script>
+
+      <script>
+          CKEDITOR.replace( 'editor4' );
+      </script>
+
+      <script>
+          CKEDITOR.replace( 'editor5' );
       </script>
       <?php  $this->end(); ?>
   <!-- /.row -->

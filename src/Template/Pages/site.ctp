@@ -85,10 +85,14 @@
                         <div class="border-box"></div>
                     </div>
                     <div class="inner-content">
-                        <h3>Experience The Power of The Sun at its Finest.</h3>
+                        <?php foreach ($about as $ab): ?>
+                        <h3><?= $ab->title ?></h3>
+                        <?php endforeach; ?>
+
                         <div class="text">
-                            <p>These cases are perfectly simple and easy to distinguish. In a free hour, when our power off choice isuntrammelled and when nothing prevents our being able do what we like bestevery pleasure.</p>
-                            <p>Perfectly simple and easy to distinguish. In a free hour, when our power choice is untrammelled and when nothing prevents we give best.</p>
+                          <?php foreach ($about as $ab): ?>
+                              <?= strlen($ab->description) >  200 ? substr($ab->description, 0, 300) . "..." : $ab->description ?>
+                            <?php endforeach; ?>
                         </div>
                         <ul class="solar-services">
                             <li class="single-solar-box">
@@ -96,7 +100,7 @@
                                     <span class="icon-farm"></span>
                                 </div>
                                 <div class="title">
-                                    <h3><br>Fazenda Agrícola</h3>
+                                    <h3><br>Área Agrícola</h3>
                                 </div>
                             </li>
                             <li class="single-solar-box">
@@ -109,7 +113,7 @@
                             </li>
                         </ul>
                         <div class="button">
-                            <a class="btn-two" href="#">More About Solartech<span class="icon-null"></span></a>
+                            <a class="btn-two" href="/sobre/5">Ver Mais<span class="icon-null"></span></a>
                         </div>
                     </div>
                 </div>

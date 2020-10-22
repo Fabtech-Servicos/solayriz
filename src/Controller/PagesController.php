@@ -76,8 +76,8 @@ class PagesController extends AppController
     public function site()
     {
         $this->viewBuilder()->setLayout('site');
-        //$this->loadModel('About');
         $this->loadModel('Sliders');
+        $this->loadModel('About');
         $this->loadModel('Products');
         $this->loadModel('Projects');
         $this->loadModel('Portfolio');
@@ -88,8 +88,8 @@ class PagesController extends AppController
 
 
 
-        //$about = $this->About->find('all')->first();
         $sliders = $this->Sliders->find('all');
+        $about = $this->About->find('all', array('limit' => 3))->order(['id' => 'desc']);
         $servic = $this->Portfolio->find('all', array('limit' => 3))->order(['id' => 'desc']);
         $servico = $this->Portfolio->find('all');
         $projects = $this->Projects->find('all')->order(['id DESC'])->limit(8);
@@ -124,8 +124,8 @@ class PagesController extends AppController
 
 
 
-        //$this->set('about', $about);
         $this->set('sliders', $sliders);
+        $this->set('about', $about);
         $this->set('servic', $servic);
         $this->set('servico', $servico);
         $this->set('projects', $projects);
