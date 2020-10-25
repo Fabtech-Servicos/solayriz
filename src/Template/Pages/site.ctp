@@ -218,63 +218,39 @@
                         <h3><a href="#">Gerar<br> Própria Eletricidade</a></h3>
                         <span class="icon-null-1"></span>
                         <div class="button">
-                            <a href="#"><span class="icon-null"></span></a>
+<!--                            <a href="#"><span class="icon-null"></span></a>-->
                         </div>
-                        <div class="overlay-content">
-                            <h3><a href="#">Gerar<br> Própria Eletricidade</a></h3>
-                            <p>Actual teachings of the great explorer of the truth, the masters builder of human all happiness.</p>
-                            <div class="button">
-                                <a href="#"><span class="icon-null"></span></a>
-                            </div>
-                        </div>
+
                     </div>
                     <!--End Single Choose Box-->
                     <!--Start Single Choose Box-->
                     <div class="single-choose-box text-center">
-                        <h3><a href="#">Improve<br> The Environment</a></h3>
+                        <h3><a href="#">Melhorar<br> o meio ambiente</a></h3>
                         <span class="icon-ecology"></span>
                         <div class="button">
-                            <a href="#"><span class="icon-null"></span></a>
+<!--                            <a href="#"><span class="icon-null"></span></a>-->
                         </div>
-                        <div class="overlay-content">
-                            <h3><a href="#">Improve<br> The Environment</a></h3>
-                            <p>Actual teachings of the great explorer of the truth, the masters builder of human all happiness.</p>
-                            <div class="button">
-                                <a href="#"><span class="icon-null"></span></a>
-                            </div>
-                        </div>
+
                     </div>
                     <!--End Single Choose Box-->
                     <!--Start Single Choose Box-->
                     <div class="single-choose-box text-center">
-                        <h3><a href="#">Lower<br> Power Cost</a></h3>
+                        <h3><a href="#">Baixo<br> custo de energia</a></h3>
                         <span class="icon-solar-panel"></span>
                         <div class="button">
-                            <a href="#"><span class="icon-null"></span></a>
+<!--                            <a href="#"><span class="icon-null"></span></a>-->
                         </div>
-                        <div class="overlay-content">
-                            <h3><a href="#">Lower<br> Power Cost</a></h3>
-                            <p>Actual teachings of the great explorer of the truth, the masters builder of human all happiness.</p>
-                            <div class="button">
-                                <a href="#"><span class="icon-null"></span></a>
-                            </div>
-                        </div>
+
                     </div>
                     <!--End Single Choose Box-->
                     <!--Start Single Choose Box-->
                     <div class="single-choose-box text-center">
-                        <h3><a href="#">Reduce<br> Electricity bills</a></h3>
+                        <h3><a href="#">Reduzir<br> contas de energia</a></h3>
                         <span class="icon-money"></span>
                         <div class="button">
-                            <a href="#"><span class="icon-null"></span></a>
+<!--                            <a href="#"><span class="icon-null"></span></a>-->
                         </div>
-                        <div class="overlay-content">
-                            <h3><a href="#">Reduce<br> Electricity bills</a></h3>
-                            <p>Actual teachings of the great explorer of the truth, the masters builder of human all happiness.</p>
-                            <div class="button">
-                                <a href="#"><span class="icon-null"></span></a>
-                            </div>
-                        </div>
+
                     </div>
                     <!--End Single Choose Box-->
                 </div>
