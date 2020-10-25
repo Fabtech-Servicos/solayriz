@@ -54,7 +54,7 @@
 </section>
 <!--End Main Slider-->
 
-<!--Start about area-->
+<!--Start Sobre area-->
 <section class="about-area">
     <div class="container">
         <div class="row">
@@ -122,7 +122,7 @@
 
     </div>
 </section>
-<!--End about Area-->
+<!--End Sobre Area-->
 
 <!--Start slogan area-->
 <section class="slogan-area martop-minus">
@@ -131,10 +131,10 @@
             <div class="col-xl-12">
                 <div class="inner-content fix">
                     <div class="title float-left">
-                        <h2>Custom fit residential<br> solar power solutions for your home.</h2>
+                        <h2>Alguma dúvida?<br> Por favor entre em contato.</h2>
                     </div>
                     <div class="button float-right">
-                        <a class="btn-three" href="#">Make an Apppointment<span class="icon-null"></span></a>
+                        <a style="width: 250px;  text-align: center;}" class="btn-three" href="#">Contato<span class="icon-null"></span></a>
                     </div>
                 </div>
             </div>
@@ -143,100 +143,262 @@
 </section>
 <!--End slogan area-->
 
-<!--Start services style1 area-->
-<section class="services-style1-area">
+
+<section class="fact-projects-area">
+    <div class="pattern paroller">
+        <img src="/images/pattern/fact-project-bg.jpg" alt="Pattern">
+    </div>
     <div class="container">
-        <div class="sec-title with-text text-center">
-            <p>Our Services</p>
-            <div class="title">Quality With Dedication</div>
-            <div class="border-box center"></div>
-            <span>Solartech redefines your relationship with energy. Save money. Minimize your carbon footprint.
-                Take control of your power costs today!</span>
-        </div>
         <div class="row">
-            <!--Start single solution style1-->
-            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
-                <div class="single-service-style1">
-                    <div class="img-holder">
-                        <img src="/images/services/1.jpg" alt="Awesome Image">
-                        <div class="overlay-style-two"></div>
-                        <div class="overlay-content-box">
-                            <div class="icon">
-                                <span class="icon-drill"></span>
-                            </div>
-                            <div class="title">
-                                <h3>Installation</h3>
-                            </div>
-                        </div>
+            <!--Start Single fact counter-->
+            <div class="col-xl-4 col-lg-5 col-md-12 col-sm-12">
+                <div class="project-content">
+                    <div class="sec-title">
+                        <p>our achivements</p>
+                        <div class="title">Facts & Projects</div>
+                        <div class="border-box"></div>
                     </div>
-                    <div class="text-holder">
-                        <p>Indignation and dislikes men who are so beguiled and demoralized by that charms of pleasure of the moment...</p>
+                    <div class="inner-content">
+                        <p>Indignation and dislike men who are so beguiled<br> and demoralized by the charms.</p>
                         <div class="button">
-                            <a class="btn-two" href="#">Read More<span class="icon-null"></span></a>
+                            <a class="btn-two" href="#">View All Projects<span class="icon-null"></span></a>
                         </div>
                     </div>
                 </div>
             </div>
-            <!--End single solution style1-->
-            <!--Start single solution style1-->
-            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
-                <div class="single-service-style1">
-                    <div class="img-holder">
-                        <img src="/images/services/2.jpg" alt="Awesome Image">
-                        <div class="overlay-style-two"></div>
-                        <div class="overlay-content-box">
-                            <div class="icon">
-                                <span class="icon-gear"></span>
-                            </div>
+            <!--End Single fact counter-->
+            <!--Start Single fact counter-->
+            <div class="col-xl-8 col-lg-7 col-md-12 col-sm-12">
+                <ul class="fact-counter">
+                    <li class="single-fact-counter wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1500ms">
+                        <div class="count-box">
+                            <h1>
+                                <i class="flaticon-add"></i>
+                                <span class="timer" data-from="1" data-to="5258" data-speed="5000" data-refresh-interval="50">5258</span>
+                            </h1>
                             <div class="title">
-                                <h3>Maintenance</h3>
+                                <h3>5.258 Projects Completed<br> Successfully</h3>
                             </div>
                         </div>
-                    </div>
-                    <div class="text-holder">
-                        <p>Foresee the pain and trouble that we are bounds to ensue & equal blame belongs to those who fail in their duty...</p>
-                        <div class="button">
-                            <a class="btn-two" href="#">Read More<span class="icon-null"></span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End single solution style1-->
-            <!--Start single solution style1-->
-            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
-                <div class="single-service-style1">
-                    <div class="img-holder">
-                        <img src="/images/services/1.jpg" alt="Awesome Image">
-                        <div class="overlay-style-two"></div>
-                        <div class="overlay-content-box">
-                            <div class="icon">
-                                <span class="icon-cctv"></span>
-                            </div>
+                    </li>
+                    <li class="single-fact-counter wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
+                        <div class="count-box">
+                            <h1>
+                                <i class="flaticon-percentage"></i>
+                                <span class="timer" data-from="1" data-to="97" data-speed="5000" data-refresh-interval="50">97</span>
+                            </h1>
                             <div class="title">
-                                <h3>Monitoring</h3>
+                                <h3>Positive Feedback<br> By 97.41% of Customers</h3>
                             </div>
                         </div>
-                    </div>
-                    <div class="text-holder">
-                        <p>When our power of choice untrammelled and when nothing prevents being able to do what we like best work...</p>
-                        <div class="button">
-                            <a class="btn-two" href="#">Read More<span class="icon-null"></span></a>
-                        </div>
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </div>
-            <!--End single solution style1-->
+            <!--End Single fact counter-->
         </div>
+    </div>
+    <div class="container latest-project">
         <div class="row">
-            <div class="col-xl-12">
-                <div class="emergency-call wow slideInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                    <h6>Any Emergency? Call our 24/7 customer support team at <span>1800.123.456</span></h6>
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                <div class="project-carousel owl-carousel owl-theme">
+                    <!--Start single project style1-->
+                    <div class="single-project-style1">
+                        <div class="img-holder">
+                            <img src="/images/projects/lat-pro-1.jpg" alt="Awesome Image">
+                            <div class="overlay-content">
+                                <div class="inner-content">
+                                    <div class="link-box">
+                                        <a href="#"><span class="icon-plus"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="categories">
+                                <h5>Residential</h5>
+                            </div>
+                            <div class="title-box">
+                                <h3>Carlson Residence</h3>
+                                <span>9.87 kW System</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End single project style1-->
+                    <!--Start single project style1-->
+                    <div class="single-project-style1">
+                        <div class="img-holder">
+                            <img src="/images/projects/lat-pro-2.jpg" alt="Awesome Image">
+                            <div class="overlay-content">
+                                <div class="inner-content">
+                                    <div class="link-box">
+                                        <a href="#"><span class="icon-plus"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="categories">
+                                <h5>Residential</h5>
+                            </div>
+                            <div class="title-box">
+                                <h3>Carlson Residence</h3>
+                                <span>9.87 kW System</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End single project style1-->
+                    <!--Start single project style1-->
+                    <div class="single-project-style1">
+                        <div class="img-holder">
+                            <img src="/images/projects/lat-pro-3.jpg" alt="Awesome Image">
+                            <div class="overlay-content">
+                                <div class="inner-content">
+                                    <div class="link-box">
+                                        <a href="#"><span class="icon-plus"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="categories">
+                                <h5>Residential</h5>
+                            </div>
+                            <div class="title-box">
+                                <h3>Carlson Residence</h3>
+                                <span>9.87 kW System</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End single project style1-->
+
+                    <!--Start single project style1-->
+                    <div class="single-project-style1">
+                        <div class="img-holder">
+                            <img src="/images/projects/lat-pro-1.jpg" alt="Awesome Image">
+                            <div class="overlay-content">
+                                <div class="inner-content">
+                                    <div class="link-box">
+                                        <a href="#"><span class="icon-plus"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="categories">
+                                <h5>Residential</h5>
+                            </div>
+                            <div class="title-box">
+                                <h3>Carlson Residence</h3>
+                                <span>9.87 kW System</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End single project style1-->
+                    <!--Start single project style1-->
+                    <div class="single-project-style1">
+                        <div class="img-holder">
+                            <img src="/images/projects/lat-pro-2.jpg" alt="Awesome Image">
+                            <div class="overlay-content">
+                                <div class="inner-content">
+                                    <div class="link-box">
+                                        <a href="#"><span class="icon-plus"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="categories">
+                                <h5>Residential</h5>
+                            </div>
+                            <div class="title-box">
+                                <h3>Carlson Residence</h3>
+                                <span>9.87 kW System</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End single project style1-->
+                    <!--Start single project style1-->
+                    <div class="single-project-style1">
+                        <div class="img-holder">
+                            <img src="/images/projects/lat-pro-3.jpg" alt="Awesome Image">
+                            <div class="overlay-content">
+                                <div class="inner-content">
+                                    <div class="link-box">
+                                        <a href="#"><span class="icon-plus"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="categories">
+                                <h5>Residential</h5>
+                            </div>
+                            <div class="title-box">
+                                <h3>Carlson Residence</h3>
+                                <span>9.87 kW System</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End single project style1-->
+
+                    <!--Start single project style1-->
+                    <div class="single-project-style1">
+                        <div class="img-holder">
+                            <img src="/images/projects/lat-pro-1.jpg" alt="Awesome Image">
+                            <div class="overlay-content">
+                                <div class="inner-content">
+                                    <div class="link-box">
+                                        <a href="#"><span class="icon-plus"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="categories">
+                                <h5>Residential</h5>
+                            </div>
+                            <div class="title-box">
+                                <h3>Carlson Residence</h3>
+                                <span>9.87 kW System</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End single project style1-->
+                    <!--Start single project style1-->
+                    <div class="single-project-style1">
+                        <div class="img-holder">
+                            <img src="/images/projects/lat-pro-2.jpg" alt="Awesome Image">
+                            <div class="overlay-content">
+                                <div class="inner-content">
+                                    <div class="link-box">
+                                        <a href="#"><span class="icon-plus"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="categories">
+                                <h5>Residential</h5>
+                            </div>
+                            <div class="title-box">
+                                <h3>Carlson Residence</h3>
+                                <span>9.87 kW System</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End single project style1-->
+                    <!--Start single project style1-->
+                    <div class="single-project-style1">
+                        <div class="img-holder">
+                            <img src="/images/projects/lat-pro-3.jpg" alt="Awesome Image">
+                            <div class="overlay-content">
+                                <div class="inner-content">
+                                    <div class="link-box">
+                                        <a href="#"><span class="icon-plus"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="categories">
+                                <h5>Residential</h5>
+                            </div>
+                            <div class="title-box">
+                                <h3>Carlson Residence</h3>
+                                <span>9.87 kW System</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End single project style1-->
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!--End services style1 area-->
+
+
 
 <!--Start Why Choose Area-->
 <section class="why-choose-area secpd1">

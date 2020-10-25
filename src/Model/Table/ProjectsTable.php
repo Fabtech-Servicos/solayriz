@@ -6,20 +6,7 @@ use Cake\ORM\RulesChecker;
 use Cake\ORM\Table;
 use Cake\Validation\Validator;
 
-/**
- * Projects Model
- *
- * @method \App\Model\Entity\Project get($primaryKey, $options = [])
- * @method \App\Model\Entity\Project newEntity($data = null, array $options = [])
- * @method \App\Model\Entity\Project[] newEntities(array $data, array $options = [])
- * @method \App\Model\Entity\Project|bool save(\Cake\Datasource\EntityInterface $entity, $options = [])
- * @method \App\Model\Entity\Project saveOrFail(\Cake\Datasource\EntityInterface $entity, $options = [])
- * @method \App\Model\Entity\Project patchEntity(\Cake\Datasource\EntityInterface $entity, array $data, array $options = [])
- * @method \App\Model\Entity\Project[] patchEntities($entities, array $data, array $options = [])
- * @method \App\Model\Entity\Project findOrCreate($search, callable $callback = null, $options = [])
- *
- * @mixin \Cake\ORM\Behavior\TimestampBehavior
- */
+
 class ProjectsTable extends Table
 {
     /**
@@ -36,6 +23,7 @@ class ProjectsTable extends Table
         $this->setDisplayField('name');
         $this->setPrimaryKey('id');
 
+
         $this->addBehavior('Josegonzalez/Upload.Upload', [
             'photo' => [
                 'fields' => [
@@ -48,17 +36,13 @@ class ProjectsTable extends Table
             ],
         ]);
 
-        $this->hasMany('ProjectsImages', [
-            'className' => 'ProjectsImages'
+        $this->belongsTo('Categories', [
+            'foreignKey' => 'category_id',
+            'joinType' => 'INNER'
         ]);
     }
 
-    /**
-     * Default validation rules.
-     *
-     * @param \Cake\Validation\Validator $validator Validator instance.
-     * @return \Cake\Validation\Validator
-     */
+
     public function validationDefault(Validator $validator)
     {
         $validator
@@ -75,10 +59,6 @@ class ProjectsTable extends Table
             ->allowEmptyString('description');
 
         $validator
-            ->scalar('description-front')
-            ->allowEmptyString('description-front');
-
-        $validator
             ->allowEmptyString('photo');
 
 
@@ -86,4 +66,10 @@ class ProjectsTable extends Table
     }
 
 
+    public function buildRules(RulesChecker $rules)
+    {
+        $rules->add($rules->existsIn(['category_id'], 'Categories'));
+
+        return $rules;
+    }
 }

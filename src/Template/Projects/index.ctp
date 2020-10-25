@@ -1,7 +1,7 @@
 <!-- Content Header (Page header) -->
 <section class="content-header">
   <h1>
-      <?php echo __('Project'); ?>
+    Projects
 
     <div class="pull-right"><?php echo $this->Html->link(__('New'), ['action' => 'add'], ['class'=>'btn btn-success btn-xs']) ?></div>
   </h1>
@@ -38,6 +38,7 @@
                   <th scope="col"><?= $this->Paginator->sort('name') ?></th>
                   <th scope="col"><?= $this->Paginator->sort('photo') ?></th>
                   <th scope="col"><?= $this->Paginator->sort('photo_dir') ?></th>
+                  <th scope="col"><?= $this->Paginator->sort('category_id') ?></th>
                   <th scope="col" class="actions text-center"><?= __('Actions') ?></th>
               </tr>
             </thead>
@@ -50,6 +51,7 @@
                   <td><?= h($project->name) ?></td>
                   <td><?= h($project->photo) ?></td>
                   <td><?= h($project->photo_dir) ?></td>
+                  <td><?= $this->Number->format($project->category_id) ?></td>
                   <td class="actions text-right">
                       <?= $this->Html->link(__('View'), ['action' => 'view', $project->id], ['class'=>'btn btn-info btn-xs']) ?>
                       <?= $this->Html->link(__('Edit'), ['action' => 'edit', $project->id], ['class'=>'btn btn-warning btn-xs']) ?>

@@ -84,10 +84,18 @@ class AppController extends Controller
         $this->viewBuilder()->setTheme('AdminLTE');
         $this->viewBuilder()->setClassName('AdminLTE.AdminLTE');
 
+        $this->setCaregories();
+
     }
 
     public  function loadPublicDependencies(){
 
 
+    }
+
+    protected function setCaregories() {
+        $this->loadModel('Categories');
+        $categories = $this->Categories->find('all');
+        $this->set(compact('categories'));
     }
 }

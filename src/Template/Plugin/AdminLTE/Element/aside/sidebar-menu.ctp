@@ -39,6 +39,24 @@
     </li>
 
     <li>
+        <a href="<?php echo $this->Url->build('/categories'); ?>">
+            <i class="fa fa-circle-o" aria-hidden="true"></i>
+            <span>Categoria</span>
+            <span class="pull-right-container">
+      </span>
+        </a>
+    </li>
+
+    <li>
+        <a href="<?php echo $this->Url->build('/projects'); ?>">
+            <i class="fa fa-circle-o" aria-hidden="true"></i>
+            <span>Projetos</span>
+            <span class="pull-right-container">
+      </span>
+        </a>
+    </li>
+
+    <li>
         <a href="<?php echo $this->Url->build('/missions/edit/3'); ?>">
             <i class="fa fa-circle-o" aria-hidden="true"></i>
             <span>Sobre index</span>

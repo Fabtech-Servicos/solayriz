@@ -7,7 +7,7 @@
 <!-- Content Header (Page header) -->
   <section class="content-header">
     <h1>
-        <?php echo __('Project'); ?>
+      Project
       <small><?php echo __('Add'); ?></small>
     </h1>
     <ol class="breadcrumb">
@@ -31,9 +31,8 @@
               <?php
                 echo $this->Form->control('name');
                 echo $this->Form->control('description',['id' => 'editor']);
-//                echo $this->Form->control('description-front');
                 echo $this->Form->control('photo', ['type' => 'file']);
-                echo 'Resolução recomendada  682 x 387'
+                echo $this->Form->control('category_id');
               ?>
             </div>
             <!-- /.box-body -->
@@ -46,16 +45,12 @@
       </div>
   </div>
   <!-- /.row -->
+      <?php $this->start('scriptBottom'); ?>
+      <?php echo $this->Html->script([
+          'ckeditor/ckeditor',
+      ]); ?>
+      <script>
+          CKEDITOR.replace( 'editor' );
+      </script>
+      <?php  $this->end(); ?>
 </section>
-
-<?php echo $this->Html->script([
-    'ckeditor/ckeditor',
-    'ckeditor/translations/pt-br',
-]); ?>
-<script>
-    ClassicEditor
-        .create(document.querySelector('#editor')).then(editor => {
-    }).catch(error => {
-    });
-</script>
-<?php $this->end(); ?>

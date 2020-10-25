@@ -3,8 +3,6 @@ namespace App\Controller;
 
 use App\Controller\AppController;
 use Cake\Event\Event;
-use Cake\ORM\Rule\IsUnique;
-
 
 /**
  * Projects Controller
@@ -22,6 +20,9 @@ class ProjectsController extends AppController
      */
     public function index()
     {
+        $this->paginate = [
+            'contain' => ['Categories']
+        ];
         $projects = $this->paginate($this->Projects);
 
         $this->set(compact('projects'));
@@ -37,7 +38,7 @@ class ProjectsController extends AppController
     public function view($id = null)
     {
         $project = $this->Projects->get($id, [
-            'contain' => []
+            'contain' => ['Categories']
         ]);
 
         $this->set('project', $project);
@@ -61,7 +62,8 @@ class ProjectsController extends AppController
             }
             $this->Flash->error(__('The {0} could not be saved. Please, try again.', 'Project'));
         }
-        $this->set(compact('project'));
+        $categories = $this->Projects->Categories->find('list', ['limit' => 200]);
+        $this->set(compact('project', 'categories'));
     }
 
 
@@ -86,7 +88,8 @@ class ProjectsController extends AppController
             }
             $this->Flash->error(__('The {0} could not be saved. Please, try again.', 'Project'));
         }
-        $this->set(compact('project'));
+        $categories = $this->Projects->Categories->find('list', ['limit' => 200]);
+        $this->set(compact('project', 'categories'));
     }
 
 
@@ -106,25 +109,31 @@ class ProjectsController extends AppController
         } else {
             $this->Flash->error(__('The {0} could not be deleted. Please, try again.', 'Project'));
         }
+
         return $this->redirect(['action' => 'index']);
     }
 
-    public function project(){
+    public function project($categoryId){
         $this->paginate = [
             'limit'=> 6,
         ];
         $this->viewBuilder()->setLayout('site');
-        $solucoes = $this->paginate($this->Projects);
-        $this->set('solucoes', $solucoes);
+        $project = $this->paginate( $this->Projects->find('all')->where([ 'category_id' => $categoryId ]) );
+        $this->set(compact('project'));
     }
 
-    public function projectSingle($id){
+    public function projectAll(){
+        $this->paginate = [
+            'limit'=> 6,
+        ];
         $this->viewBuilder()->setLayout('site');
-        $solucaoSingle = $this->Projects->get($id);
-        $this->set('solucaoSingle', $solucaoSingle);
+        $projects = $this->paginate($this->Projects);
+        $this->set('projects', $projects);
     }
 
-    public function beforeFilter(Event $event){
-        $this->Auth->allow(['project','projectSingle']);
+    public function beforeFilter(Event $event)
+    {
+        $this->Auth->allow(['project','projectAll']);
     }
+
 }

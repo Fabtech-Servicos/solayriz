@@ -26,22 +26,22 @@
     <div class="container">
         <div class="row">
             <!--Start single project item-->
-            <?php foreach ($project as $proj):?>
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 filter-item env res">
-                <div class="single-project-style3 marbtm30">
-                    <div class="img-holder">
-                        <img src="<?= "/files/Projects/photo/" . $proj->photo ?>" alt="Imagem projeto">
-                        <div class="overlay-content">
-                            <div class="inner-content">
-                                <div class="title-box">
-                                    <h3><a href="#"><?= $proj->name ?></a></h3>
-                                    <span>9.87 kW System</span>
+            <?php foreach ($projects as $proj):?>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 filter-item env res">
+                    <div class="single-project-style3 marbtm30">
+                        <div class="img-holder">
+                            <img src="<?= "/files/Projects/photo/" . $proj->photo ?>" alt="Imagem projeto">
+                            <div class="overlay-content">
+                                <div class="inner-content">
+                                    <div class="title-box">
+                                        <h3><a href="#"><?= $proj->name ?></a></h3>
+                                        <span>9.87 kW System</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
             <?php endforeach; ?>
             <!--End single project item-->
         </div>

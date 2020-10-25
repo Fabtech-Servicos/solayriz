@@ -108,14 +108,12 @@
                                             <li><a href="ser-inverter-repair.html">Inverter Repair</a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a href="project.html">Projects</a>
+                                    <li class="dropdown"><a href="project.html">Projetos</a>
                                         <ul>
-                                            <li><a href="project.html">2 Columns Creative</a></li>
-                                            <li><a href="project-v2.html">3 Columns Modern</a></li>
-                                            <li><a href="project-v3.html">4 Columns Classic</a></li>
-                                            <li><a href="project-v4.html">Projects Fullwidth</a></li>
-                                            <li><a href="project-v5.html">Masonry Style</a></li>
-                                            <li><a href="project-single.html">Projects Single</a></li>
+                                            <?php foreach ($categories as $category): ?>
+                                            <li><a href="/projetos/<?= $category->id ?>"><?= $category->title ?></a></li>
+                                            <?php endforeach; ?>
+                                            <li><a href="/projetos">Todos</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown"><a href="blog.html">Blog</a>

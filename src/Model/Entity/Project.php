@@ -11,9 +11,11 @@ use Cake\ORM\Entity;
  * @property \Cake\I18n\FrozenTime|null $modified
  * @property string|null $name
  * @property string|null $description
- * @property string|null $description-front
- * @property |null $photo
+ * @property string|null $photo
  * @property string|null $photo_dir
+ * @property int $category_id
+ *
+ * @property \App\Model\Entity\Category $category
  */
 class Project extends Entity
 {
@@ -31,8 +33,9 @@ class Project extends Entity
         'modified' => true,
         'name' => true,
         'description' => true,
-        'description-front' => true,
         'photo' => true,
-        'photo_dir' => true
+        'photo_dir' => true,
+        'category_id' => true,
+        'category' => true
     ];
 }

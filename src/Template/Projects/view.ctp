@@ -1,6 +1,6 @@
 <section class="content-header">
   <h1>
-      <?php echo __('Project'); ?>
+    Project
     <small><?php echo __('View'); ?></small>
   </h1>
   <ol class="breadcrumb">
@@ -28,6 +28,8 @@
             <dd><?= h($project->photo_dir) ?></dd>
             <dt scope="row"><?= __('Id') ?></dt>
             <dd><?= $this->Number->format($project->id) ?></dd>
+            <dt scope="row"><?= __('Category Id') ?></dt>
+            <dd><?= $this->Number->format($project->category_id) ?></dd>
             <dt scope="row"><?= __('Created') ?></dt>
             <dd><?= h($project->created) ?></dd>
             <dt scope="row"><?= __('Modified') ?></dt>
@@ -52,5 +54,4 @@
       </div>
     </div>
   </div>
-
 </section>
