@@ -25,13 +25,6 @@ use Cake\Event\Event;
 include 'ContactsController.php';
 
 
-/**
- * Static content controller
- *
- * This controller will render views from Template/Pages/
- *
- * @link https://book.cakephp.org/3.0/en/controllers/pages-controller.html
- */
 class PagesController extends AppController
 {
 
@@ -83,6 +76,7 @@ class PagesController extends AppController
         $this->loadModel('Portfolio');
         $this->loadModel('Missions');
         $this->loadModel('Services');
+        $this->loadModel('Categories');
        // $this->loadModel('Visions');
 //        $this->loadModel('Videos');
 
@@ -92,10 +86,11 @@ class PagesController extends AppController
         $about = $this->About->find('all', array('limit' => 3))->order(['id' => 'desc']);
         $servic = $this->Portfolio->find('all', array('limit' => 3))->order(['id' => 'desc']);
         $servico = $this->Portfolio->find('all');
-        $projects = $this->Projects->find('all')->order(['id DESC'])->limit(8);
+        $projects = $this->Projects->find('all')->order(['id DESC'])->limit(9);
         $missions = $this->Missions->find('all')->order(['id DESC'])->limit(1);
         $services = $this->Services->find('all')->order(['id DESC']);
-      //  $visions = $this->Visions->find('all')->order(['id DESC']);
+        $ct = $this->Categories->find('all')->order(['id DESC']);
+
 
 
 //        $videos = $this->Videos->find('all')->order(['id DESC'])->limit(1);
@@ -131,9 +126,8 @@ class PagesController extends AppController
         $this->set('projects', $projects);
         $this->set('missions',$missions );
         $this->set('services',$services );
-       // $this->set('visions',$visions );
+        $this->set('ct',$ct );
 
-//        $this->set('videos', $videos);
 
 
 
