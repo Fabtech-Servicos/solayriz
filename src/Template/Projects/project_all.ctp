@@ -30,7 +30,7 @@
                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 filter-item env res">
                     <div class="single-project-style3 marbtm30">
                         <div class="img-holder">
-                            <img src="<?= "/files/Projects/photo/" . $proj->photo ?>" alt="Imagem projeto">
+                            <img id="img-project" src="<?= "/files/Projects/photo/" . $proj->photo ?>" alt="Imagem projeto">
                             <div class="overlay-content">
                                 <div class="inner-content">
                                     <div class="title-box">

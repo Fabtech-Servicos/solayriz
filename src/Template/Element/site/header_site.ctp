@@ -110,7 +110,7 @@
                                     </li>
                                     <li class="dropdown"><a href="project.html">Projetos</a>
                                         <ul>
-                                            <?php foreach ($categories as $category): ?>
+                                            <?php foreach ($cat as $category): ?>
                                             <li><a href="/projetos/<?= $category->id ?>"><?= $category->title ?></a></li>
                                             <?php endforeach; ?>
                                             <li><a href="/projetos">Todos</a></li>

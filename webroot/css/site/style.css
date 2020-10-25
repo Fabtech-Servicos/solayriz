@@ -19084,3 +19084,10 @@ a#df:hover, a#df:active { background-position: -208px -140px; width: 16px; heigh
 
 ul#map li a img {border: 0; width: inherit; height: inherit;}
 
+
+#img-project{
+    width: 270px;
+    height: 270px;
+    object-fit: cover;
+}
+

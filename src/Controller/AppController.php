@@ -95,7 +95,7 @@ class AppController extends Controller
 
     protected function setCaregories() {
         $this->loadModel('Categories');
-        $categories = $this->Categories->find('all');
-        $this->set(compact('categories'));
+        $cat = $this->Categories->find('all');
+        $this->set(compact('cat'));
     }
 }
