@@ -6,7 +6,11 @@
             <div class="col-xl-12">
                 <div class="inner-content clearfix">
                     <div class="title float-left">
-                        <h1>Project 4 Columns</h1>
+                        <?php foreach ($categor as $cat): ?>
+                          <?php if($_SERVER["REQUEST_URI"] == "/projetos/".$cat->id) : ?>
+                            <h1><?= $cat->title; ?></h1>
+                           <?php endif; ?>
+                        <?php endforeach; ?>
                     </div>
                     <div class="breadcrumb-menu float-right">
                         <ul class="clearfix">
@@ -30,12 +34,12 @@
             <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 filter-item env res">
                 <div class="single-project-style3 marbtm30">
                     <div class="img-holder">
-                        <img src="<?= "/files/Projects/photo/" . $proj->photo ?>" alt="Imagem projeto">
+                        <img id="img-project"  src="<?= "/files/Projects/photo/" . $proj->photo ?>" alt="Imagem projeto">
                         <div class="overlay-content">
                             <div class="inner-content">
                                 <div class="title-box">
                                     <h3><a href="#"><?= $proj->name ?></a></h3>
-                                    <span>9.87 kW System</span>
+                                    <span>Solayriz</span>
                                 </div>
                             </div>
                         </div>

@@ -35,7 +35,7 @@
                                 <div class="inner-content">
                                     <div class="title-box">
                                         <h3><a href="#"><?= $proj->name ?></a></h3>
-                                        <span>9.87 kW System</span>
+                                        <span>Solayriz</span>
                                     </div>
                                 </div>
                             </div>

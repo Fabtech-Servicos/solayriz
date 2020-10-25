@@ -120,6 +120,10 @@ class ProjectsController extends AppController
         $this->viewBuilder()->setLayout('site');
         $project = $this->paginate( $this->Projects->find('all')->where([ 'category_id' => $categoryId ]) );
         $this->set(compact('project'));
+        $this->loadModel('Categories');
+        $categor = $this->Categories->find('all');
+        $this->set(compact('categor'));
+
     }
 
     public function projectAll(){
