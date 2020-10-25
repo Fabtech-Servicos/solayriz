@@ -19091,3 +19091,12 @@ ul#map li a img {border: 0; width: inherit; height: inherit;}
     object-fit: cover;
 }
 
+@media (max-width: 991px) {
+    #img-project {
+        width: 100%;
+        transform: scale(1.01);
+        transition: all 700ms ease;
+        height: auto;
+    }
+}
+

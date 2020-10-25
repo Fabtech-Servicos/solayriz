@@ -14,8 +14,8 @@
                     </div>
                     <div class="breadcrumb-menu float-right">
                         <ul class="clearfix">
-                            <li><a href="index.html">Home</a></li>
-                            <li class="active">Project 4 Columns</li>
+                            <li><a href="/">Início</a></li>
+                            <li class="active">Projetos</li>
                         </ul>
                     </div>
                 </div>

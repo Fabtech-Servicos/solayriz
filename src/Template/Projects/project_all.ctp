@@ -6,12 +6,12 @@
             <div class="col-xl-12">
                 <div class="inner-content clearfix">
                     <div class="title float-left">
-                        <h1>Project 4 Columns</h1>
+                        <h1>Projetos</h1>
                     </div>
                     <div class="breadcrumb-menu float-right">
                         <ul class="clearfix">
-                            <li><a href="index.html">Home</a></li>
-                            <li class="active">Project 4 Columns</li>
+                            <li><a href="index.html">Início</a></li>
+                            <li class="active">Projetos</li>
                         </ul>
                     </div>
                 </div>
