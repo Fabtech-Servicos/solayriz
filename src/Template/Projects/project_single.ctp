@@ -1,86 +1,48 @@
-<!-- .page-content start -->
-<div class="page-content custom-img-background dark page-title page-title-1 mb-70">
-    <div class="container">
-        <!-- .row start -->
-        <div class="row">
-            <!-- .col-md-6 start -->
-            <div class="col-md-6">
-                <div class="custom-heading style-1 triggerAnimation animated" data-animate='fadeInUp'>
-                    <h1 style="color: #333">Soluções</h1>
-                </div><!-- .custom-heading.style-1 end -->
-            </div><!-- .col-md-6 end -->
-            <!-- .col-md-6 start -->
-            <!-- .col-md-6 end -->
-        </div><!-- .row end -->
-    </div><!-- .container end -->
-</div><!-- .page-content end -->
 
-<div class="page-content">
+<!--Start breadcrumb area-->
+<section class="breadcrumb-area" style="background-image: url(/images/resources/breadcrumb-bg.jpg);">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-sm-6">
-                <div class="simple-gallery">
-                    <div class="container-fluid" style="">
-
-
-                        <img style="max-width: 500px; width: 100%;height: 250px; object-fit: cover"
-                             src="<?= "/files/Projects/photo/" . $solucaoSingle->photo ?>"/>
-
+            <div class="col-xl-12">
+                <div class="inner-content clearfix">
+                    <div class="title float-left">
+                        <h1>Projeto</h1>
                     </div>
-
+                    <div class="breadcrumb-menu float-right">
+                        <ul class="clearfix">
+                            <li><a href="index.html">Início</a></li>
+                            <li class="active">Projeto</li>
+                        </ul>
+                    </div>
                 </div>
-            </div><!-- .col-md-6 end -->
-
-            <div class="col-md-6 col-sm-6">
-                <div class="custom-heading style-1">
-
-                    <h2><?php echo $solucaoSingle->name ?></h2>
-
-                </div>
+            </div>
 
 
-                <p><?php echo $solucaoSingle->description ?>  </p>
+        </div>
+    </div>
+</section>
+<!--End breadcrumb area-->
 
-                <img onclick="vollar()" src="/images/back.png" style="max-width: 30px; cursor:pointer;">
-
-            </div><!-- .col-md-6 end -->
-
-        </div><!-- .row end -->
-    </div><!-- .container end -->
-
-</div><!-- .page-content end -->
-
-
-
-<!-- .page-content start -->
-<div class="page-content quote style-1 custom-background bkg-black dark">
-    <!-- .container start -->
+<!--Start Project single area-->
+<section class="project-single-area">
     <div class="container">
-        <!-- .row start -->
-        <div class="row mb-0">
-            <!-- .col-md-9 start -->
-            <div class="col-md-9 col-sm-9 col-xs-12 mb-0">
-                <div class="quote-content">
+        <div class="row">
+            <div class="col-xl-6">
+                <div class="single-project-image-box">
+                    <img  style="width: 570px; height: 360px; object-fit: cover" src="<?= "/files/Projects/photo/" . $projectSingle->photo ?>"" alt="Awesome Image">
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-12">
+                <div class="single-project-content-box">
+                    <h2>  <?= $projectSingle->name ?></h2>
                     <div class="text">
-                        <h3>Entre em contato</h3>
+                        <?= $projectSingle->description ?>
                     </div>
                 </div>
-            </div><!-- .col-md-9 end -->
-            <!-- .col-md-3 start -->
-            <div class="col-md-3 col-sm-3 col-xs-12 mb-50">
-                <div class="quote-btn">
-                    <a href='/contacts/contato' class="btn btn-primary float-right">
-                        Contato
-                    </a>
-                </div>
-            </div><!-- .col-md-3 end -->
-        </div><!-- .row end -->
-    </div><!-- .container end -->
-</div><!-- .page-content.custom-background end -->
+            </div>
+        </div>
 
+    </div>
+</section>
+<!--End Project single area-->
 
-<script>
-    function vollar() {
-        window.history.back();
-    }
-</script>

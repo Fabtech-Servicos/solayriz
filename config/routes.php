@@ -68,6 +68,7 @@ Router::scope('/', function (RouteBuilder $routes) {
 
 
     $routes->connect('/projetos/:id', ['controller' => 'Projects', 'action' => 'project'])->setPass(['id']);
+    $routes->connect('/projeto/:id', ['controller' => 'Projects', 'action' => 'project_single'])->setPass(['id']);
     $routes->connect('/energiaSolar/:id', ['controller' => 'Solar', 'action' => 'solar'])->setPass(['id']);
     $routes->connect('/sobre/:id', ['controller' => 'About', 'action' => 'about'])->setPass(['id']);
     $routes->connect('/solucao/:id', ['controller' => 'Projects', 'action' => 'project_single'])->setPass(['id']);

@@ -140,4 +140,11 @@ class ProjectsController extends AppController
         $this->Auth->allow(['project','projectAll']);
     }
 
+    public function projectSingle($id)
+    {
+     $this->viewBuilder()->setLayout('site');
+     $projectSingle = $this->Projects->get($id);
+     $this->set('projectSingle', $projectSingle);
+    }
+
 }
