@@ -173,25 +173,17 @@
     <section class="choose-area">
         <div class="container">
             <div class="row">
-                <div class="col-xl-6 col-lg-6">
+                <div class="col-xl-12 col-lg-12">
                     <div class="why-whoose-content">
                         <div class="sec-title">
-                            <p>Why Choose us</p>
-                            <div class="title">How to choose<br> better one for your place</div>
+                            <p>Captação Da Energia Solar</p>
+                            <div class="title"> <?= $operation->begin ?></div>
+<!--                            <div class="title">How to choose<br> better one for your place</div>-->
                             <div class="border-box"></div>
-                        </div>
-                        <div class="inner-content">
-                            <p>Our power of choice untrammelled when nothing saying through shrinking prevents our being able to do what we like best.</p>
-                            <ul>
-                                <li><span class="icon-smile"></span>Free, Friendly Service</li>
-                                <li><span class="icon-smile"></span>Educational Approach</li>
-                                <li><span class="icon-smile"></span>Engaging, Online Platform</li>
-                                <li><span class="icon-smile"></span>Multiple Offers to Choose</li>
-                            </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6">
+                <div class="col-xl-6 col-lg-12">
                     <div class="whychoose-right-content">
                         <ul>
                             <li>
@@ -199,28 +191,83 @@
                                     <span class="icon-save"></span>
                                 </div>
                                 <div class="text">
-                                    <h3>Efficiency & Power</h3>
-                                    <p>Certain circumstances and owing to the claims of duty or the obligations of business it will frequently.</p>
+                                    <div class="title">
+                                        <a href="#exampleModalCenter1" data-toggle="modal" style="color: #83888d">
+                                        <?= strlen($operation->steps ) >  170 ? substr($operation->steps , 0, 170) . "..." : $operation->steps ?>
+                                        </a>
+                                    </div>
                                 </div>
                             </li>
                             <li>
                                 <div class="icon">
-                                    <span class="icon-label"></span>
+                                    <span class="icon-save"></span>
                                 </div>
                                 <div class="text">
-                                    <h3>Warranty & Gurantee</h3>
-                                    <p>Indignation and dislike men who are beguiled demoralized by the charms of pleasure of the moment.</p>
+                                    <div class="title">
+                                        <a href="#exampleModalCenter2" data-toggle="modal" style="color: #83888d">
+                                        <?= strlen($operation->steps2 ) >  170 ? substr($operation->steps2 , 0, 170) . "..." : $operation->steps2 ?>
+                                        </a>
+                                    </div>
                                 </div>
                             </li>
                             <li>
                                 <div class="icon">
-                                    <span class="icon-money-1"></span>
+                                    <span class="icon-save"></span>
                                 </div>
                                 <div class="text">
-                                    <h3>Bankability</h3>
-                                    <p>Have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters.</p>
+                                    <div class="title">
+                                        <a href="#exampleModalCenter3" data-toggle="modal" style="color: #83888d">
+                                        <?= strlen($operation->steps3 ) >  170 ? substr($operation->steps3 , 0, 170) . "..." : $operation->steps3 ?>
+                                        </a>
+                                    </div>
                                 </div>
                             </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-lg-12">
+                    <div class="whychoose-right-content">
+                        <ul>
+                            <li>
+                                <div class="icon">
+                                    <span class="icon-save"></span>
+                                </div>
+                                <div class="text">
+                                    <div class="title">
+                                        <a href="#exampleModalCenter4" data-toggle="modal" style="color: #83888d">
+                                        <?= strlen($operation->steps4 ) >  170 ? substr($operation->steps4 , 0, 170) . "..." : $operation->steps4 ?>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <span class="icon-save"></span>
+                                </div>
+                                <div class="text">
+                                    <a href="#exampleModalCenter" data-toggle="modal">
+                                    <div class="title">
+                                        <a href="#exampleModalCenter5" data-toggle="modal" style="color: #83888d">
+                                        <?= strlen($operation->steps5 ) >  170 ? substr($operation->steps5 , 0, 170) . "..." : $operation->steps5 ?>
+                                    </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <span class="icon-save"></span>
+                                </div>
+                                <div class="text">
+                                    <div class="title">
+                                        <a href="#exampleModalCenter6" data-toggle="modal" style="color: #83888d">
+                                        <?= strlen($operation->steps6 ) >  170 ? substr($operation->steps6 , 0, 170) . "..." : $operation->steps6 ?>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+
                         </ul>
                     </div>
                 </div>
@@ -228,6 +275,134 @@
         </div>
     </section>
     <!--End Choose area-->
+
+
+    <!-- Button trigger modal -->
+<!--    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">-->
+<!--        Launch demo modal-->
+<!--    </button>-->
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Instalação Do Sistema</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <?= $operation->steps ?>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Instalação Do Sistema</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <?= $operation->steps2 ?>
+                </div>
+                <div class="modal-footer">
+                    < <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header"  style="background: #f6aa7d">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Instalação Do Sistema</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <?= $operation->steps3 ?>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Instalação Do Sistema</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <?= $operation->steps4 ?>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Instalação Do Sistema</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <?= $operation->steps5 ?>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter6" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Instalação Do Sistema</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <?= $operation->steps6 ?>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
     <!--Start Fact Counter Area-->
     <section class="fact-counter-area" style="background-image:url(images/parallax-background/fact-counter-bg.jpg);">
