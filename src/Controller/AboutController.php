@@ -113,6 +113,9 @@ class AboutController extends AppController
         $this->viewBuilder()->setLayout('site');
         $about = $this->About->get($id);
         $this->set('about', $about);
+        $this->loadModel('Projects');
+        $proj = $this->Projects->find('all')->order(['id DESC'])->limit(4);
+        $this->set('proj', $proj);
     }
     public function beforeFilter(Event $event)
     {

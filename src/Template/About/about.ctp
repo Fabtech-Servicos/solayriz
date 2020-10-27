@@ -262,11 +262,12 @@
 </section>
 <!--Start Fact Counter Area-->
 
+
 <!--Start team area-->
 <section class="team-area">
     <div class="container">
         <div class="sec-title text-center">
-            <p>Solayriz Slz Engenharia</p>
+            <p>SOLAYRIZ SLZ ENGENHARIA</p>
             <div class="title">Projetos Recentes</div>
             <div class="border-box center"></div>
         </div>
@@ -274,258 +275,25 @@
             <div class="col-xl-12">
                 <div class="team-carousel owl-carousel owl-theme">
                     <!--Start single item member-->
-                    <div class="single-team-member">
-                        <div class="img-holder">
-                            <img src="/images/team/1.jpg" alt="Awesome Image">
-                        </div>
-                        <div class="name text-center">
-                            <h3>Don Elwood</h3>
-                            <p>Founder & Chairman</p>
-                        </div>
-                        <div class="name text-center overlay-content">
-                            <h3>Don Elwood</h3>
-                            <p>Founder & Chairman</p>
-                            <ul class="sociallinks">
-                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!--End single item member-->
-                    <!--Start single item member-->
-                    <div class="single-team-member">
-                        <div class="img-holder">
-                            <img src="/images/team/2.jpg" alt="Awesome Image">
-                        </div>
-                        <div class="name text-center">
-                            <h3>Wilson Joe</h3>
-                            <p>President</p>
-                        </div>
-                        <div class="name text-center overlay-content">
-                            <h3>Wilson Joe</h3>
-                            <p>President</p>
-                            <ul class="sociallinks">
-                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!--End single item member-->
-                    <!--Start single item member-->
-                    <div class="single-team-member">
-                        <div class="img-holder">
-                            <img src="/images/team/3.jpg" alt="Awesome Image">
-                        </div>
-                        <div class="name text-center">
-                            <h3>Gary Ev</h3>
-                            <p>Vice President</p>
-                        </div>
-                        <div class="name text-center overlay-content">
-                            <h3>Gary Ev</h3>
-                            <p>Vice President</p>
-                            <ul class="sociallinks">
-                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!--End single item member-->
-                    <!--Start single item member-->
-                    <div class="single-team-member">
-                        <div class="img-holder">
-                            <img src="/images/team/4.jpg" alt="Awesome Image">
-                        </div>
-                        <div class="name text-center">
-                            <h3>Ike Hal</h3>
-                            <p>Marketing Head</p>
-                        </div>
-                        <div class="name text-center overlay-content">
-                            <h3>Ike Hal</h3>
-                            <p>Marketing Head</p>
-                            <ul class="sociallinks">
-                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!--End single item member-->
+                    <?php foreach ($proj as $prj): ?>
+                        <div class="single-team-member">
+                            <div class="img-holder">
+                                <img class="prj" src="<?= "/files/Projects/photo/" . $prj->photo ?>" alt="Awesome Image">
+                            </div>
+                            <div class="name text-center">
+                                <h3><?= $prj->name ?></h3>
+                            </div>
 
-                    <!--Start single item member-->
-                    <div class="single-team-member">
-                        <div class="img-holder">
-                            <img src="/images/team/1.jpg" alt="Awesome Image">
+                            <div class="name text-center overlay-content">
+                                <h3><?= $prj->name ?></h3>
+                                <ul class="sociallinks">
+                                    <div class="btn-box">
+                                        <a class="btn-one" href="/projeto/<?= $prj->id ?>"><b>Ver mais</b><span class="icon-null"></span></a>
+                                    </div>
+                                </ul>
+                            </div>
                         </div>
-                        <div class="name text-center">
-                            <h3>Don Elwood</h3>
-                            <p>Founder & Chairman</p>
-                        </div>
-                        <div class="name text-center overlay-content">
-                            <h3>Don Elwood</h3>
-                            <p>Founder & Chairman</p>
-                            <ul class="sociallinks">
-                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!--End single item member-->
-                    <!--Start single item member-->
-                    <div class="single-team-member">
-                        <div class="img-holder">
-                            <img src="/images/team/2.jpg" alt="Awesome Image">
-                        </div>
-                        <div class="name text-center">
-                            <h3>Wilson Joe</h3>
-                            <p>President</p>
-                        </div>
-                        <div class="name text-center overlay-content">
-                            <h3>Wilson Joe</h3>
-                            <p>President</p>
-                            <ul class="sociallinks">
-                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!--End single item member-->
-                    <!--Start single item member-->
-                    <div class="single-team-member">
-                        <div class="img-holder">
-                            <img src="/images/team/3.jpg" alt="Awesome Image">
-                        </div>
-                        <div class="name text-center">
-                            <h3>Gary Ev</h3>
-                            <p>Vice President</p>
-                        </div>
-                        <div class="name text-center overlay-content">
-                            <h3>Gary Ev</h3>
-                            <p>Vice President</p>
-                            <ul class="sociallinks">
-                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!--End single item member-->
-                    <!--Start single item member-->
-                    <div class="single-team-member">
-                        <div class="img-holder">
-                            <img src="/images/team/4.jpg" alt="Awesome Image">
-                        </div>
-                        <div class="name text-center">
-                            <h3>Ike Hal</h3>
-                            <p>Marketing Head</p>
-                        </div>
-                        <div class="name text-center overlay-content">
-                            <h3>Ike Hal</h3>
-                            <p>Marketing Head</p>
-                            <ul class="sociallinks">
-                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!--End single item member-->
-
-                    <!--Start single item member-->
-                    <div class="single-team-member">
-                        <div class="img-holder">
-                            <img src="/images/team/1.jpg" alt="Awesome Image">
-                        </div>
-                        <div class="name text-center">
-                            <h3>Don Elwood</h3>
-                            <p>Founder & Chairman</p>
-                        </div>
-                        <div class="name text-center overlay-content">
-                            <h3>Don Elwood</h3>
-                            <p>Founder & Chairman</p>
-                            <ul class="sociallinks">
-                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!--End single item member-->
-                    <!--Start single item member-->
-                    <div class="single-team-member">
-                        <div class="img-holder">
-                            <img src="/images/team/2.jpg" alt="Awesome Image">
-                        </div>
-                        <div class="name text-center">
-                            <h3>Wilson Joe</h3>
-                            <p>President</p>
-                        </div>
-                        <div class="name text-center overlay-content">
-                            <h3>Wilson Joe</h3>
-                            <p>President</p>
-                            <ul class="sociallinks">
-                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!--End single item member-->
-                    <!--Start single item member-->
-                    <div class="single-team-member">
-                        <div class="img-holder">
-                            <img src="/images/team/3.jpg" alt="Awesome Image">
-                        </div>
-                        <div class="name text-center">
-                            <h3>Gary Ev</h3>
-                            <p>Vice President</p>
-                        </div>
-                        <div class="name text-center overlay-content">
-                            <h3>Gary Ev</h3>
-                            <p>Vice President</p>
-                            <ul class="sociallinks">
-                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!--End single item member-->
-                    <!--Start single item member-->
-                    <div class="single-team-member">
-                        <div class="img-holder">
-                            <img src="/images/team/4.jpg" alt="Awesome Image">
-                        </div>
-                        <div class="name text-center">
-                            <h3>Ike Hal</h3>
-                            <p>Marketing Head</p>
-                        </div>
-                        <div class="name text-center overlay-content">
-                            <h3>Ike Hal</h3>
-                            <p>Marketing Head</p>
-                            <ul class="sociallinks">
-                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
+                    <?php endforeach; ?>
                     <!--End single item member-->
                 </div>
             </div>
@@ -533,6 +301,7 @@
     </div>
 </section>
 <!--End team area-->
+
 
 <!--Start Brand area-->
 
