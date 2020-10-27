@@ -113,6 +113,9 @@ class OperationController extends AppController
         $this->viewBuilder()->setLayout('site');
         $operation = $this->Operation->get($id);
         $this->set('operation', $operation);
+        $this->loadModel('Projects');
+        $proj = $this->Projects->find('all')->order(['id DESC'])->limit(4);
+        $this->set('proj', $proj);
     }
 
     public function beforeFilter(Event $event)

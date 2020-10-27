@@ -19049,8 +19049,9 @@ select:focus {
     }
 }
 
+ .prj{
+     height: 270px;
+     width: 270px;
+     object-fit: cover;
+ }
 
-.teste:before {
-   /*background: url("/../css/icon/1.svg") !important;*/
-    background: #0b2e13;
-}
