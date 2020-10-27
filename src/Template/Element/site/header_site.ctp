@@ -98,15 +98,7 @@
                                             <li><a href="/sobre/5">Sobre</a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a href="services.html">Services</a>
-                                        <ul>
-                                            <li><a href="ser-installation.html">Installation</a></li>
-                                            <li><a href="ser-maintenance.html">Maintenance</a></li>
-                                            <li><a href="ser-monitoring.html">Monitoring</a></li>
-                                            <li><a href="ser-consultation.html">Consultation</a></li>
-                                            <li><a href="ser-roof-solution.html">Roof Solution</a></li>
-                                            <li><a href="ser-inverter-repair.html">Inverter Repair</a></li>
-                                        </ul>
+                                    <li class="dropdown"><a href="/como-funciona/4">Como Funciona</a>
                                     </li>
                                     <li class="dropdown"><a href="project.html">Projetos</a>
                                         <ul>

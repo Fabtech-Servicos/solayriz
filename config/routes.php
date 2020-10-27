@@ -71,7 +71,7 @@ Router::scope('/', function (RouteBuilder $routes) {
     $routes->connect('/projeto/:id', ['controller' => 'Projects', 'action' => 'project_single'])->setPass(['id']);
     $routes->connect('/energiaSolar/:id', ['controller' => 'Solar', 'action' => 'solar'])->setPass(['id']);
     $routes->connect('/sobre/:id', ['controller' => 'About', 'action' => 'about'])->setPass(['id']);
-    $routes->connect('/solucao/:id', ['controller' => 'Projects', 'action' => 'project_single'])->setPass(['id']);
+    $routes->connect('/como-funciona/:id', ['controller' => 'Operation', 'action' => 'operation'])->setPass(['id']);
     $routes->connect('/servico/:id', ['controller' => 'Portfolio', 'action' => 'portifolio_single'])->setPass(['id']);
     /**
      * ...and connect the rest of 'Pages' controller's URLs.

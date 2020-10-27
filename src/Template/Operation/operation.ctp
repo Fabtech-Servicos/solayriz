@@ -6,12 +6,12 @@
                 <div class="col-xl-12">
                     <div class="inner-content clearfix">
                         <div class="title float-left">
-                            <h1>About Company</h1>
+                            <h1>Como Funciona</h1>
                         </div>
                         <div class="breadcrumb-menu float-right">
                             <ul class="clearfix">
-                                <li><a href="/">Home</a></li>
-                                <li class="active">About</li>
+                                <li><a href="/">Início</a></li>
+                                <li class="active">Como Funciona</li>
                             </ul>
                         </div>
                     </div>
@@ -25,7 +25,7 @@
     <section class="whowe-are-area">
         <div class="container">
             <div class="sec-title text-center">
-                <p>Who We Are</p>
+                <p>SOLAYRIZ SLZ ENGENHARIA</p>
                 <div class="title"> <?= $operation->title ?></div>
                 <div class="border-box center"></div>
             </div>
@@ -33,8 +33,6 @@
                 <div class="col-xl-12">
                     <div class="company-info-box">
                     <?= $operation->description ?>
-                        <h3>Jam P. Sylvester</h3>
-                        <span>Managing Director & Chairman</span>
                     </div>
                 </div>
             </div>
@@ -188,7 +186,7 @@
                         <ul>
                             <li>
                                 <div class="icon">
-                                    <span class="icon-save"></span>
+                                    <span class="icon-number-1"></span>
                                 </div>
                                 <div class="text">
                                     <div class="title">
@@ -405,7 +403,7 @@
 
 
     <!--Start Fact Counter Area-->
-    <section class="fact-counter-area" style="background-image:url(images/parallax-background/fact-counter-bg.jpg);">
+    <section class="fact-counter-area" style="background-image:url(/images/parallax-background/fact-counter-bg.jpg);">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
@@ -413,33 +411,36 @@
                         <li class="single-fact-counter style2 wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1500ms">
                             <div class="count-box">
                                 <h1>
-                                    <i class="flaticon-add"></i>
-                                    <span class="timer" data-from="1" data-to="5258" data-speed="5000" data-refresh-interval="50">5258</span>
+                                    <div class="icon">
+                                        <span class="icon-save"></span>
+                                    </div>
                                 </h1>
                                 <div class="title">
-                                    <h3>5.258 Projects Completed<br> Successfully</h3>
+                                    <h3>Experiência comprovada</h3>
                                 </div>
                             </div>
                         </li>
                         <li class="single-fact-counter style2 wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
                             <div class="count-box">
                                 <h1>
-                                    <i class="flaticon-percentage"></i>
-                                    <span class="timer" data-from="1" data-to="97" data-speed="5000" data-refresh-interval="50">97</span>
+                                    <div class="icon">
+                                        <span class="icon-save"></span>
+                                    </div>
                                 </h1>
                                 <div class="title">
-                                    <h3>Positive Feedback<br> By 97.41% of Customers</h3>
+                                    <h3>Equipamentos de qualidade</h3>
                                 </div>
                             </div>
                         </li>
                         <li class="single-fact-counter style2 wow fadeInLeft" data-wow-delay="500ms" data-wow-duration="1500ms">
                             <div class="count-box">
                                 <h1>
-                                    <i class="flaticon-add"></i>
-                                    <span class="timer" data-from="1" data-to="30" data-speed="5000" data-refresh-interval="50">30</span>
+                                    <div class="icon">
+                                        <span class="icon-save"></span>
+                                    </div>
                                 </h1>
                                 <div class="title">
-                                    <h3>Have 30+ Years Experience<br> in this Field</h3>
+                                    <h3>Profissionais experientes</h3>
                                 </div>
                             </div>
                         </li>

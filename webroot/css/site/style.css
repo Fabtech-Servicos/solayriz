@@ -893,7 +893,7 @@ hr.style-one {
 
 .sec-title-five h2 span.text-line {
     background-color: transparent;
-    background-image: url(../images/home-pages/home-5-sec-title-shape.png);
+    background-image: url(/../images/home-pages/home-5-sec-title-shape.png);
     background-repeat: no-repeat;
     background-position: center left;
     position: relative;
@@ -19047,5 +19047,9 @@ select:focus {
         transition: all 700ms ease;
         height: auto;
     }
+}
+
+icon-number1{
+    background-image: url(../images/home-pages/home-5-sec-title-shape.png);
 }
 
