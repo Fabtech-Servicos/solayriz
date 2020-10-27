@@ -1,7 +1,7 @@
 /** HTML5 LightBox - jQuery Image and Video LightBox Plugin
  * Copyright 2014 Magic Hills Pty Ltd All Rights Reserved
  * Website: http://html5box.com
- * Version 6.2 
+ * Version 6.2
  */
 (function() {
     var scripts = document.getElementsByTagName("script");

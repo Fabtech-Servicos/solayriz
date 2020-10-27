@@ -179,7 +179,7 @@
                             <div class="overlay-content">
                                 <div class="inner-content">
                                     <div class="link-box">
-                                        <a href="#"><span class="icon-plus"></span></a>
+                                        <a href="/projeto/<?= $proj->id ?>"><span class="icon-plus"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -269,10 +269,10 @@
     </div>
     <div class="container">
         <div class="sec-title with-text clrwhite text-center">
-            <p>Working Process</p>
+            <p>Como Funciona</p>
             <div class="title">How to Get Better Results</div>
             <div class="border-box center bgblue"></div>
-            <span>Solartech redefines your relationship with energy. Save money. Minimize your carbon footprint. Take control of your power costs today!</span>
+            <span>Solartech redefine sua relação com a energia. Economizar. Minimize sua pegada de carbono. Assuma o controle de seus custos de energia hoje!</span>
         </div>
         <div class="row">
             <div class="col-xl-12">

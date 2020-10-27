@@ -135,10 +135,6 @@ class ProjectsController extends AppController
         $this->set('projects', $projects);
     }
 
-    public function beforeFilter(Event $event)
-    {
-        $this->Auth->allow(['project','projectAll']);
-    }
 
     public function projectSingle($id)
     {
@@ -146,5 +142,11 @@ class ProjectsController extends AppController
      $projectSingle = $this->Projects->get($id);
      $this->set('projectSingle', $projectSingle);
     }
+
+    public function beforeFilter(Event $event)
+    {
+        $this->Auth->allow(['project','projectAll','projectSingle']);
+    }
+
 
 }
