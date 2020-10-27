@@ -186,7 +186,7 @@
                         <ul>
                             <li>
                                 <div class="icon">
-                                    <span class="icon-number-1"></span>
+                                    <span class="fa fa-calculator" aria-hidden="true"></span>
                                 </div>
                                 <div class="text">
                                     <div class="title">
@@ -198,7 +198,7 @@
                             </li>
                             <li>
                                 <div class="icon">
-                                    <span class="icon-save"></span>
+                                    <span class="icon-power"></span>
                                 </div>
                                 <div class="text">
                                     <div class="title">
@@ -230,7 +230,7 @@
                         <ul>
                             <li>
                                 <div class="icon">
-                                    <span class="icon-save"></span>
+                                    <span class="fa fa-file" aria-hidden="true"></span>
                                 </div>
                                 <div class="text">
                                     <div class="title">
@@ -242,7 +242,7 @@
                             </li>
                             <li>
                                 <div class="icon">
-                                    <span class="icon-save"></span>
+                                    <span class="icon-drill" aria-hidden="true"></span>
                                 </div>
                                 <div class="text">
                                     <a href="#exampleModalCenter" data-toggle="modal">
@@ -255,7 +255,7 @@
                             </li>
                             <li>
                                 <div class="icon">
-                                    <span class="icon-save"></span>
+                                    <span class="icon-null-1"></span>
                                 </div>
                                 <div class="text">
                                     <div class="title">

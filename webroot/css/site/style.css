@@ -19049,7 +19049,8 @@ select:focus {
     }
 }
 
-icon-number1{
-    background-image: url(../images/home-pages/home-5-sec-title-shape.png);
-}
 
+.teste:before {
+   /*background: url("/../css/icon/1.svg") !important;*/
+    background: #0b2e13;
+}
