@@ -38,12 +38,12 @@
             </div>
             <div class="row">
                 <div class="col-xl-6 col-lg-6">
-                    <div class="whowe-are-image" style="border: 1px solid #6688a2;">
+                    <div class="whowe-are-image" style="border: 1px solid #416787;">
                     <img class="imgg" src="<?= "/files/SolarEnergy/photo/" . $solar->photo ?>" alt="Awesome Image">
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6">
-                    <div class="whowe-are-image" style="border: 1px solid #6688a2;">
+                    <div class="whowe-are-image" style="border: 1px solid #416787;">
                         <img class="imgg" src="<?= "/files/SolarEnergy/photo2/" . $solar->photo2 ?>" alt="Awesome Image">
                     </div>
                 </div>
@@ -763,37 +763,19 @@
     <!--Start team area-->
     <section class="team-area">
         <div class="container">
-            <div class="sec-title text-center">
-                <p>SOLAYRIZ SLZ ENGENHARIA</p>
-                <div class="title">Projetos Recentes</div>
-                <div class="border-box center"></div>
-            </div>
             <div class="row">
-                <div class="col-xl-12">
-                    <div class="team-carousel owl-carousel owl-theme">
-                        <!--Start single item member-->
-                        <?php foreach ($proj as $prj): ?>
-                            <div class="single-team-member">
-                                <div class="img-holder">
-                                    <img class="prj" src="<?= "/files/Projects/photo/" . $prj->photo ?>" alt="Awesome Image">
-                                </div>
-                                <div class="name text-center">
-                                    <h3><?= $prj->name ?></h3>
-                                </div>
-
-                                <div class="name text-center overlay-content">
-                                    <h3><?= $prj->name ?></h3>
-                                    <ul class="sociallinks">
-                                        <div class="btn-box">
-                                            <a class="btn-one" href="/projeto/<?= $prj->id ?>"><b>Ver mais</b><span class="icon-null"></span></a>
-                                        </div>
-                                    </ul>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <div class="btn-box" style="margin-top: 25%;">
+                                    <a class="btn-one lamp" href="/como-funciona/4"><b>Veja como funciona a energia solar</b><span class="icon-null"></span></a>
                                 </div>
                             </div>
-                        <?php endforeach; ?>
-                        <!--End single item member-->
+                            <div class="col-xl-6">
+                                <img src="/images/lampada.png">
+                            </div>
+                        </div>
                     </div>
-                </div>
             </div>
         </div>
     </section>

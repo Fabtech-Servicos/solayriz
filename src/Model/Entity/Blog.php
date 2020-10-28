@@ -9,11 +9,12 @@ use Cake\ORM\Entity;
  * @property int $id
  * @property \Cake\I18n\FrozenTime|null $created
  * @property \Cake\I18n\FrozenTime|null $modified
- * @property |null $photo
- * @property string|null $photo_dir
- * @property string $title
- * @property string|null $date
+ * @property string|null $title
  * @property string|null $description
+ * @property string|null $signature
+ * @property string|null $date
+ * @property string|null $photo
+ * @property string|null $photo_dir
  */
 class Blog extends Entity
 {
@@ -29,10 +30,11 @@ class Blog extends Entity
     protected $_accessible = [
         'created' => true,
         'modified' => true,
-        'photo' => true,
-        'photo_dir' => true,
         'title' => true,
+        'description' => true,
+        'signature' => true,
         'date' => true,
-        'description' => true
+        'photo' => true,
+        'photo_dir' => true
     ];
 }

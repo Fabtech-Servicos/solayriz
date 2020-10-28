@@ -269,10 +269,10 @@
     </div>
     <div class="container">
         <div class="sec-title with-text clrwhite text-center">
-            <p>Como Funciona</p>
-            <div class="title">How to Get Better Results</div>
+            <p>SOLAYRIZ SLZ ENGENHARIA</p>
+            <div class="title">Excelência em qualidade</div>
             <div class="border-box center bgblue"></div>
-            <span>Solartech redefine sua relação com a energia. Economizar. Minimize sua pegada de carbono. Assuma o controle de seus custos de energia hoje!</span>
+            <span>O reconhecimento da Solayriz Engenharia é uma consequência da excelência na qualidade dos produtos, serviços e do rigor técnico prestado.</span>
         </div>
         <div class="row">
             <div class="col-xl-12">
@@ -280,77 +280,38 @@
                     <!--Start Single Working Process-->
                     <div class="single-working-process text-center">
                         <div class="top-box">
-                            <h6>Step<br> 01</h6>
+                            <h1><span class="icon-power"></span></h1>
                         </div>
-                        <h3>Consult<br> Our Expert Team</h3>
+                        <h3>Energia<br> Solar</h3>
                         <p>Frequently occur that pleasures have to be repudiated & annoyan accepted. </p>
                         <div class="button">
-                            <a class="btn-two" href="#">Appointment<span class="icon-null"></span></a>
+                            <a class="btn-two" href="/energia-solar/8">Ver Mais<span class="icon-null"></span></a>
                         </div>
                     </div>
                     <!--End Single Working Process-->
                     <!--Start Single Working Process-->
                     <div class="single-working-process text-center">
                         <div class="top-box">
-                            <h6>Step<br> 02</h6>
+                            <h1><span class="icon-null-3"></span></h1>
                         </div>
-                        <h3>Ordering<br> Your Equipments</h3>
+                        <h3>Como<br> Funciona</h3>
                         <p> Pleasures to secure other greater or else worse endures pains avoid. </p>
                         <div class="button">
-                            <a class="btn-two" href="#">Our Products<span class="icon-null"></span></a>
+                            <a class="btn-two" href="/como-funciona/4">Ver Mais<span class="icon-null"></span></a>
                         </div>
                     </div>
                     <!--End Single Working Process-->
                     <!--Start Single Working Process-->
                     <div class="single-working-process text-center">
                         <div class="top-box">
-                            <h6>Step<br> 03</h6>
+                            <h1><span class="icon-power-1"></span></h1>
                         </div>
-                        <h3>Solar<br> Panel Installation</h3>
+                        <h3>Nossos<br> Projetos</h3>
                         <p>Indignations and dislikes men who are so demoralized by the charms.</p>
                         <div class="button">
-                            <a class="btn-two" href="#">Appointment<span class="icon-null"></span></a>
+                            <a class="btn-two" href="/projetos">Ver Mais<span class="icon-null"></span></a>
                         </div>
                     </div>
-                    <!--End Single Working Process-->
-
-                    <!--Start Single Working Process-->
-                    <div class="single-working-process text-center">
-                        <div class="top-box">
-                            <h6>Step<br> 01</h6>
-                        </div>
-                        <h3>Consult<br> Our Expert Team</h3>
-                        <p>Frequently occur that pleasures have to be repudiated & annoyan accepted. </p>
-                        <div class="button">
-                            <a class="btn-two" href="#">Appointment<span class="icon-null"></span></a>
-                        </div>
-                    </div>
-                    <!--End Single Working Process-->
-                    <!--Start Single Working Process-->
-                    <div class="single-working-process text-center">
-                        <div class="top-box">
-                            <h6>Step<br> 02</h6>
-                        </div>
-                        <h3>Ordering<br> Your Equipments</h3>
-                        <p> Pleasures to secure other greater or else worse endures pains avoid. </p>
-                        <div class="button">
-                            <a class="btn-two" href="#">Our Products<span class="icon-null"></span></a>
-                        </div>
-                    </div>
-                    <!--End Single Working Process-->
-                    <!--Start Single Working Process-->
-                    <div class="single-working-process text-center">
-                        <div class="top-box">
-                            <h6>Step<br> 03</h6>
-                        </div>
-                        <h3>Solar<br> Panel Installation</h3>
-                        <p>Indignations and dislikes men who are so demoralized by the charms.</p>
-                        <div class="button">
-                            <a class="btn-two" href="#">Appointment<span class="icon-null"></span></a>
-                        </div>
-                    </div>
-                    <!--End Single Working Process-->
-
 
                 </div>
             </div>

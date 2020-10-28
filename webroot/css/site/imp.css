@@ -439,7 +439,7 @@ input:-webkit-autofill:focus {
     border: 1px solid #f3f7fa;
     border-radius: 0 !important;
     box-shadow: none;
-    color: #203260;
+    color: 6688a2;
     display: block;
     font-size: 18px;
     font-weight: 500;
@@ -465,7 +465,7 @@ input:-webkit-autofill:focus {
     border: 1px solid #edf2f7;
     border-radius: 0 !important;
     box-shadow: none;
-    color: #203260;
+    color: 6688a2;
     font-size: 18px;
     font-weight: 500;
     height: 50px;

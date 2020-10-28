@@ -98,8 +98,12 @@
                                             <li><a href="/sobre/5">Sobre</a></li>
                                         </ul>
                                     </li>
+
+                                    <li><a href="/energia-solar/8">Energia Solar</a></li>
+
                                     <li class="dropdown"><a href="/como-funciona/4">Como Funciona</a>
-                                    </li>
+
+
                                     <li class="dropdown"><a href="project.html">Projetos</a>
                                         <ul>
                                             <?php foreach ($cat as $category): ?>
