@@ -19055,3 +19055,10 @@ select:focus {
      object-fit: cover;
  }
 
+ .imgg{
+     width: 570px;
+     height: 360px;
+     object-fit: cover;
+ }
+
+

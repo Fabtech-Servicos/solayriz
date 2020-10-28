@@ -39,12 +39,12 @@
             <div class="row">
                 <div class="col-xl-6 col-lg-6">
                     <div class="whowe-are-image" style="border: 1px solid #6688a2;">
-                    <img src="<?= "/files/SolarEnergy/photo/" . $solar->photo ?>" alt="Awesome Image">
+                    <img class="imgg" src="<?= "/files/SolarEnergy/photo/" . $solar->photo ?>" alt="Awesome Image">
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6">
                     <div class="whowe-are-image" style="border: 1px solid #6688a2;">
-                        <img src="<?= "/files/SolarEnergy/photo2/" . $solar->photo2 ?>" alt="Awesome Image">
+                        <img class="imgg" src="<?= "/files/SolarEnergy/photo2/" . $solar->photo2 ?>" alt="Awesome Image">
                     </div>
                 </div>
             </div>
@@ -651,239 +651,64 @@
 
 
 <!--    end energia solar-->
-    <!--Start Choose area-->
+
+
+
+    <!--Start Modalidade area-->
     <section class="choose-area">
         <div class="container">
             <div class="row">
-                <div class="col-xl-12 col-lg-12">
-                    <div class="why-whoose-content">
-                        <div class="sec-title">
-                            <p>Captação Da Energia Solar</p>
-                            <div class="title"> <?= $solar->begin ?></div>
-<!--                            <div class="title">How to choose<br> better one for your place</div>-->
-                            <div class="border-box"></div>
+
+
+                <div class="sec-title text-center" style="width: 100%">
+                    <p>SOLAYRIZ SLZ ENGENHARIA</p>
+                    <div class="title">Modalidades da Geração<br> de Energia Distribuída</div>
+                    <div class="border-box center"></div>
+                </div>
+
+
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                    <div class="single-whowe-are-box text-center">
+                        <div class="count-box"></div>
+                        <div class="icon">
+                            <span class="icon-null-2"></span>
+                        </div>
+                        <div class="text">
+                            <?= $solar->modality ?>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-12">
-                    <div class="whychoose-right-content">
-                        <ul>
-                            <li>
-                                <div class="icon">
-                                    <span class="fa fa-calculator" aria-hidden="true"></span>
-                                </div>
-                                <div class="text">
-                                    <div class="title">
-                                        <a href="#exampleModalCenter1" data-toggle="modal" style="color: #83888d">
-                                        <?= strlen($solar->steps ) >  170 ? substr($solar->steps , 0, 170) . "..." : $solar->steps ?>
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon">
-                                    <span class="icon-power"></span>
-                                </div>
-                                <div class="text">
-                                    <div class="title">
-                                        <a href="#exampleModalCenter2" data-toggle="modal" style="color: #83888d">
-                                        <?= strlen($solar->steps2 ) >  170 ? substr($solar->steps2 , 0, 170) . "..." : $solar->steps2 ?>
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon">
-                                    <span class="icon-save"></span>
-                                </div>
-                                <div class="text">
-                                    <div class="title">
-                                        <a href="#exampleModalCenter3" data-toggle="modal" style="color: #83888d">
-                                        <?= strlen($solar->steps3 ) >  170 ? substr($solar->steps3 , 0, 170) . "..." : $solar->steps3 ?>
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-
-                        </ul>
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                    <div class="single-whowe-are-box text-center">
+                        <div class="count-box"></div>
+                        <div class="icon">
+                            <span class="icon-null-2"></span>
+                        </div>
+                        <div class="text">
+                            <?= $solar->modality2 ?>
+                        </div>
                     </div>
                 </div>
 
-                <div class="col-xl-6 col-lg-12">
-                    <div class="whychoose-right-content">
-                        <ul>
-                            <li>
-                                <div class="icon">
-                                    <span class="fa fa-file" aria-hidden="true"></span>
-                                </div>
-                                <div class="text">
-                                    <div class="title">
-                                        <a href="#exampleModalCenter4" data-toggle="modal" style="color: #83888d">
-                                        <?= strlen($solar->steps4 ) >  170 ? substr($solar->steps4 , 0, 170) . "..." : $solar->steps4 ?>
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon">
-                                    <span class="icon-drill" aria-hidden="true"></span>
-                                </div>
-                                <div class="text">
-                                    <a href="#exampleModalCenter" data-toggle="modal">
-                                    <div class="title">
-                                        <a href="#exampleModalCenter5" data-toggle="modal" style="color: #83888d">
-                                        <?= strlen($solar->steps5 ) >  170 ? substr($solar->steps5 , 0, 170) . "..." : $solar->steps5 ?>
-                                    </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon">
-                                    <span class="icon-null-1"></span>
-                                </div>
-                                <div class="text">
-                                    <div class="title">
-                                        <a href="#exampleModalCenter6" data-toggle="modal" style="color: #83888d">
-                                        <?= strlen($solar->steps6 ) >  170 ? substr($solar->steps6 , 0, 170) . "..." : $solar->steps6 ?>
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-
-                        </ul>
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                    <div class="single-whowe-are-box text-center">
+                        <div class="count-box"></div>
+                        <div class="icon">
+                            <span class="icon-null-2"></span>
+                        </div>
+                        <div class="text">
+                            <?= $solar->modality3 ?>
+                        </div>
                     </div>
                 </div>
+
+
+
+
             </div>
         </div>
     </section>
-    <!--End Choose area-->
-
-
-    <!-- Button trigger modal -->
-<!--    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">-->
-<!--        Launch demo modal-->
-<!--    </button>-->
-
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalCenterTitle">Instalação Do Sistema</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <?= $solar->steps ?>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalCenterTitle">Instalação Do Sistema</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <?= $solar->steps2 ?>
-                </div>
-                <div class="modal-footer">
-                    < <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header"  style="background: #f6aa7d">
-                    <h5 class="modal-title" id="exampleModalCenterTitle">Instalação Do Sistema</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <?= $solar->steps3 ?>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModalCenter4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalCenterTitle">Instalação Do Sistema</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <?= $solar->steps4 ?>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModalCenter5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalCenterTitle">Instalação Do Sistema</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <?= $solar->steps5 ?>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModalCenter6" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalCenterTitle">Instalação Do Sistema</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <?= $solar->steps6 ?>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
+    <!--End Modalidade area-->
 
 
     <!--Start Fact Counter Area-->
