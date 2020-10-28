@@ -1,0 +1,61 @@
+<?php
+namespace App\Model\Entity;
+
+use Cake\ORM\Entity;
+
+class SolarEnergy extends Entity
+{
+    protected $_accessible = [
+        'created' => true,
+        'modifield' => true,
+        'title' => true,
+        'description' => true,
+        'photo' => true,
+        'photo_dir' => true,
+        'photo2' => true,
+        'photo2_dir' => true,
+        'title_advantage' => true,
+        'advantage' => true,
+        'title_advantage2' => true,
+        'advantage2' => true,
+        'title_advantage3' => true,
+        'advantage3' => true,
+        'title_advantage4' => true,
+        'advantage4' => true,
+        'title_advantage5' => true,
+        'advantage5' => true,
+        'title_advantage6' => true,
+        'advantage6' => true,
+        'title_advantage7' => true,
+        'advantage7' => true,
+        'title_advantage8' => true,
+        'advantage8' => true,
+        'title_advantage9' => true,
+        'advantage9' => true,
+        'title_advantage10' => true,
+        'advantage10' => true,
+        'title_advantage11' => true,
+        'advantage11' => true,
+        'title_advantage12' => true,
+        'advantage12' => true,
+        'para' => true,
+        'description_for' => true,
+        'photo3' => true,
+        'photo3_dir' => true,
+        'for2' => true,
+        'description_for2' => true,
+        'photo4' => true,
+        'photo4_dir' => true,
+        'for3' => true,
+        'description_for3' => true,
+        'photo5' => true,
+        'photo5_dir' => true,
+        'for4' => true,
+        'description_for4' => true,
+        'photo6' => true,
+        'photo6_dir' => true,
+        'modality' => true,
+        'modality2' => true,
+        'modality3' => true
+    ];
+}

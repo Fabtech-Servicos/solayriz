@@ -39,6 +39,24 @@
     </li>
 
     <li>
+        <a href="<?php echo $this->Url->build('/solar-energy/edit/8'); ?>">
+            <i class="fa fa-circle-o" aria-hidden="true"></i>
+            <span>Energia Solar</span>
+            <span class="pull-right-container">
+      </span>
+        </a>
+    </li>
+
+    <li>
+        <a href="<?php echo $this->Url->build('/operation/edit/4'); ?>">
+            <i class="fa fa-circle-o" aria-hidden="true"></i>
+            <span>Como Funciona</span>
+            <span class="pull-right-container">
+      </span>
+        </a>
+    </li>
+
+    <li>
         <a href="<?php echo $this->Url->build('/categories'); ?>">
             <i class="fa fa-circle-o" aria-hidden="true"></i>
             <span>Categoria</span>
