@@ -2720,7 +2720,7 @@ select:focus {
     width: 34px;
     height: 30px;
     border: 1px solid #ffffff;
-    background: url(../images/icon/submenu-icon.png) center center no-repeat;
+    background: url(/../images/icon/submenu-icon.png) center center no-repeat;
     background-size: 20px;
     cursor: pointer;
     z-index: 5;
@@ -6163,7 +6163,7 @@ select:focus {
     height: 4px;
     content: "";
     margin: 0 auto;
-    border-bottom: 7px dotted #2c437d;
+    border-bottom: 7px dotted rgb(179, 205, 228, 0.2);
     z-index: -1;
 }
 
@@ -19094,6 +19094,22 @@ select:focus {
         justify-content: center;
     }
 }
+
+@media (max-width: 991px) {
+    #email-m {
+      display: none;
+    }
+}
+
+
+@media (min-width: 991px) {
+    #vdy {
+        width: 570px;
+        height: 264px;
+        object-fit: cover
+    }
+}
+
 
 
 

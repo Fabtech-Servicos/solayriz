@@ -2031,8 +2031,8 @@
         z-index: 12;
     }
     .main-menu .navbar-header .navbar-toggle {
-        background: #000100;
-        border: 1px dashed #000100;
+        background: #416787;
+        border: 1px dashed #416787;
         display: inline-block;
         border-radius: 3px;
         float: none;
@@ -2089,8 +2089,8 @@
     .main-menu .navbar-collapse .navigation li,
     .main-menu .navbar-collapse .navigation li ul li,
     .main-menu .navbar-collapse .navigation li ul li ul li {
-        background: 6688a2;
-        border-top: 0px solid #24386b;
+        background: #416787;
+        border-top: 0px solid #416787;
         opacity: 1 !important;
         top: 0px !important;
         left: 0px !important;

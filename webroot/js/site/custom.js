@@ -529,7 +529,7 @@ function testimonialCarousel() {
                     items: 1
                 },
                 1024: {
-                    items: 2
+                    items: 3
                 },
                 1100: {
                     items: 2

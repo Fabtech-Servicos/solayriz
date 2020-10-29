@@ -77,8 +77,7 @@ class PagesController extends AppController
         $this->loadModel('Blog');
         $this->loadModel('Services');
         $this->loadModel('Categories');
-       // $this->loadModel('Visions');
-//        $this->loadModel('Videos');
+        $this->loadModel('Videos');
 
 
 
@@ -93,7 +92,7 @@ class PagesController extends AppController
 
 
 
-//        $videos = $this->Videos->find('all')->order(['id DESC'])->limit(1);
+        $videos = $this->Videos->find('all')->order(['id DESC'])->limit(1);
 
 
 
@@ -127,6 +126,7 @@ class PagesController extends AppController
         $this->set('blog',$blog );
         $this->set('services',$services );
         $this->set('ct',$ct );
+        $this->set('videos',$videos );
 
 
 

@@ -7,11 +7,11 @@
             <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12">
                     <div class="top-style1 clearfix">
-<!--                        <div class="top-left-style1 float-left clearfix">-->
-<!--                            <div class="find-text">-->
-<!--                                <p>Find a Solartech Authorized Professional<span class="icon-null"></span></p>-->
-<!--                            </div>-->
-<!--                        </div>-->
+                        <div class="top-left-style1 float-left clearfix">
+                            <div class="find-text">
+                                <p>Solayriz slz engenharia<span class="icon-null"></span></p>
+                            </div>
+                        </div>
                         <div class="top-right-style1 float-right">
                             <div class="for-enquiry float-left fix">
                                 <p><span class="icon-question"></span>Telefone: (79) 98866-8644</p>
@@ -54,8 +54,8 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li>
-                                    <div class="single-item">
+                                <li id="email-m">
+                                    <div class="single-item" >
                                         <div class="icon">
                                             <img src="/images/icon/header-icon-2.png" alt="Awesome Image">
                                         </div>
@@ -93,7 +93,7 @@
                             <div class="navbar-collapse collapse clearfix">
                                 <ul class="navigation clearfix">
                                     <li class="dropdown current"><a href="/">Início</a></li>
-                                    <li class="dropdown"><a href="about.html">Solayriz</a>
+                                    <li class="dropdown"><a href="">Solayriz</a>
                                         <ul>
                                             <li><a href="/sobre/5">Sobre</a></li>
                                         </ul>
@@ -104,7 +104,7 @@
                                     <li class="dropdown"><a href="/como-funciona/4">Como Funciona</a>
 
 
-                                    <li class="dropdown"><a href="project.html">Projetos</a>
+                                    <li class="dropdown"><a href="/projetos">Projetos</a>
                                         <ul>
                                             <?php foreach ($cat as $category): ?>
                                             <li><a href="/projetos/<?= $category->id ?>"><?= $category->title ?></a></li>

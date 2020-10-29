@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Solartech || Home One || Responsive HTML 5 Template</title>
+    <title>Solayriz Slz Engenharia</title>
 
     <!-- responsive meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
