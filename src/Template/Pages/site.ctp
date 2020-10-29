@@ -476,11 +476,21 @@
                                 </div>
                             </div>
                             <div class="row">
-                              <div class="col-xl-12">
+                              <div class="col-xl-7">
                                 <div class="single-box">
                                     <input type="email" name="form_email" value="" placeholder="Email" required="">
                                 </div>
                                </div>
+                                <div class="col-xl-5">
+                                    <div class="single-box">
+                                        <select class="selectpicker" data-width="100%">
+                                            <option selected="selected">Tipo de instalação</option>
+                                            <?php foreach ($int as $in): ?>
+                                            <option value="in"><?= $in->title ?></option>
+                                            <?php endforeach; ?>
+                                        </select>
+                                    </div>
+                                </div>
                             </div>
 
                             <div class="row">

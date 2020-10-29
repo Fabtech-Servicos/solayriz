@@ -66,7 +66,7 @@
                     <div class="single-whowe-are-box text-center">
                         <div class="count-box">01</div>
                         <div class="icon">
-                            <span class="icon-null-2"></span>
+                            <span class="icon-money"></span>
                         </div>
                         <div class="text">
                             <a href="#exampleModal1" data-toggle="modal" style="color: #83888d">
@@ -98,7 +98,7 @@
                     <div class="single-whowe-are-box text-center">
                         <div class="count-box">03</div>
                         <div class="icon">
-                            <span class="icon-career"></span>
+                            <span class="icon-farming-and-gardening"></span>
                         </div>
                         <div class="text">
                             <a href="#exampleModal3" data-toggle="modal" style="color: #83888d">
@@ -113,10 +113,10 @@
                     <div class="single-whowe-are-box text-center">
                         <div class="count-box">04</div>
                         <div class="icon">
-                            <span class="icon-career"></span>
+                            <span class="icon-money-1"></span>
                         </div>
                         <div class="text">
-                            <a href="#exampleModal3" data-toggle="modal" style="color: #83888d">
+                            <a href="#exampleModal4" data-toggle="modal" style="color: #83888d">
                                 <h3><?= $solar->title_advantage4  ?></h3>
                                 <?= strlen($solar->advantage4 ) >  120 ? substr($solar->advantage4 , 0, 120) . "..." : $solar->advantage4 ?>
                             </a>
@@ -128,10 +128,10 @@
                     <div class="single-whowe-are-box text-center">
                         <div class="count-box">05</div>
                         <div class="icon">
-                            <span class="icon-career"></span>
+                            <span class="icon-power"></span>
                         </div>
                         <div class="text">
-                            <a href="#exampleModal3" data-toggle="modal" style="color: #83888d">
+                            <a href="#exampleModal5" data-toggle="modal" style="color: #83888d">
                                 <h3><?= $solar->title_advantage5  ?></h3>
                                 <?= strlen($solar->advantage5 ) >  120 ? substr($solar->advantage5 , 0, 120) . "..." : $solar->advantage5 ?>
                             </a>
@@ -143,10 +143,10 @@
                     <div class="single-whowe-are-box text-center">
                         <div class="count-box">06</div>
                         <div class="icon">
-                            <span class="icon-career"></span>
+                            <span class="fa fa-life-ring"></span>
                         </div>
                         <div class="text">
-                            <a href="#exampleModal3" data-toggle="modal" style="color: #83888d">
+                            <a href="#exampleModal6" data-toggle="modal" style="color: #83888d">
                                 <h3><?= $solar->title_advantage6  ?></h3>
                                 <?= strlen($solar->advantage6 ) >  120 ? substr($solar->advantage6 , 0, 120) . "..." : $solar->advantage6 ?>
                             </a>
@@ -158,10 +158,10 @@
                     <div class="single-whowe-are-box text-center">
                         <div class="count-box">07</div>
                         <div class="icon">
-                            <span class="icon-career"></span>
+                            <span class="icon-drill"></span>
                         </div>
                         <div class="text">
-                            <a href="#exampleModal3" data-toggle="modal" style="color: #83888d">
+                            <a href="#exampleModal7" data-toggle="modal" style="color: #83888d">
                                 <h3><?= $solar->title_advantage7  ?></h3>
                                 <?= strlen($solar->advantage7 ) >  120 ? substr($solar->advantage7 , 0, 120) . "..." : $solar->advantage7 ?>
                             </a>
@@ -173,10 +173,10 @@
                     <div class="single-whowe-are-box text-center">
                         <div class="count-box">08</div>
                         <div class="icon">
-                            <span class="icon-career"></span>
+                            <span class="fa fa-puzzle-piece""></span>
                         </div>
                         <div class="text">
-                            <a href="#exampleModal3" data-toggle="modal" style="color: #83888d">
+                            <a href="#exampleModal8" data-toggle="modal" style="color: #83888d">
                                 <h3><?= $solar->title_advantage8  ?></h3>
                                 <?= strlen($solar->advantage8 ) >  120 ? substr($solar->advantage8 , 0, 120) . "..." : $solar->advantage8 ?>
                             </a>
@@ -188,10 +188,10 @@
                     <div class="single-whowe-are-box text-center">
                         <div class="count-box">09</div>
                         <div class="icon">
-                            <span class="icon-career"></span>
+                            <span class="icon-gear"></span>
                         </div>
                         <div class="text">
-                            <a href="#exampleModal3" data-toggle="modal" style="color: #83888d">
+                            <a href="#exampleModal9" data-toggle="modal" style="color: #83888d">
                                 <h3><?= $solar->title_advantage9  ?></h3>
                                 <?= strlen($solar->advantage9 ) >  120 ? substr($solar->advantage9 , 0, 120) . "..." : $solar->advantage9 ?>
                             </a>
@@ -203,10 +203,10 @@
                     <div class="single-whowe-are-box text-center">
                         <div class="count-box">10</div>
                         <div class="icon">
-                            <span class="icon-career"></span>
+                            <span class="fa fa-bell-slash-o" aria-hidden="true"></span>
                         </div>
                         <div class="text">
-                            <a href="#exampleModal3" data-toggle="modal" style="color: #83888d">
+                            <a href="#exampleModal10" data-toggle="modal" style="color: #83888d">
                                 <h3><?= $solar->title_advantage10  ?></h3>
                                 <?= strlen($solar->advantage10 ) >  120 ? substr($solar->advantage10 , 0, 120) . "..." : $solar->advantage10 ?>
                             </a>
@@ -218,10 +218,12 @@
                     <div class="single-whowe-are-box text-center">
                         <div class="count-box">11</div>
                         <div class="icon">
-                            <span class="icon-career"></span>
+                            <span>
+                                <img src="/images/icon/robbery.svg" style="max-width: 80px">
+                            </span>
                         </div>
                         <div class="text">
-                            <a href="#exampleModal3" data-toggle="modal" style="color: #83888d">
+                            <a href="#exampleModal11" data-toggle="modal" style="color: #83888d">
                                 <h3><?= $solar->title_advantage11  ?></h3>
                                 <?= strlen($solar->advantage11 ) >  120 ? substr($solar->advantage11 , 0, 120) . "..." : $solar->advantage11 ?>
                             </a>
@@ -233,10 +235,10 @@
                     <div class="single-whowe-are-box text-center">
                         <div class="count-box">12</div>
                         <div class="icon">
-                            <span class="icon-career"></span>
+                            <span class="fa fa-recycle"></span>
                         </div>
                         <div class="text">
-                            <a href="#exampleModal3" data-toggle="modal" style="color: #83888d">
+                            <a href="#exampleModal12" data-toggle="modal" style="color: #83888d">
                                 <h3><?= $solar->title_advantage12 ?></h3>
                                 <?= strlen($solar->advantage12 ) >  120 ? substr($solar->advantage12 , 0, 120) . "..." : $solar->advantage12 ?>
                             </a>
@@ -671,7 +673,7 @@
                     <div class="single-whowe-are-box text-center">
                         <div class="count-box"></div>
                         <div class="icon">
-                            <span class="icon-null-2"></span>
+                            <span class="icon-power-1"></span>
                         </div>
                         <div class="text">
                             <?= $solar->modality ?>
@@ -682,7 +684,9 @@
                     <div class="single-whowe-are-box text-center">
                         <div class="count-box"></div>
                         <div class="icon">
-                            <span class="icon-null-2"></span>
+                            <span>
+                                <img src="/images/icon/solar.png" style="max-width: 125px">
+                            </span>
                         </div>
                         <div class="text">
                             <?= $solar->modality2 ?>
