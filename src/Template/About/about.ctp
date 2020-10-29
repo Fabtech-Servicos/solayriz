@@ -5,7 +5,7 @@
             <div class="col-xl-12">
                 <div class="inner-content clearfix">
                     <div class="title float-left">
-                        <h1>Conheça a Solayriz</h1>
+                        <h1>Solayriz</h1>
                     </div>
                     <div class="breadcrumb-menu float-right">
                         <ul class="clearfix">

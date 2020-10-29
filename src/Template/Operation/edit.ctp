@@ -39,12 +39,6 @@
                 echo $this->Form->control('scenario3', ['id' => 'editor4']);
                 echo $this->Form->control('cover', ['type' => 'file']);
                 echo $this->Form->control('link');
-                echo $this->Form->control('title_installation');
-                echo $this->Form->control('installation', ['id' => 'editor5']);
-                echo $this->Form->control('photo3', ['type' => 'file']);
-                echo $this->Form->control('title_installation2');
-                echo $this->Form->control('installation2', ['id' => 'editor6']);
-                echo $this->Form->control('photo4', ['type' => 'file']);
                 echo $this->Form->control('begin');
                 echo $this->Form->control('steps', ['id' => 'editor7']);
                 echo $this->Form->control('steps2', ['id' => 'editor8']);

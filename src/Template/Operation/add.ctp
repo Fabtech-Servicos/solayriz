@@ -43,14 +43,6 @@
                 echo $this->Form->control('cover');
                 echo $this->Form->control('cover_dir');
                 echo $this->Form->control('link');
-                echo $this->Form->control('title_installation');
-                echo $this->Form->control('installation');
-                echo $this->Form->control('photo3');
-                echo $this->Form->control('photo3_dir');
-                echo $this->Form->control('title_installation2');
-                echo $this->Form->control('installation2');
-                echo $this->Form->control('Photo4');
-                echo $this->Form->control('photo4_dir');
                 echo $this->Form->control('begin');
                 echo $this->Form->control('steps');
                 echo $this->Form->control('steps2');
