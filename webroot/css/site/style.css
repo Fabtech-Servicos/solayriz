@@ -19064,6 +19064,14 @@ select:focus {
  }
 
 
+@media (max-width: 991px) {
+    .imgg {
+        width: auto;
+        height: auto;
+    }
+}
+
+
 @media (min-width: 991px) {
     .img-ball {
         width: 370px;

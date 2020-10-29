@@ -24,11 +24,11 @@
     <!--Start WhoWe Are Area-->
     <section class="whowe-are-area">
         <div class="container">
-            <div class="sec-title text-center">
-                <p>SOLAYRIZ SLZ ENGENHARIA</p>
-                <div class="title"> <?= $operation->title ?></div>
-                <div class="border-box center"></div>
-            </div>
+<!--            <div class="sec-title text-center">-->
+<!--                <p>SOLAYRIZ SLZ ENGENHARIA</p>-->
+<!--                <div class="title"> </div>-->
+<!--                <div class="border-box center"></div>-->
+<!--            </div>-->
             <div class="row">
                 <div class="col-xl-12">
                     <div class="company-info-box">
@@ -36,7 +36,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" style="margin-top: -70px">
                 <div class="col-xl-6 col-lg-6">
                     <div class="whowe-are-image" style="border: 1px solid #416787;">
                     <img class="imgg" src="<?= "/files/Operation/photo/" . $operation->photo ?>" alt="Awesome Image">
@@ -48,7 +48,18 @@
                     </div>
                 </div>
             </div>
-            <div class="row whowe-are">
+
+
+
+
+
+            <div class="sec-title text-center" style="margin-top: 80px">
+                <p>SOLAYRIZ SLZ ENGENHARIA</p>
+                <div class="title"> <?= $operation->title2 ?>"</div>
+                <div class="border-box center"></div>
+            </div>
+
+            <div class="row whowe-are" style="    padding-top: 25px;">
                 <!--Start Single Whowe Are Box-->
                 <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
                     <div class="single-whowe-are-box text-center">
