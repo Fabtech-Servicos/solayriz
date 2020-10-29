@@ -85,6 +85,7 @@ class AppController extends Controller
         $this->viewBuilder()->setClassName('AdminLTE.AdminLTE');
 
         $this->setCaregories();
+        $this->setProjects();
 
     }
 
@@ -97,5 +98,11 @@ class AppController extends Controller
         $this->loadModel('Categories');
         $cat = $this->Categories->find('all');
         $this->set(compact('cat'));
+    }
+
+    protected function setProjects() {
+        $this->loadModel('Projects');
+        $projetos = $this->Projects->find('all')->order(['id DESC'])->limit(6);
+        $this->set(compact('projetos'));
     }
 }

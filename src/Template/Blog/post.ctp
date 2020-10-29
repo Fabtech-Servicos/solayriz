@@ -45,7 +45,7 @@
                                 </div>
                             </div>
                             <div class="main-image-holder">
-                                <img src="/images/blog/blog-single.jpg" alt="Awesome Image">
+                                <img class="img-post" src="<?= "/files/Blog/photo/" . $post->photo ?>" alt="Awesome Image">
                             </div>
                             <div class="quality-with-integrity-box">
                                 <?= $post->description ?>

@@ -1505,7 +1505,7 @@ hr.style-one {
     background-color: #ffffff;
     background-position: center center;
     background-repeat: no-repeat;
-    background-image: url(../images/home-pages/preloader-1.gif);
+    background-image: url(/../images/home-pages/preloader-1.gif);
 }
 
 /* Update header Style */
@@ -19071,5 +19071,32 @@ select:focus {
         object-fit: cover
     }
 }
+
+@media (min-width: 991px) {
+    .img-post {
+        width: 970px;
+        height: 420px;
+        object-fit: cover
+    }
+}
+
+@media (min-width: 991px) {
+    .bg-f {
+        width: 370px;
+        height: 310px;
+        object-fit: cover
+    }
+}
+
+@media (min-width: 991px) {
+    #dmenu {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+
 
 

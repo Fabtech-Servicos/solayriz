@@ -61,10 +61,11 @@ Router::scope('/', function (RouteBuilder $routes) {
 
     $routes->connect('/', ['controller' => 'Pages', 'action' => 'site']);
     $routes->connect('/projetos', ['controller' => 'Projects', 'action' => 'project_all']);
+    $routes->connect('/posts', ['controller' => 'Blog', 'action' => 'blog']);
     $routes->connect('/admin', ['controller' => 'Users', 'action' => 'login']);
     $routes->connect('/contato', ['controller' => 'Contacts', 'action' => 'contato']);
     $routes->connect('/video', ['controller' => 'Videos', 'action' => 'video']);
-    $routes->connect('/servicos', ['controller' => 'Portfolio', 'action' => 'portifolio']);
+
 
 
     $routes->connect('/projetos/:id', ['controller' => 'Projects', 'action' => 'project'])->setPass(['id']);
@@ -72,7 +73,7 @@ Router::scope('/', function (RouteBuilder $routes) {
     $routes->connect('/energia-solar/:id', ['controller' => 'SolarEnergy', 'action' => 'solarEnergy'])->setPass(['id']);
     $routes->connect('/sobre/:id', ['controller' => 'About', 'action' => 'about'])->setPass(['id']);
     $routes->connect('/como-funciona/:id', ['controller' => 'Operation', 'action' => 'operation'])->setPass(['id']);
-    $routes->connect('/servico/:id', ['controller' => 'Portfolio', 'action' => 'portifolio_single'])->setPass(['id']);
+    $routes->connect('/post/:id', ['controller' => 'Blog', 'action' => 'post'])->setPass(['id']);
     /**
      * ...and connect the rest of 'Pages' controller's URLs.
      */
@@ -83,5 +84,5 @@ Router::scope('/', function (RouteBuilder $routes) {
 
 });
 
-Router::connect('/sobre', ['controller' => 'Abouts', 'action' => 'about']);
+
 

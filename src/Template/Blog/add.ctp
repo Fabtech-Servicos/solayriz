@@ -4,7 +4,7 @@
  * @var \App\Model\Entity\Blog $blog
  */
 ?>
-<!-- Content Header (Page header) -->
+
   <section class="content-header">
     <h1>
       Blog

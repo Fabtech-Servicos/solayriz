@@ -37,7 +37,7 @@
                             <div class="overlay-content">
                                 <div class="box">
                                     <div class="read-more">
-                                        <a class="btn-two" href="blog-single.html">Leia Mais<span class="icon-null"></span></a>
+                                        <a class="btn-two" href="/post/<?= $post->id ?>">Leia Mais<span class="icon-null"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -45,13 +45,13 @@
                         <div class="text-holder">
                             <div class="meta-box">
                                 <ul class="meta-info">
-                                    <li><a href="#"><b><?= $post->signature ?></b></a></li>
+                                    <li><b><?= $post->signature ?></b></li>
                                 </ul>
                                 <div class="author-icon">
                                     <span class="icon-user"></span>
                                 </div>
                             </div>
-                            <h3 class="blog-title"><a href="blog-single.html"><?= $post->title ?></a></h3>
+                            <h3 class="blog-title"><a href="/post/<?= $post->id ?>"><?= $post->title ?></a></h3>
                         </div>
                     </div>
                 </div>

@@ -81,7 +81,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
-                    <div class="inner-content clearfix">
+                    <div class="inner-content clearfix" id="dmenu">
                         <nav class="main-menu clearfix">
                             <div class="navbar-header clearfix">
                                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -112,51 +112,22 @@
                                             <li><a href="/projetos">Todos</a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a href="blog.html">Blog</a>
-                                        <ul>
-                                            <li><a href="blog.html">Blog Style 01</a></li>
-                                            <li><a href="blog-v2.html">Blog Style 02</a></li>
-                                            <li><a href="blog-v3.html">Blog Style 03</a></li>
-                                            <li><a href="blog-single.html">Blog Single Post</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="shop.html">Shop</a>
-                                        <ul>
-                                            <li><a href="shop.html">Our Products</a></li>
-                                            <li><a href="shop-single.html">Products Single</a></li>
-                                            <li><a href="shopping-cart.html">Shopping Cart</a></li>
-                                            <li><a href="checkout.html">Checkout</a></li>
-                                            <li><a href="account.html">My Account</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="contact.html">Contact</a></li>
+
+                                    <li><a href="/posts">Blog</a></li>
+
+                                    <li><a href="/contato">Contato</a></li>
                                 </ul>
                             </div>
                         </nav>
 
-                        <div class="mainmenu-right">
-                            <div class="outer-search-box">
-                                <div class="seach-toggle"><i class="fa fa-search"></i></div>
-                                <ul class="search-box">
-                                    <li>
-                                        <form method="post" action="index.html">
-                                            <div class="form-group">
-                                                <input type="search" name="search" placeholder="Search Here" required>
-                                                <button type="submit"><i class="fa fa-search"></i></button>
-                                            </div>
-                                        </form>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="cart-box">
-                                <a href="shoping-cart.html"><span class="icon-cart"><span class="number">0</span></span></a>
-                            </div>
-                        </div>
 
                     </div>
                 </div>
             </div>
         </div>
+        <a href="https://api.whatsapp.com/send?l=pt&amp;phone=5579988668644" target="_blank">
+            <img src="/images/whatsapp-button.png" style="height:80px; position:fixed; bottom: 10px;
+     right: 10px; z-index:99999;width: 140px;height: auto; margin-bottom: 33px" data-selector="img"></a>
     </section>
     <!--End mainmenu area-->
 

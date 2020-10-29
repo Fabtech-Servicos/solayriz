@@ -74,7 +74,7 @@ class PagesController extends AppController
         $this->loadModel('Products');
         $this->loadModel('Projects');
         $this->loadModel('Portfolio');
-        $this->loadModel('Missions');
+        $this->loadModel('Blog');
         $this->loadModel('Services');
         $this->loadModel('Categories');
        // $this->loadModel('Visions');
@@ -87,7 +87,7 @@ class PagesController extends AppController
         $servic = $this->Portfolio->find('all', array('limit' => 3))->order(['id' => 'desc']);
         $servico = $this->Portfolio->find('all');
         $projects = $this->Projects->find('all')->order(['id DESC'])->limit(9);
-        $missions = $this->Missions->find('all')->order(['id DESC'])->limit(1);
+        $blog = $this->Blog->find('all')->order(['id DESC'])->limit(3);
         $services = $this->Services->find('all')->order(['id DESC']);
         $ct = $this->Categories->find('all')->order(['id DESC']);
 
@@ -124,7 +124,7 @@ class PagesController extends AppController
         $this->set('servic', $servic);
         $this->set('servico', $servico);
         $this->set('projects', $projects);
-        $this->set('missions',$missions );
+        $this->set('blog',$blog );
         $this->set('services',$services );
         $this->set('ct',$ct );
 

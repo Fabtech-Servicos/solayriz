@@ -42,7 +42,7 @@
                          style="z-index: 7; white-space: nowrap;">
                         <div class="slide-content middle-slide text-center">
                             <div class="btn-box">
-                                <a class="btn-one" href="#"><b>Orçamento</b><span class="icon-null"></span></a>
+                                <a class="btn-one" href="#orc"><b>Orçamento</b><span class="icon-null"></span></a>
                             </div>
                         </div>
                     </div>
@@ -131,7 +131,7 @@
             <div class="col-xl-12">
                 <div class="inner-content fix">
                     <div class="title float-left">
-                        <h2>Alguma dúvida?<br> Por favor entre em contato.</h2>
+                        <h2 style="text-align: center">Alguma dúvida?<br> Por favor entre em contato.</h2>
                     </div>
                     <div class="button float-right">
                         <a style="width: 250px;  text-align: center;}" class="btn-three" href="#">Contato<span class="icon-null"></span></a>
@@ -325,120 +325,40 @@
 <section class="latest-blog-area">
     <div class="container inner-content">
         <div class="sec-title">
-            <p>News & Updates</p>
-            <div class="title">Story From Our Blog</div>
+            <p>Posts</p>
+            <div class="title">Nosso blog</div>
             <div class="border-box"></div>
         </div>
         <div class="row">
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                 <div class="blog-carousel owl-carousel owl-theme">
                     <!--Start single blog post-->
+                    <?php foreach ($blog as $bl): ?>
                     <div class="single-blog-post">
                         <div class="img-holder">
-                            <img src="/images/blog/v1-1.jpg" alt="Awesome Image">
+                            <img class="bg-f" src="<?= "/files/Blog/photo/" . $bl->photo ?>" alt="Awesome Image">
                             <div class="overlay-style-two"></div>
                             <div class="post-date">
-                                <h3><span>Jan</span><br> 31</h3>
+                                <h3 style="margin-top: 15px"><span><?= $bl->date ?></span></h3>
                             </div>
                         </div>
                         <div class="text-holder">
-                            <h3 class="blog-title"><a href="blog-single.html">Rising Oil Price Should Re-Focus US On Solar Energy Growth</a></h3>
+                            <h3 class="blog-title"><a href="/post/<?= $bl->id ?>"><?= $bl->title ?></a></h3>
                             <div class="meta-box">
                                 <ul class="meta-info">
-                                    <li><a href="#"><b>Rubin Santro</b></a></li>
-                                    <li><a href="#">Environment</a></li>
+                                    <li><b><?= $bl->signature ?></b></li>
                                 </ul>
                                 <div class="author-icon">
                                     <span class="icon-user"></span>
                                 </div>
                             </div>
                             <div class="text">
-                                <p>Same as saying through shrinking from toil & pain these cases perfectly simple...</p>
+                                <p><?= strlen($ab->description) >  70 ? substr($ab->description, 0, 70) . "..." : $ab->description ?></p>
                                 <a class="btn-two" href="#">Read More<span class="icon-null"></span></a>
                             </div>
                         </div>
                     </div>
-                    <!--End single blog post-->
-                    <!--Start single blog post-->
-                    <div class="single-blog-post">
-                        <div class="img-holder">
-                            <img src="/images/blog/v1-2.jpg" alt="Awesome Image">
-                            <div class="overlay-style-two"></div>
-                            <div class="post-date">
-                                <h3><span>Jan</span><br> 06</h3>
-                            </div>
-                        </div>
-                        <div class="text-holder">
-                            <h3 class="blog-title"><a href="blog-single.html">Tax and Duties Are Acting As Road Block for Power for All!</a></h3>
-                            <div class="meta-box">
-                                <ul class="meta-info">
-                                    <li><a href="#"><b>Richard Antony</b></a></li>
-                                    <li><a href="#">Solar System</a></li>
-                                </ul>
-                                <div class="author-icon">
-                                    <span class="icon-user"></span>
-                                </div>
-                            </div>
-                            <div class="text">
-                                <p>Our power of choice is untrammelled and do when nothing prevents all our being...</p>
-                                <a class="btn-two" href="#">Read More<span class="icon-null"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End single blog post-->
-                    <!--Start single blog post-->
-                    <div class="single-blog-post">
-                        <div class="img-holder">
-                            <img src="/images/blog/v1-3.jpg" alt="Awesome Image">
-                            <div class="overlay-style-two"></div>
-                            <div class="post-date">
-                                <h3><span>Dec</span><br> 29</h3>
-                            </div>
-                        </div>
-                        <div class="text-holder">
-                            <h3 class="blog-title"><a href="blog-single.html">A Decline in Solar Growth: Root Cause Analysis</a></h3>
-                            <div class="meta-box">
-                                <ul class="meta-info">
-                                    <li><a href="#"><b>Rubin Santro</b></a></li>
-                                    <li><a href="#">Environment</a></li>
-                                </ul>
-                                <div class="author-icon">
-                                    <span class="icon-user"></span>
-                                </div>
-                            </div>
-                            <div class="text">
-                                <p>Frequently occur that pleasures have to be all repudiated & annoyances accepted...</p>
-                                <a class="btn-two" href="#">Read More<span class="icon-null"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End single blog post-->
-                    <!--Start single blog post-->
-                    <div class="single-blog-post">
-                        <div class="img-holder">
-                            <img src="/images/blog/v1-2.jpg" alt="Awesome Image">
-                            <div class="overlay-style-two"></div>
-                            <div class="post-date">
-                                <h3><span>Jan</span><br> 06</h3>
-                            </div>
-                        </div>
-                        <div class="text-holder">
-                            <h3 class="blog-title"><a href="blog-single.html">Tax and Duties Are Acting As Road Block for Power for All!</a></h3>
-                            <div class="meta-box">
-                                <ul class="meta-info">
-                                    <li><a href="#"><b>Richard Antony</b></a></li>
-                                    <li><a href="#">Solar System</a></li>
-                                </ul>
-                                <div class="author-icon">
-                                    <span class="icon-user"></span>
-                                </div>
-                            </div>
-                            <div class="text">
-                                <p>Our power of choice is untrammelled and do when nothing prevents all our being...</p>
-                                <a class="btn-two" href="#">Read More<span class="icon-null"></span></a>
-                            </div>
-                        </div>
-                    </div>
+                    <?php endforeach; ?>
                     <!--End single blog post-->
                 </div>
             </div>
@@ -449,182 +369,97 @@
 </section>
 <!--End latest blog area-->
 
-<!--Start Testimonial Area-->
-<section class="testimonial-area">
-    <div class="container">
-        <div class="sec-title clrwhite text-center">
-            <p>Testimonials</p>
-            <div class="title">Words From Customers</div>
-            <div class="border-box center"></div>
-        </div>
-        <div class="row">
-            <div class="col-xl-12">
-                <div class="testimonial-carousel owl-carousel owl-theme">
-                    <!--Start Single Testimonial Item-->
-                    <div class="single-testimonial-item text-center">
-                        <div class="img-box">
-                            <img src="/images/testimonial/1.png" alt="Awesome Image">
-                        </div>
-                        <div class="inner-content">
-                            <div class="text-box">
-                                <p>Your guys were knowledgeable, experienced, efficient and neat. A true to work with solartech.</p>
-                            </div>
-                            <div class="client-info">
-                                <h3>Shelly Johnson</h3>
-                                <p><span class="icon-point"></span>California</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Testimonial Item-->
-                    <!--Start Single Testimonial Item-->
-                    <div class="single-testimonial-item text-center">
-                        <div class="img-box">
-                            <img src="/images/testimonial/2.png" alt="Awesome Image">
-                        </div>
-                        <div class="inner-content">
-                            <div class="text-box">
-                                <p>Your guys were knowledgeable, experienced, efficient and neat. A true to work with solartech.</p>
-                            </div>
-                            <div class="client-info">
-                                <h3>Cathrine Wagner</h3>
-                                <p><span class="icon-point"></span>Los Angeles</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Testimonial Item-->
-
-                    <!--Start Single Testimonial Item-->
-                    <div class="single-testimonial-item text-center">
-                        <div class="img-box">
-                            <img src="/images/testimonial/1.png" alt="Awesome Image">
-                        </div>
-                        <div class="inner-content">
-                            <div class="text-box">
-                                <p>Your guys were knowledgeable, experienced, efficient and neat. A true to work with solartech.</p>
-                            </div>
-                            <div class="client-info">
-                                <h3>Shelly Johnson</h3>
-                                <p><span class="icon-point"></span>California</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Testimonial Item-->
-                    <!--Start Single Testimonial Item-->
-                    <div class="single-testimonial-item text-center">
-                        <div class="img-box">
-                            <img src="/images/testimonial/2.png" alt="Awesome Image">
-                        </div>
-                        <div class="inner-content">
-                            <div class="text-box">
-                                <p>Your guys were knowledgeable, experienced, efficient and neat. A true to work with solartech.</p>
-                            </div>
-                            <div class="client-info">
-                                <h3>Cathrine Wagner</h3>
-                                <p><span class="icon-point"></span>Los Angeles</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Testimonial Item-->
-
-                    <!--Start Single Testimonial Item-->
-                    <div class="single-testimonial-item text-center">
-                        <div class="img-box">
-                            <img src="/images/testimonial/1.png" alt="Awesome Image">
-                        </div>
-                        <div class="inner-content">
-                            <div class="text-box">
-                                <p>Your guys were knowledgeable, experienced, efficient and neat. A true to work with solartech.</p>
-                            </div>
-                            <div class="client-info">
-                                <h3>Shelly Johnson</h3>
-                                <p><span class="icon-point"></span>California</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Testimonial Item-->
-                    <!--Start Single Testimonial Item-->
-                    <div class="single-testimonial-item text-center">
-                        <div class="img-box">
-                            <img src="/images/testimonial/2.png" alt="Awesome Image">
-                        </div>
-                        <div class="inner-content">
-                            <div class="text-box">
-                                <p>Your guys were knowledgeable, experienced, efficient and neat. A true to work with solartech.</p>
-                            </div>
-                            <div class="client-info">
-                                <h3>Cathrine Wagner</h3>
-                                <p><span class="icon-point"></span>Los Angeles</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Testimonial Item-->
-
-                </div>
-            </div>
-        </div>
-        <div class="button text-center wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
-            <a class="btn-three" href="#">Read More Words<span class="icon-null"></span></a>
-        </div>
-    </div>
-</section>
-<!--End Testimonial Area-->
-
 <!--Start Consultation Area-->
-<section class="consultation-area">
+<section class="consultation-area" id="orc">
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
                 <div class="consultation-box">
                     <div class="title-box">
-                        <h2>Get Free Consultation</h2>
-                        <span>Get a free consultation from our experts, Our customer support team help you 24/7, Don’t hesitate.</span>
+                        <h2>Peça Já Seu Orçamento!</h2>
+                        <span>Preencha o formulário e um de nossos consultores entrará em contato para fazer um orçamento.</span>
                     </div>
                     <div class="consultation">
                         <form class="consultation-form">
                             <div class="row">
                                 <div class="col-xl-12">
                                     <div class="single-box">
-                                        <input type="text" name="form_name" value="" placeholder="Your Name" required="">
+                                        <input type="text" name="form_name" value="" placeholder="Nome" required="">
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-xl-6">
                                     <div class="single-box">
-                                        <input type="email" name="form_email" value="" placeholder="Email Address" required="">
+                                        <input type="email" name="form_tel" value="" placeholder="Telefone" required="">
                                     </div>
                                 </div>
                                 <div class="col-xl-6">
                                     <div class="single-box">
                                         <select class="selectpicker" data-width="100%">
-                                            <option selected="selected">Discuss About</option>
-                                            <option>Installation</option>
-                                            <option>Maintenance</option>
-                                            <option>Monitoring</option>
-                                            <option>Consultation</option>
-                                            <option>Roof Solution</option>
-                                            <option>Inverter Repair</option>
+                                            <option selected="selected">Escolha seu estado</option>
+                                            <option value="AC">Acre</option>
+                                            <option value="AL">Alagoas</option>
+                                            <option value="AP">Amapá</option>
+                                            <option value="AM">Amazonas</option>
+                                            <option value="BA">Bahia</option>
+                                            <option value="CE">Ceará</option>
+                                            <option value="DF">Distrito Federal</option>
+                                            <option value="ES">Espirito Santo</option>
+                                            <option value="GO">Goiás</option>
+                                            <option value="MA">Maranhão</option>
+                                            <option value="MS">Mato Grosso do Sul</option>
+                                            <option value="MT">Mato Grosso</option>
+                                            <option value="MG">Minas Gerais</option>
+                                            <option value="PA">Pará</option>
+                                            <option value="PB">Paraíba</option>
+                                            <option value="PR">Paraná</option>
+                                            <option value="PE">Pernambuco</option>
+                                            <option value="PI">Piauí</option>
+                                            <option value="RJ">Rio de Janeiro</option>
+                                            <option value="RN">Rio Grande do Norte</option>
+                                            <option value="RS">Rio Grande do Sul</option>
+                                            <option value="RO">Rondônia</option>
+                                            <option value="RR">Roraima</option>
+                                            <option value="SC">Santa Catarina</option>
+                                            <option value="SP">São Paulo</option>
+                                            <option value="SE">Sergipe</option>
+                                            <option value="TO">Tocantins</option>
                                         </select>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
+                              <div class="col-xl-12">
+                                <div class="single-box">
+                                    <input type="email" name="form_email" value="" placeholder="Email" required="">
+                                </div>
+                               </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-xl-12">
+                            <div class="custom-file-upload" style="text-align: center">
+                                <label for="file-upload" class="custom-file-upload1">
+                                    <i class="fa fa-cloud-upload"></i>
+                                    <span style="cursor: pointer">Anexe sua conta de energia!</span>
+                                </label>
+                                <input style="display: none" id="file-upload" type="file"/>
+                            </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="row">
                                 <div class="col-xl-12">
                                     <div class="single-box">
-                                        <button class="btn-three" type="submit">get In Touch<span class="icon-null"></span></button>
+                                        <button class="btn-three" type="submit">Quero Orçamento<span class="icon-null"></span></button>
                                     </div>
                                 </div>
                             </div>
+
                         </form>
-                    </div>
-                    <div class="consultation-bottom-text text-center">
-                        <div class="top"><span>Or</span></div>
-                        <div class="inner">
-                            <div class="text">
-                                <p>Confirm your 10 mins consultation call with our expert team, They will answer your questions.</p>
-                            </div>
-                            <a class="btn-three" href="#">Schedule for Call<span class="icon-null"></span></a>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -638,23 +473,9 @@
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
-                <ul class="brand-items">
+                <ul class="brand-items" style="display: flex; justify-content: center;">
                     <!--Start Single Brand Item-->
-                    <li class="single-brand-item wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <a href="#"><img src="/images/brand/1.png" alt="Awesome Brand Image"></a>
-                        <div class="overlay-box">
-                            <a href="#"><img src="/images/brand/1-hover.png" alt="Awesome Brand Image"></a>
-                        </div>
-                    </li>
-                    <!--End Single Brand Item-->
-                    <!--Start Single Brand Item-->
-                    <li class="single-brand-item wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
-                        <a href="#"><img src="/images/brand/2.png" alt="Awesome Brand Image"></a>
-                        <div class="overlay-box">
-                            <a href="#"><img src="/images/brand/2-hover.png" alt="Awesome Brand Image"></a>
-                        </div>
-                    </li>
-                    <!--End Single Brand Item-->
+
                     <!--Start Single Brand Item-->
                     <li class="single-brand-item wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
                         <a href="#"><img src="/images/brand/3.png" alt="Awesome Brand Image"></a>
@@ -663,22 +484,7 @@
                         </div>
                     </li>
                     <!--End Single Brand Item-->
-                    <!--Start Single Brand Item-->
-                    <li class="single-brand-item wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
-                        <a href="#"><img src="/images/brand/4.png" alt="Awesome Brand Image"></a>
-                        <div class="overlay-box">
-                            <a href="#"><img src="/images/brand/4-hover.png" alt="Awesome Brand Image"></a>
-                        </div>
-                    </li>
-                    <!--End Single Brand Item-->
-                    <!--Start Single Brand Item-->
-                    <li class="single-brand-item wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
-                        <a href="#"><img src="/images/brand/5.png" alt="Awesome Brand Image"></a>
-                        <div class="overlay-box">
-                            <a href="#"><img src="/images/brand/5-hover.png" alt="Awesome Brand Image"></a>
-                        </div>
-                    </li>
-                    <!--End Single Brand Item-->
+
                 </ul>
             </div>
         </div>
@@ -693,15 +499,15 @@
             <div class="col-xl-12">
                 <div class="download-material">
                     <div class="title-box float-left">
-                        <h3>Power Your Home with Innovative Energy Technologies.</h3>
+                        <h3>Potencialize sua casa com tecnologias inovadoras de energia</h3>
                     </div>
                     <div class="button float-right">
-                        <a href="#">
+                        <a href="/sobre/5">
                             <div class="icon">
                                 <span class="icon-download"></span>
                             </div>
                             <div class="title">
-                                <h4>Download Material</h4>
+                                <h4>Solayris</h4>
                             </div>
                         </a>
                     </div>
