@@ -115,6 +115,8 @@
 
                                     <li><a href="/posts">Blog</a></li>
 
+                                    <li><a href="/video">Videos</a></li>
+
                                     <li><a href="/contato">Contato</a></li>
                                 </ul>
                             </div>

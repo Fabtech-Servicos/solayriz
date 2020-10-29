@@ -397,30 +397,11 @@
                             </div>
                         </div>
                     <?php endforeach; ?>
-
-                    <!--End Single Testimonial Item-->
-                    <!--Start Single Testimonial Item-->
-                    <div class="video-holder-box">
-                        <div class="img-holder">
-                            <img src="/images/testimonial/video-gallery-bg.jpg" alt="Awesome Image">
-                            <div class="icon-holder">
-                                <div class="icon">
-                                    <div class="inner text-center">
-                                        <a class="html5lightbox wow zoomIn" data-wow-delay="300ms" data-wow-duration="1500ms" title="Solartech Video Gallery" href="https://www.youtube.com/watch?v=MJp5J3w_2hM">
-                                            <span class="icon-null-4"></span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Testimonial Item-->
-
                 </div>
             </div>
         </div>
         <div class="button text-center wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
-            <a class="btn-three" href="/videos">Ver Mais<span class="icon-null"></span></a>
+            <a class="btn-three" href="/video">Ver Mais<span class="icon-null"></span></a>
         </div>
     </div>
 </section>

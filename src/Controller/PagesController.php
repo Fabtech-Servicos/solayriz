@@ -92,7 +92,7 @@ class PagesController extends AppController
 
 
 
-        $videos = $this->Videos->find('all')->order(['id DESC'])->limit(1);
+        $videos = $this->Videos->find('all')->order(['id DESC'])->limit(4);
 
 
 
