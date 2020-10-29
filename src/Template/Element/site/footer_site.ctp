@@ -110,7 +110,7 @@
                 <div class="footer-social-links float-right">
                     <ul class="sociallinks-style-two fix">
                         <li>
-                            <a href="/https://www.facebook.com/solayriz.slzengenharia.3"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="https://www.facebook.com/solayriz.slzengenharia.3" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                         </li>
                         <li>
                             <a href="https://www.instagram.com/solayriz/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>

@@ -4192,7 +4192,7 @@ select:focus {
 }
 
 .main-slider .slide-content .btn-box a:hover {
-    background: #2e8c05;
+    background: #416787;
 }
 
 .main-slider .slide-content .btn-box a.btn-one b {
@@ -4202,7 +4202,7 @@ select:focus {
 
 .main-slider .slide-content .btn-box a.btn-one span:before {
     width: 60px;
-    border-left: 1px solid #319306;
+    border-left: 1px solid #416787;
     color: #ffffff;
 }
 

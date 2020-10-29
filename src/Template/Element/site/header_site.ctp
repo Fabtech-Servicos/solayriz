@@ -7,20 +7,19 @@
             <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12">
                     <div class="top-style1 clearfix">
-                        <div class="top-left-style1 float-left clearfix">
-                            <div class="find-text">
-                                <p>Find a Solartech Authorized Professional<span class="icon-null"></span></p>
-                            </div>
-                        </div>
+<!--                        <div class="top-left-style1 float-left clearfix">-->
+<!--                            <div class="find-text">-->
+<!--                                <p>Find a Solartech Authorized Professional<span class="icon-null"></span></p>-->
+<!--                            </div>-->
+<!--                        </div>-->
                         <div class="top-right-style1 float-right">
                             <div class="for-enquiry float-left fix">
                                 <p><span class="icon-question"></span>Telefone: (79) 98866-8644</p>
                             </div>
                             <ul class="top-social-style1 sociallinks-style-one float-right fix">
-                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                <li><a href="https://www.facebook.com/solayriz.slzengenharia.3" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="https://www.instagram.com/solayriz/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+
                             </ul>
                         </div>
                     </div>
@@ -49,8 +48,9 @@
                                             <img src="/images/icon/header-icon-1.png" alt="Awesome Image">
                                         </div>
                                         <div class="text">
-                                            <h3>For Visitors</h3>
-                                            <p>47 W 13th Street, NY</p>
+                                            <h3>Endereço</h3>
+                                            <a style="color: #83888d" href="https://www.google.com/search?sxsrf=ALeKk01T0JzbY7xQsqF42mYek1jdEj1ktg:1603936758131&ei=6yGaX_DuM6TD5OUPmoClgA4&q=solayriz%20engenharia%20endere%C3%A7o&oq=solayriz+engenharia+endere%C3%A7o&gs_lcp=CgZwc3ktYWIQAzIECCMQJ1CeRlieRmD-R2gAcAB4AIABvgGIAfEGkgEDMC41mAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=psy-ab&ved=2ahUKEwi5m9eF2tjsAhVzIbkGHQifAEkQvS4wAHoECAUQGw&uact=5&npsic=0&rflfq=1&rlha=0&rllag=-10933671,-37066617,1234&tbm=lcl&rldimm=3826243102577998974&lqi=Ch1zb2xheXJpeiBlbmdlbmhhcmlhIGVuZGVyZcOnbyICSAFaKgoTc29sYXlyaXogZW5nZW5oYXJpYSITc29sYXlyaXogZW5nZW5oYXJpYQ&rldoc=1&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!2m1!1e3!3sIAE,lf:1,lf_ui:2&rlst=f#rlfi=hd:;si:3826243102577998974,l,Ch1zb2xheXJpeiBlbmdlbmhhcmlhIGVuZGVyZcOnbyICSAFaKgoTc29sYXlyaXogZW5nZW5oYXJpYSITc29sYXlyaXogZW5nZW5oYXJpYQ;mv:[[-10.9250926,-37.057432399999996],[-10.942250399999999,-37.0758025]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!2m1!1e3!3sIAE,lf:1,lf_ui:2" target="_blank">
+                                                <p>Onde Nos Encontrar</p></a>
                                         </div>
                                     </div>
                                 </li>
@@ -67,7 +67,7 @@
                                 </li>
                             </ul>
                             <div class="headers1-button">
-                                <a class="btn-one" href="#"><b>Orçamento</b><span class="icon-null"></span></a>
+                                <a class="btn-one" href="/#orc"><b>Orçamento</b><span class="icon-null"></span></a>
                             </div>
                         </div>
                     </div>
