@@ -388,7 +388,7 @@
                                 <div class="icon-holder">
                                     <div class="icon">
                                         <div class="inner text-center">
-                                            <a class="html5lightbox wow zoomIn" data-wow-delay="300ms" data-wow-duration="1500ms" title="Solartech Video Gallery" href="<?= $video->link ?>">
+                                            <a class="html5lightbox wow zoomIn" data-wow-delay="300ms" data-wow-duration="1500ms" title="Solayriz" href="<?= $video->link ?>">
                                                 <span class="icon-null-4"></span>
                                             </a>
                                         </div>

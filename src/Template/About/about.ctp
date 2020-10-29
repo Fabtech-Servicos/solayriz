@@ -177,7 +177,7 @@
                                     </div>
                                     <div class="text">
                                         <h3><?= $about->title_value ?></h3>
-                                        <p><?= $about->value ?></p>
+                                        <span class="vvv"><?= $about->value ?></span>
                                     </div>
                                 </div>
                             </div>
@@ -223,18 +223,20 @@
                 <ul class="fact-counter style2">
                     <li class="single-fact-counter style2 wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1500ms">
                         <div class="count-box">
+                            <a href="https://www.facebook.com/solayriz.slzengenharia.3" target="_blank">
                             <h1>
                                 <i class="flaticon"></i>
-<!--                                <span class="timer" data-from="1" data-to="5258" data-speed="5000" data-refresh-interval="50">5258</span>-->
                                 <div style="font-size: 54px; color: #fff" class="fa fa-facebook" aria-hidden="true"></div>
                             </h1>
                             <div class="title">
                                 <h3>Facebook</h3>
                             </div>
+                            </a>
                         </div>
                     </li>
                     <li class="single-fact-counter style2 wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
                         <div class="count-box">
+                            <a href="https://www.instagram.com/solayriz/" target="_blank">
                             <h1>
                                 <i class="flaticon"></i>
                                 <div style="font-size: 54px; color: #fff" class="fa fa-instagram" aria-hidden="true"></div>
@@ -246,6 +248,7 @@
                     </li>
                     <li class="single-fact-counter style2 wow fadeInLeft" data-wow-delay="500ms" data-wow-duration="1500ms">
                         <div class="count-box">
+                            <a href="https://api.whatsapp.com/send?l=pt&amp;phone=5579988668644" target="_blank">
                             <h1>
                                 <i class="flaticon"></i>
                                 <div style="font-size: 54px; color: #fff" class="fa fa-whatsapp" aria-hidden="true"></div>
@@ -253,6 +256,7 @@
                             <div class="title">
                                 <h3>WhatsApp</h3>
                             </div>
+                            </a>
                         </div>
                     </li>
                 </ul>

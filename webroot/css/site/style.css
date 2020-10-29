@@ -19110,7 +19110,19 @@ select:focus {
     }
 }
 
+/*@media (min-width: 991px) {*/
+/*    .op {*/
+/*        width: 480px;*/
+/*        height: 445px;*/
+/*        object-fit: cover*/
+/*    }*/
+/*}*/
 
+
+
+.vvv {
+    color: #b3cde4 !important;
+}
 
 
 

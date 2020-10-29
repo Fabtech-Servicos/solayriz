@@ -164,7 +164,7 @@
                 <div class="col-xl-6 pd0">
                     <div class="video-holder-box">
                         <div class="img-holder">
-                            <img <img src="<?= "/files/Operation/Cover/" . $operation->cover ?>" alt="Awesome Image">
+                            <img  src="<?= "/files/Operation/Cover/" . $operation->cover ?>" alt="Awesome Image">
                             <div class="icon-holder">
                                 <div class="icon">
                                     <div class="inner text-center">
@@ -182,7 +182,7 @@
                         <div class="row mar0">
                             <div class="col-xl-6 col-lg-6 col-md-6 pd0">
                                 <div class="single-box">
-                                    <img src="<?= "/files/Operation/photo3/" . $operation->photo3 ?>" alt="Awesome Image">
+                                    <img class="op" src="<?= "/files/Operation/photo3/" . $operation->photo3 ?>" alt="Awesome Image">
                                     <div class="title">
                                         <h3><?= $operation->title_installation  ?></h3>
                                     </div>
@@ -202,7 +202,7 @@
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-6 pd0">
                                 <div class="single-box">
-                                    <img src="<?= "/files/Operation/Photo4/" . $operation->photo4 ?>" alt="Awesome Image">
+                                    <img  class="op" src="<?= "/files/Operation/Photo4/" . $operation->photo4 ?>" alt="Awesome Image">
                                     <div class="title">
                                         <h3><?= $operation->title_installation2 ?></h3>
                                     </div>
