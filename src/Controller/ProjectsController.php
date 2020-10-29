@@ -115,7 +115,7 @@ class ProjectsController extends AppController
 
     public function project($categoryId){
         $this->paginate = [
-            'limit'=> 6,
+            'limit'=> 16,
         ];
         $this->viewBuilder()->setLayout('site');
         $project = $this->paginate( $this->Projects->find('all')->where([ 'category_id' => $categoryId ]) );
@@ -128,7 +128,7 @@ class ProjectsController extends AppController
 
     public function projectAll(){
         $this->paginate = [
-            'limit'=> 6,
+            'limit'=> 16,
         ];
         $this->viewBuilder()->setLayout('site');
         $projects = $this->paginate($this->Projects);

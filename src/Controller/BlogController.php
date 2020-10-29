@@ -112,7 +112,7 @@ class BlogController extends AppController
 
     public function blog(){
         $this->paginate = [
-            'limit'=> 6,
+            'limit'=> 9,
         ];
         $this->viewBuilder()->setLayout('site');
         $blog = $this->paginate($this->Blog);
