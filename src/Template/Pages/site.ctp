@@ -382,9 +382,14 @@
                     <div class="consultation">
                         <form class="consultation-form">
                             <div class="row">
-                                <div class="col-xl-12">
+                                <div class="col-xl-7">
                                     <div class="single-box">
                                         <input type="text" name="form_name" value="" placeholder="Nome" required="">
+                                    </div>
+                                </div>
+                                <div class="col-xl-5">
+                                    <div class="single-box">
+                                        <input type="text" name="form_vlr" value="" placeholder="Valor da conta" required="">
                                     </div>
                                 </div>
                             </div>
