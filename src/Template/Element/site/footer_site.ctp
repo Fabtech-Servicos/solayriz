@@ -101,8 +101,7 @@
                         <span class="icon-call"></span>
                     </div>
                     <div class="title">
-                        <span>Qualquer pergunta? Ligue para nós</span>
-                        <h3>(+55) 79-988668644</h3>
+                        <h3 style="font-size: 19px">(+55) 79-98866-8644</h3>
                     </div>
                 </div>
             </div>
