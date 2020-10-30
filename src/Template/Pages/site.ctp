@@ -159,7 +159,7 @@
                         <div class="border-box center"></div>
                     </div>
                     <div class="inner-content">
-                        <p>Indignation and dislike men who are so beguiled<br> and demoralized by the charms.</p>
+<!--                        <p>Indignation and dislike men who are so beguiled<br> and demoralized by the charms.</p>-->
                         <div class="button">
                             <a class="btn-two" href="/projetos">Ver Todos os Projetos<span class="icon-null"></span></a>
                         </div>
@@ -283,7 +283,7 @@
                             <h1><span class="icon-power"></span></h1>
                         </div>
                         <h3>Energia<br> Solar</h3>
-                        <p>Frequently occur that pleasures have to be repudiated & annoyan accepted. </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aecenas</p>
                         <div class="button">
                             <a class="btn-two" href="/energia-solar/8">Ver Mais<span class="icon-null"></span></a>
                         </div>
@@ -295,7 +295,7 @@
                             <h1><span class="icon-null-3"></span></h1>
                         </div>
                         <h3>Como<br> Funciona</h3>
-                        <p> Pleasures to secure other greater or else worse endures pains avoid. </p>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aecenas</p>
                         <div class="button">
                             <a class="btn-two" href="/como-funciona/4">Ver Mais<span class="icon-null"></span></a>
                         </div>
@@ -307,7 +307,7 @@
                             <h1><span class="icon-power-1"></span></h1>
                         </div>
                         <h3>Nossos<br> Projetos</h3>
-                        <p>Indignations and dislikes men who are so demoralized by the charms.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas</p>
                         <div class="button">
                             <a class="btn-two" href="/projetos">Ver Mais<span class="icon-null"></span></a>
                         </div>
