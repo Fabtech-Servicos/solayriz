@@ -5,12 +5,12 @@
                 <div class="col-xl-12">
                     <div class="inner-content clearfix">
                         <div class="title float-left">
-                            <h1>Blog Style 02</h1>
+                            <h1>Blog</h1>
                         </div>
                         <div class="breadcrumb-menu float-right">
                             <ul class="clearfix">
-                                <li><a href="index.html">Home</a></li>
-                                <li class="active">Blog Style 02</li>
+                                <li><a href="/">Home</a></li>
+                                <li class="active">Blog</li>
                             </ul>
                         </div>
                     </div>

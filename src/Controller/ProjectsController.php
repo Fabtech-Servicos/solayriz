@@ -141,6 +141,7 @@ class ProjectsController extends AppController
      $this->viewBuilder()->setLayout('site');
      $projectSingle = $this->Projects->get($id);
      $this->set('projectSingle', $projectSingle);
+
     }
 
     public function beforeFilter(Event $event)

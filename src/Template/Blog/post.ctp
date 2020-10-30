@@ -14,7 +14,7 @@
                                 <span class="icon-user"></span>
                             </div>
                             <ul class="meta-info">
-                                <li><a href="#"><b><?= $post->signature ?></b></a></li>
+                                <li style="color: #3398fd"><b><?= $post->signature ?></b></li>
                             </ul>
                         </div>
                     </div>
@@ -57,8 +57,8 @@
                                         <div class="inner-content">
                                             <div class="social-links-box pull-right">
                                                 <ul class="sociallinks-style-two float-left fix">
-                                                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                                    <li><a href="https://www.instagram.com/solayriz/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                                    <li><a href="https://www.facebook.com/solayriz.slzengenharia.3" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 
                                                 </ul>
                                             </div>
@@ -69,32 +69,34 @@
 
                             <!--Start prev next option-->
                             <div class="blog-prev-next-option">
-
+                                <?php foreach ($prev as $pv): ?>
+                            <?php if (!empty($pv)): ?>
                                 <div class="single prev">
-                                    <?php foreach ($prev as $pv): ?>
                                     <div class="image-thumb">
                                         <img class="img-pn" src="<?= "/files/Blog/photo/" . $pv->photo ?>" alt="Image">
                                     </div>
                                     <div class="title">
                                         <h3><?= $pv->title ?></h3>
-                                        <a href="<?= $pv->id ?>">prev<span class="icon-null"></span></a>
+                                        <a href="<?= $pv->id ?>"><span class="fa fa-long-arrow-left"></span>&nbsp prev</a>
                                     </div>
-                                    <?php endforeach;?>
                                 </div>
+                                    <?php endif; ?>
+                                <?php endforeach;?>
 
 
-
+                                <?php foreach ($next as $nx): ?>
+                                <?php if (!empty($nx)): ?>
                                 <div class="single next">
-                                    <?php foreach ($next as $nx): ?>
                                     <div class="image-thumb">
                                         <img class="img-pn" src="<?= "/files/Blog/photo/" . $nx->photo ?>" alt="Image">
                                     </div>
                                     <div class="title">
                                         <h3><?= $nx->title ?></h3>
-                                        <a href="<?= $nx->id ?>">Next<span class="icon-null"></span></a>
+                                        <a href="/post/<?= $nx->id ?>">Next<span class="fa fa-long-arrow-right"></span></a>
                                     </div>
-                                    <?php endforeach;?>
                                 </div>
+                                    <?php endif; ?>
+                                <?php endforeach;?>
 
 
                             </div>

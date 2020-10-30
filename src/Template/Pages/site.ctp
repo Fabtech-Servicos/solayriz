@@ -128,17 +128,24 @@
 <section class="slogan-area martop-minus">
     <div class="container">
         <div class="row">
-            <div class="col-xl-12">
+            <div class="col-xl-6" style=" justify-content: center; display: flex;">
                 <div class="inner-content fix">
                     <div class="title float-left">
                         <h2 style="text-align: center">Alguma dúvida?<br> Por favor entre em contato.</h2>
                     </div>
-                    <div class="button float-right">
-                        <a style="width: 250px;  text-align: center;}" class="btn-three" href="#">Contato<span class="icon-null"></span></a>
-                    </div>
                 </div>
             </div>
+
+
+
+            <div class="col-xl-6" style=" justify-content: center; display: flex;">
+                <div class="button float-right">
+                    <a style="width: 250px;  text-align: center;}" class="btn-three" href="#">Contato<span class="icon-null"></span></a>
+                </div>
+            </div>
+
         </div>
+
     </div>
 </section>
 <!--End slogan area-->
@@ -430,14 +437,14 @@
                                 </div>
                                 <div class="col-xl-5">
                                     <div class="single-box">
-                                        <input type="text" name="form_vlr" value="" placeholder="Valor da conta" required="">
+                                        <input  id="valor" type="text" name="form_vlr" value="" placeholder="Valor da conta" required="">
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-xl-6">
                                     <div class="single-box">
-                                        <input type="email" name="form_tel" value="" placeholder="Telefone" required="">
+                                        <input type="text" name="form_tel" value="" placeholder="Telefone" data-mask="(00) 00000-0000'" required="">
                                     </div>
                                 </div>
                                 <div class="col-xl-6">
@@ -575,3 +582,10 @@
     </div>
 </section>
 <!--End Download Material area-->
+
+<?php $this->start('scriptBottom'); ?>
+<script>
+    $('#valor').mask('#.##0,00', {reverse: true});
+</script>
+
+<?php  $this->end(); ?>

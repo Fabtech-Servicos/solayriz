@@ -162,6 +162,7 @@
 <script src="/plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
 <script src="/plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
 <script src="/js/site/main-slider-script.js"></script>
+<script src="/js/site/jquery.mask.js"></script>
 
 <!-- thm custom script -->
 <script src="/js/site/custom.js"></script>

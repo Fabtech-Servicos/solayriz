@@ -123,7 +123,7 @@
                     <div class="row mar0">
                         <div class="col-xl-4 col-lg-4 col-md-4 pd0">
                             <div class="single-box">
-                                <img src="/images/resources/mission.jpg" alt="Awesome Image">
+                                <img src="/images/resources/missao.jpg" alt="Awesome Image">
                                 <div class="title">
                                     <h3><?= $about->title_mission?></h3>
                                 </div>
@@ -143,7 +143,7 @@
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-4 pd0">
                             <div class="single-box">
-                                <img src="/images/resources/vision.jpg" alt="Awesome Image">
+                                <img src="/images/resources/visao.jpg" alt="Awesome Image">
                                 <div class="title">
                                     <h3><?= $about->title_vision?></h3>
                                 </div>
@@ -164,7 +164,7 @@
 
                         <div class="col-xl-4 col-lg-4 col-md-4 pd0">
                             <div class="single-box">
-                                <img src="/images/resources/mission.jpg" alt="Awesome Image">
+                                <img src="/images/resources/valores.jpg" alt="Awesome Image">
                                 <div class="title">
                                     <h3><?= $about->title_value?></h3>
                                 </div>

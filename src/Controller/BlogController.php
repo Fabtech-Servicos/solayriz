@@ -115,7 +115,7 @@ class BlogController extends AppController
             'limit'=> 9,
         ];
         $this->viewBuilder()->setLayout('site');
-        $blog = $this->paginate($this->Blog);
+        $blog = $this->paginate($this->Blog->find('all')->order(['id DESC']));
         $this->set('blog', $blog);
     }
 

@@ -38,7 +38,7 @@
                         <div class="overlay-content">
                             <div class="inner-content">
                                 <div class="title-box">
-                                    <h3><a href="#"><?= $proj->name ?></a></h3>
+                                    <h3><a href="/projeto/<?= $proj->id ?>"><?= $proj->name ?></a></h3>
                                     <span>Solayriz</span>
                                 </div>
                             </div>

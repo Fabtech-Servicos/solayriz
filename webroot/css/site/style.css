@@ -19029,6 +19029,13 @@ select:focus {
 }
 
 
+@media (max-width: 991px) {
+    .img-about {
+        height: auto;
+    }
+}
+
+
 
 #img-project{
     width: 270px;
@@ -19072,13 +19079,13 @@ select:focus {
 }
 
 
-@media (min-width: 991px) {
+
     .img-ball {
         width: 370px;
         height: 270px;
         object-fit: cover
     }
-}
+
 
 @media (min-width: 991px) {
     .img-post {
@@ -19138,6 +19145,14 @@ select:focus {
     object-fit: cover;
 }
 
+
+@media (min-width: 991px) {
+    .pprr {
+        width: 570px;
+        height: 360px;
+        object-fit: cover
+    }
+}
 
 
 

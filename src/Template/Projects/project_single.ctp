@@ -29,7 +29,7 @@
         <div class="row">
             <div class="col-xl-6">
                 <div class="single-project-image-box">
-                    <img  style="width: 570px; height: 360px; object-fit: cover" src="<?= "/files/Projects/photo/" . $projectSingle->photo ?>"" alt="Awesome Image">
+                    <img class="pprr" src="<?= "/files/Projects/photo/" . $projectSingle->photo ?>"" alt="Awesome Image">
                 </div>
             </div>
             <div class="col-xl-6 col-lg-12">
@@ -40,9 +40,13 @@
                     </div>
                 </div>
             </div>
+
         </div>
 
     </div>
+
+
+
 </section>
 <!--End Project single area-->
 

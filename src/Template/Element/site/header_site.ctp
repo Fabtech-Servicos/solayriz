@@ -93,7 +93,7 @@
                             <div class="navbar-collapse collapse clearfix">
                                 <ul class="navigation clearfix">
                                     <li class="dropdown current"><a href="/">Início</a></li>
-                                    <li class="dropdown"><a href="">Solayriz</a>
+                                    <li class="dropdown"><a href="/sobre/5">Solayriz</a>
                                         <ul>
                                             <li><a href="/sobre/5">Sobre</a></li>
                                         </ul>

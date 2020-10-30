@@ -54,7 +54,7 @@
 
                                     <div class="col-md-6">
                                         <div class="input-box">
-                                            <input type="text" name="form_phone" value="" placeholder="Telefone">
+                                            <input type="text" name="form_phone" value=""  data-mask="(00) 00000-0000" placeholder="Telefone">
                                         </div>
                                     </div>
                                 </div>
