@@ -71,25 +71,29 @@
                             <div class="blog-prev-next-option">
 
                                 <div class="single prev">
+                                    <?php foreach ($prev as $pv): ?>
                                     <div class="image-thumb">
-                                        <img src="/images/blog/prev-thumb-1.png" alt="Image">
+                                        <img class="img-pn" src="<?= "/files/Blog/photo/" . $pv->photo ?>" alt="Image">
                                     </div>
                                     <div class="title">
-                                        <h3>Rising Oil Price Should Re-Focus US On Solar Energy Growth</h3>
-                                        <a href="#">prev<span class="icon-null"></span></a>
+                                        <h3><?= $pv->title ?></h3>
+                                        <a href="<?= $pv->id ?>">prev<span class="icon-null"></span></a>
                                     </div>
+                                    <?php endforeach;?>
                                 </div>
 
 
 
                                 <div class="single next">
+                                    <?php foreach ($next as $nx): ?>
                                     <div class="image-thumb">
-                                        <img src="/images/blog/next-thumb-1.png" alt="Image">
+                                        <img class="img-pn" src="<?= "/files/Blog/photo/" . $nx->photo ?>" alt="Image">
                                     </div>
                                     <div class="title">
-                                        <h3>Tax and Duties Are Acting As Road Block for Power for All!</h3>
-                                        <a href="#">Next<span class="icon-null"></span></a>
+                                        <h3><?= $nx->title ?></h3>
+                                        <a href="<?= $nx->id ?>">Next<span class="icon-null"></span></a>
                                     </div>
+                                    <?php endforeach;?>
                                 </div>
 
 

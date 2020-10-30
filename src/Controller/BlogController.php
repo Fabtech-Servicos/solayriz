@@ -125,7 +125,13 @@ class BlogController extends AppController
         $this->viewBuilder()->setLayout('site');
         $post = $this->Blog->get($id);
         $this->set('post', $post);
-        $this->loadModel('Blog');
+
+        $next = $this->Blog->find('all')->where([ "id > $id" ])->limit('1');
+        $this->set('next', $next);
+
+        $prev = $this->Blog->find('all')->where([ "id < $id" ])->limit('1');
+        $this->set('prev', $prev);
+
     }
 
 

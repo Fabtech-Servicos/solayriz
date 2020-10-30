@@ -86,4 +86,13 @@ class BlogTable extends Table
 
         return $validator;
     }
+
+
+//    public function next($id)
+//    {
+//        $next = $this->Blog->find('all')->where([ 'id' => $id ] > 1 );
+//        $this->set('post', $next);
+//        var_dump($next);
+//
+//    }
 }

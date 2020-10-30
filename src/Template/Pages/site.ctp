@@ -354,7 +354,7 @@
                             </div>
                             <div class="text">
                                 <p><?= strlen($ab->description) >  70 ? substr($ab->description, 0, 70) . "..." : $ab->description ?></p>
-                                <a class="btn-two" href="#">Read More<span class="icon-null"></span></a>
+                                <a class="btn-two" href="#">Ler Mais<span class="icon-null"></span></a>
                             </div>
                         </div>
                     </div>

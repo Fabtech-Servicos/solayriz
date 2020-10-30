@@ -19132,6 +19132,12 @@ select:focus {
     color: #b3cde4 !important;
 }
 
+.img-pn{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+
 
 
 
