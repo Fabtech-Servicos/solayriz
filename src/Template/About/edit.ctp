@@ -7,7 +7,7 @@
 <!-- Content Header (Page header) -->
   <section class="content-header">
     <h1>
-      About
+        <?php echo __('About'); ?>
       <small><?php echo __('Edit'); ?></small>
     </h1>
     <ol class="breadcrumb">
@@ -38,10 +38,11 @@
                 echo $this->Form->control('mission',['id' => 'editor3']);
                 echo $this->Form->control('title_value');
                 echo $this->Form->control('value',['id' => 'editor4']);
-                echo $this->Form->control('title_state');
                 echo $this->Form->control('state',['id' => 'editor5']);
                 echo $this->Form->control('photo', ['type' => 'file']);
+                echo 'Dimensões recomendadas 570 x 360';
                 echo $this->Form->control('photo2', ['type' => 'file']);
+                echo 'Dimensões recomendadas 570 x 360';
                 echo $this->Form->control('map', ['type' => 'file']);
                 //echo $this->Form->control('photo_dir');
               ?>

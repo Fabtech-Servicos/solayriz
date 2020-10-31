@@ -537,7 +537,7 @@ msgid "Categorystate"
 msgstr "Categoria"
 
 msgid "State"
-msgstr "Categoria"
+msgstr "Descrição Mapa"
 
 msgid "Gallery"
 msgstr "Galeria"
@@ -587,6 +587,10 @@ msgstr "O(a) {0} nao pôde ser salvo(a). Por Favor, tente novamente"
 msgid "Civic Contraction"
 msgstr "Construção Civil"
 
+
+msgid "Title Mission"
+msgstr "Título Missão"
+
 msgid "Mission"
 msgstr "Missão"
 
@@ -595,5 +599,24 @@ msgstr "Projeto"
 
 msgid "Product"
 msgstr "Produto"
+
+msgid "Vision"
+msgstr "Visão"
+
+msgid "Title Vision"
+msgstr "Título Visão"
+
+msgid "Title Value"
+msgstr "Título Valores"
+
+msgid "Value"
+msgstr "Valores"
+
+msgid "Photo2"
+msgstr "Imagem 2"
+
+msgid "Map"
+msgstr "Mapa"
+
 
 

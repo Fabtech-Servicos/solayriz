@@ -1,8 +1,7 @@
 <!-- Content Header (Page header) -->
 <section class="content-header">
   <h1>
-    Sliders
-
+    Banner
     <div class="pull-right"><?php echo $this->Html->link(__('New'), ['action' => 'add'], ['class'=>'btn btn-success btn-xs']) ?></div>
   </h1>
 </section>
@@ -33,8 +32,6 @@
             <thead>
               <tr>
                   <th scope="col"><?= $this->Paginator->sort('id') ?></th>
-                  <th scope="col"><?= $this->Paginator->sort('created') ?></th>
-                  <th scope="col"><?= $this->Paginator->sort('modified') ?></th>
                   <th scope="col"><?= $this->Paginator->sort('name') ?></th>
                   <th scope="col"><?= $this->Paginator->sort('photo') ?></th>
                   <th scope="col"><?= $this->Paginator->sort('photo_dir') ?></th>
@@ -45,8 +42,6 @@
               <?php foreach ($sliders as $slider): ?>
                 <tr>
                   <td><?= $this->Number->format($slider->id) ?></td>
-                  <td><?= h($slider->created) ?></td>
-                  <td><?= h($slider->modified) ?></td>
                   <td><?= h($slider->name) ?></td>
                   <td><?= h($slider->photo) ?></td>
                   <td><?= h($slider->photo_dir) ?></td>

@@ -1,6 +1,6 @@
 <section class="content-header">
   <h1>
-    About
+      <?php echo __('About'); ?>
     <small><?php echo __('View'); ?></small>
   </h1>
   <ol class="breadcrumb">

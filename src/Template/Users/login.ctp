@@ -2,7 +2,7 @@
 
 <!-- /.box-body -->
 
- <img src="/images/logo.png" style="max-width: 300px; ">
+ <img src="/images/resources/solayris.png" style="max-width: 300px; ">
 
     <?php echo $this->Form->create(); ?>
     <div class="box-body">

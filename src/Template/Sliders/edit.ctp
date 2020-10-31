@@ -7,7 +7,7 @@
 <!-- Content Header (Page header) -->
   <section class="content-header">
     <h1>
-      Slider
+        Banner
       <small><?php echo __('Edit'); ?></small>
     </h1>
     <ol class="breadcrumb">
@@ -33,6 +33,7 @@
                 echo $this->Form->control('description',['id' => 'editor']);
                 echo $this->Form->control('photo',['type' => 'file']);
               ?>
+                <img style="max-width: 120px" src="<?= "/files/Sliders/photo/" . $slider->photo ?>">
             </div>
             <!-- /.box-body -->
 
