@@ -175,7 +175,7 @@
                 <div class="col-xl-6 pd0">
                     <div class="video-holder-box">
                         <div class="img-holder">
-                            <img  src="<?= "/files/Operation/Cover/" . $operation->cover ?>" alt="Awesome Image">
+                            <img  src="<?= "/files/Operation/cover/" . $operation->cover ?>" alt="Awesome Image">
                             <div class="icon-holder">
                                 <div class="icon">
                                     <div class="inner text-center">

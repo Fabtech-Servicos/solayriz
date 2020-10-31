@@ -61,7 +61,7 @@
                                         </div>
                                         <div class="text">
                                             <h3>Email</h3>
-                                            <p>solayrizengenharia@gmail.com</p>
+                                            <p>contato@solayrizengenharia</p>
                                         </div>
                                     </div>
                                 </li>
