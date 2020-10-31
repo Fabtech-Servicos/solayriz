@@ -6,12 +6,12 @@
                 <div class="col-xl-12">
                     <div class="inner-content clearfix">
                         <div class="title float-left">
-                            <h1>Como Funciona</h1>
+                            <h1>Energia Solar</h1>
                         </div>
                         <div class="breadcrumb-menu float-right">
                             <ul class="clearfix">
                                 <li><a href="/">Início</a></li>
-                                <li class="active">Como Funciona</li>
+                                <li class="active">Energia Solar</li>
                             </ul>
                         </div>
                     </div>

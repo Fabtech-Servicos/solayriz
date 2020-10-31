@@ -92,19 +92,19 @@
                             </div>
                             <div class="navbar-collapse collapse clearfix">
                                 <ul class="navigation clearfix">
-                                    <li class="dropdown current"><a href="/">Início</a></li>
-                                    <li class="dropdown"><a href="/sobre/5">Solayriz</a>
+                                    <li class="dropdown <?php if($_SERVER['REQUEST_URI'] == '/'):?>> current<?php endif; ?>"><a href="/">Início</a></li>
+                                    <li class="dropdown <?php if($_SERVER['REQUEST_URI'] == '/sobre/5'):?>> current<?php endif; ?>"><a href="/sobre/5">Solayriz</a>
                                         <ul>
                                             <li><a href="/sobre/5">Sobre</a></li>
                                         </ul>
                                     </li>
 
-                                    <li><a href="/energia-solar/8">Energia Solar</a></li>
+                                    <li class="dropdown <?php if($_SERVER['REQUEST_URI'] == '/energia-solar/8'):?>> current<?php endif; ?>"><a href="/energia-solar/8">Energia Solar</a></li>
 
-                                    <li class="dropdown"><a href="/como-funciona/4">Como Funciona</a>
+                                    <li class="dropdown <?php if($_SERVER['REQUEST_URI'] == '/como-funciona/4'):?>> current<?php endif; ?> "><a href="/como-funciona/4">Como Funciona</a>
 
 
-                                    <li class="dropdown"><a href="/projetos">Projetos</a>
+                                    <li class="dropdown <?php if($_SERVER['REQUEST_URI'] == '/projetos'):?>> current<?php endif; ?>"><a href="/projetos">Projetos</a>
                                         <ul>
                                             <?php foreach ($cat as $category): ?>
                                             <li><a href="/projetos/<?= $category->id ?>"><?= $category->title ?></a></li>
@@ -113,11 +113,12 @@
                                         </ul>
                                     </li>
 
-                                    <li><a href="/posts">Blog</a></li>
+                                    <li class="dropdown <?php if($_SERVER['REQUEST_URI'] == '/posts'):?>> current<?php endif; ?>"><a href="/posts">Blog</a></li>
 
-                                    <li><a href="/video">Videos</a></li>
+                                    <li class="dropdown <?php if($_SERVER['REQUEST_URI'] == '/video'):?>> current<?php endif; ?>"><a href="/video">Videos</a></li>
 
-                                    <li><a href="/contato">Contato</a></li>
+                                    <li class="dropdown <?php if($_SERVER['REQUEST_URI'] == '/contato'):?>> current<?php endif; ?>"><a href="/contato">Contato</a></li>
+
                                 </ul>
                             </div>
                         </nav>
@@ -130,6 +131,7 @@
         <a href="https://api.whatsapp.com/send?l=pt&amp;phone=5579988668644" target="_blank">
             <img src="/images/whatsapp-button.png" style="height:80px; position:fixed; bottom: 10px;
      right: 10px; z-index:99999;width: 140px;height: auto; margin-bottom: 33px" data-selector="img"></a>
+
     </section>
     <!--End mainmenu area-->
 
