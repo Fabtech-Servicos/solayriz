@@ -75,9 +75,9 @@
     </li>
 
     <li>
-        <a href="<?php echo $this->Url->build('/missions/edit/3'); ?>">
+        <a href="<?php echo $this->Url->build('/Blog/'); ?>">
             <i class="fa fa-circle-o" aria-hidden="true"></i>
-            <span>Sobre index</span>
+            <span>Blog</span>
             <span class="pull-right-container">
       </span>
         </a>
@@ -85,9 +85,18 @@
 
 
     <li>
-        <a href="<?php echo $this->Url->build('/portfolio'); ?>">
+        <a href="<?php echo $this->Url->build('/Videos'); ?>">
             <i class="fa fa-circle-o" aria-hidden="true"></i>
-            <span>Soluções</span>
+            <span>Videos</span>
+            <span class="pull-right-container">
+      </span>
+        </a>
+    </li>
+
+    <li>
+        <a href="<?php echo $this->Url->build('/Installation'); ?>">
+            <i class="fa fa-circle-o" aria-hidden="true"></i>
+            <span>Tipo de instalação</span>
             <span class="pull-right-container">
       </span>
         </a>
