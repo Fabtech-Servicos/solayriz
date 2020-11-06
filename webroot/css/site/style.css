@@ -19023,8 +19023,8 @@ select:focus {
 }
 
 .img-about{
-    width: 570px;
-    height: 360px;
+    /*width: 570px;*/
+    height: 250px;
     object-fit: cover;
 }
 
