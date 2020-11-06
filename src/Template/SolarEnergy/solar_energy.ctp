@@ -38,12 +38,12 @@
             </div>
             <div class="row">
                 <div class="col-xl-6 col-lg-6">
-                    <div class="whowe-are-image" style="border: 1px solid #416787;">
+                    <div class="whowe-are-image" style="border: 1px solid #1d5c95;">
                     <img class="imgg" src="<?= "/files/SolarEnergy/photo/" . $solar->photo ?>" alt="Awesome Image">
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6">
-                    <div class="whowe-are-image" style="border: 1px solid #416787;">
+                    <div class="whowe-are-image" style="border: 1px solid #1d5c95;">
                         <img class="imgg" src="<?= "/files/SolarEnergy/photo2/" . $solar->photo2 ?>" alt="Awesome Image">
                     </div>
                 </div>

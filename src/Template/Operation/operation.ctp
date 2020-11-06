@@ -38,12 +38,12 @@
             </div>
             <div class="row" style="margin-top: -70px">
                 <div class="col-xl-6 col-lg-6">
-                    <div class="whowe-are-image" style="border: 1px solid #416787;">
+                    <div class="whowe-are-image" style="border: 1px solid #1d5c95;">
                     <img class="imgg" src="<?= "/files/Operation/photo/" . $operation->photo ?>" alt="Awesome Image">
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6">
-                    <div class="whowe-are-image" style="border: 1px solid #416787;">
+                    <div class="whowe-are-image" style="border: 1px solid #1d5c95;">
                         <img class="imgg" src="<?= "/files/Operation/photo2/" . $operation->photo2 ?>" alt="Awesome Image">
                     </div>
                 </div>
