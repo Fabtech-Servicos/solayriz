@@ -161,7 +161,7 @@
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12" style="text-align: center">
                 <div class="project-content">
                     <div class="sec-title">
-                        <p>Solayriz Slz Engenharia</p>
+                        <p>Solayriz Engenharia</p>
                         <div class="title">Projetos</div>
                         <div class="border-box center"></div>
                     </div>
@@ -276,7 +276,7 @@
     </div>
     <div class="container">
         <div class="sec-title with-text clrwhite text-center">
-            <p>SOLAYRIZ SLZ ENGENHARIA</p>
+            <p>SOLAYRIZ ENGENHARIA</p>
             <div class="title">Excelência em qualidade</div>
             <div class="border-box center bgblue"></div>
             <span>O reconhecimento da Solayriz Engenharia é uma consequência da excelência na qualidade dos produtos, serviços e do rigor técnico prestado.</span>
