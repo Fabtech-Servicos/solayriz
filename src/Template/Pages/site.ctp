@@ -572,7 +572,7 @@
                                 <span class="icon-download"></span>
                             </div>
                             <div class="title">
-                                <h4>Solayris</h4>
+                                <h4>Solayriz</h4>
                             </div>
                         </a>
                     </div>
