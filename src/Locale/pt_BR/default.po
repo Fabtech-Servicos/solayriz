@@ -618,5 +618,204 @@ msgstr "Imagem 2"
 msgid "Map"
 msgstr "Mapa"
 
+msgid "Advantage"
+msgstr "Vantagem"
+
+msgid "Title Advantage"
+msgstr "Título Vantagem"
+
+msgid "Advantage2"
+msgstr "Vantagem 2"
+
+msgid "Title Advantage"
+msgstr "Título Vantagem 2"
+
+msgid "Advantage3"
+msgstr "Vantagem 3"
+
+msgid "Title Advantage3"
+msgstr "Título Vantagem 3"
+
+msgid "Advantage4"
+msgstr "Vantagem 4"
+
+msgid "Title Advantage4"
+msgstr "Título Vantagem 4"
+
+msgid "Advantage5"
+msgstr "Vantagem 5"
+
+msgid "Title Advantage5"
+msgstr "Título Vantagem 5"
+
+msgid "Advantage6"
+msgstr "Vantagem 6"
+
+msgid "Title Advantage6"
+msgstr "Título Vantagem 6"
+
+msgid "Advantage7"
+msgstr "Vantagem 7"
+
+msgid "Title Advantage7"
+msgstr "Título Vantagem 7"
+
+msgid "Advantage8"
+msgstr "Vantagem 8"
+
+msgid "Title Advantage8"
+msgstr "Título Vantagem 8"
+
+msgid "Advantage9"
+msgstr "Vantagem 9"
+
+msgid "Title Advantage9"
+msgstr "Título Vantagem 9"
+
+msgid "Advantage10"
+msgstr "Vantagem 10"
+
+msgid "Title Advantage10"
+msgstr "Título Vantagem 10"
+
+msgid "Advantage11"
+msgstr "Vantagem 11"
+
+msgid "Title Advantage11"
+msgstr "Título Vantagem 11"
+
+msgid "Advantage12"
+msgstr "Vantagem 12"
+
+msgid "Title Advantage12"
+msgstr "Título Vantagem 12"
+
+msgid "Description For"
+msgstr "Descrição Para"
+
+msgid "Photo3"
+msgstr "Imagem para"
+
+msgid "For2"
+msgstr "Para 2"
+
+msgid "Description For2"
+msgstr "Descrição para 2"
+
+msgid "Photo4"
+msgstr "Imagem para 2"
+
+msgid "For3"
+msgstr "Para 3"
+
+msgid "Description For3"
+msgstr "Descrição para 3"
+
+msgid "Photo5"
+msgstr "Imagem para 3"
+
+msgid "For4"
+msgstr "Para 4"
+
+msgid "Description For4"
+msgstr "Descrição para 4"
+
+msgid "Photo6"
+msgstr "Imagem para 4"
+
+msgid "Modality"
+msgstr "Modalidade"
+
+msgid "Modality2"
+msgstr "Modalidade 2"
+
+msgid "Modality3"
+msgstr "Modalidade 3"
+
+msgid "Solar Energy"
+msgstr "Energia Solar"
+
+msgid "Operation"
+msgstr "Como Funciona"
+
+msgid "Title2"
+msgstr "Titulo 2"
+
+msgid "Scenario"
+msgstr "Cenário"
+
+msgid "Scenario2"
+msgstr "Cenário 2"
+
+msgid "Scenario3"
+msgstr "Cenário 3"
+
+msgid "Cover"
+msgstr "Capa"
+
+msgid "Cover"
+msgstr "Capa"
+
+msgid "Begin"
+msgstr "Como Começar"
+
+msgid "Steps"
+msgstr "Passo 1"
+
+msgid "Steps2"
+msgstr "Passo 2"
+
+msgid "Steps3"
+msgstr "Passo 3"
+
+msgid "Steps4"
+msgstr "Passo 4"
+
+msgid "Steps5"
+msgstr "Passo 5"
+
+msgid "Steps6"
+msgstr "Passo 6"
+
+msgid "Categories"
+msgstr "Categorias"
+
+msgid "Projects"
+msgstr "Projetos"
+
+msgid "Signature"
+msgstr "Assinatura"
+
+msgid "Installation"
+msgstr "Tipo de instalação"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

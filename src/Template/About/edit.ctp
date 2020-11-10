@@ -55,8 +55,6 @@
             <img style="height: 50px; margin-left: 10px" src="<?= "/files/About/map/" . $about->map ?>"> <p style="margin-left: 10px">Mapa</p>
             <hr>
 
-
-
           <?php echo $this->Form->submit(__('Submit')); ?>
 
           <?php echo $this->Form->end(); ?>

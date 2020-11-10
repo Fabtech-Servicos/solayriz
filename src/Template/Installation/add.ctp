@@ -7,7 +7,7 @@
 <!-- Content Header (Page header) -->
   <section class="content-header">
     <h1>
-      Installation
+        <?php echo __('Installation'); ?>
       <small><?php echo __('Add'); ?></small>
     </h1>
     <ol class="breadcrumb">

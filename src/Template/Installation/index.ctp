@@ -1,9 +1,9 @@
 <!-- Content Header (Page header) -->
 <section class="content-header">
   <h1>
-    Installation
+      <?php echo __('Installation'); ?>
 
-    <div class="pull-right"><?php echo $this->Html->link(__('New'), ['action' => 'add'], ['class'=>'btn btn-success btn-xs']) ?></div>
+      <div class="pull-right"><?php echo $this->Html->link(__('New'), ['action' => 'add'], ['class'=>'btn btn-success btn-xs']) ?></div>
   </h1>
 </section>
 
@@ -34,7 +34,6 @@
               <tr>
                   <th scope="col"><?= $this->Paginator->sort('id') ?></th>
                   <th scope="col"><?= $this->Paginator->sort('title') ?></th>
-                  <th scope="col" class="actions text-center"><?= __('Actions') ?></th>
               </tr>
             </thead>
             <tbody>

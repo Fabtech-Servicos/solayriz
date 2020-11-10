@@ -7,7 +7,7 @@
 <!-- Content Header (Page header) -->
   <section class="content-header">
     <h1>
-      Category
+        <?php echo __('Categories'); ?>
       <small><?php echo __('Edit'); ?></small>
     </h1>
     <ol class="breadcrumb">
@@ -30,7 +30,6 @@
             <div class="box-body">
               <?php
                 echo $this->Form->control('title');
-                echo $this->Form->control('modifield', ['empty' => true]);
               ?>
             </div>
             <!-- /.box-body -->

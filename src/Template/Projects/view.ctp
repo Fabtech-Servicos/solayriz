@@ -1,6 +1,6 @@
 <section class="content-header">
   <h1>
-    Project
+      <?php echo __('Projetos'); ?>
     <small><?php echo __('View'); ?></small>
   </h1>
   <ol class="breadcrumb">
