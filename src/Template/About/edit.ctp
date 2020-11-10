@@ -48,6 +48,14 @@
               ?>
             </div>
             <!-- /.box-body -->
+            <img style="height: 50px; margin-left: 10px" src="<?= "/files/About/photo/" . $about->photo ?>"> <p style="margin-left: 10px">Imagem</p>
+            <hr>
+            <img style="height: 50px; margin-left: 10px" src="<?= "/files/About/photo2/" . $about->photo2 ?>"> <p style="margin-left: 10px">Imagem 2</p>
+            <hr>
+            <img style="height: 50px; margin-left: 10px" src="<?= "/files/About/map/" . $about->map ?>"> <p style="margin-left: 10px">Mapa</p>
+            <hr>
+
+
 
           <?php echo $this->Form->submit(__('Submit')); ?>
 
