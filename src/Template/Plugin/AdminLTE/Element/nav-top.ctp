@@ -1,5 +1,5 @@
 <?php use Cake\Core\Configure; ?>
-<nav class="navbar navbar-static-top">
+<nav class="navbar navbar-static-top" style="background: #1d5c95 !important;">
 
   <?php if (isset($layout) && $layout == 'top'): ?>
   <div class="container">
