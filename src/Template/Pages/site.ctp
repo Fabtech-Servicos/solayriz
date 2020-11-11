@@ -429,22 +429,23 @@
                     </div>
                     <div class="consultation">
                         <form class="consultation-form">
+                            <?php echo $this->Form->create()?>
                             <div class="row">
                                 <div class="col-xl-7">
                                     <div class="single-box">
-                                        <input type="text" name="form_name" value="" placeholder="Nome" required="">
+                                        <input type="text" name="name" value="" placeholder="Nome" required="">
                                     </div>
                                 </div>
                                 <div class="col-xl-5">
                                     <div class="single-box">
-                                        <input  id="valor" type="text" name="form_vlr" value="" placeholder="Valor da conta" required="">
+                                        <input  id="valor" type="text" name="vlr" value="" placeholder="Valor da conta" required="">
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-xl-6">
                                     <div class="single-box">
-                                        <input type="text" name="form_tel" value="" placeholder="Telefone" data-mask="(00) 00000-0000'" required="">
+                                        <input type="text" name="tel" value="" placeholder="Telefone" data-mask="(00) 00000-0000'" required="">
                                     </div>
                                 </div>
                                 <div class="col-xl-6">
@@ -485,7 +486,7 @@
                             <div class="row">
                               <div class="col-xl-7">
                                 <div class="single-box">
-                                    <input type="email" name="form_email" value="" placeholder="Email" required="">
+                                    <input type="email" name="email" value="" placeholder="Email" required="">
                                 </div>
                                </div>
                                 <div class="col-xl-5">
@@ -521,7 +522,7 @@
                                     </div>
                                 </div>
                             </div>
-
+                            <?php echo $this->Form->end(); ?>
                         </form>
                     </div>
                 </div>

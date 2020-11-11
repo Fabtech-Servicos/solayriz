@@ -14,13 +14,15 @@ class ContactsController extends AppController
         if ($this->request->is('post')){
             $formData = $this->request->getData();
 
-            $email = new Email('gmail');
-            $email->setFrom(['henrique@fabtechinfo.com.br' => 'Contato Milatec'])
-                ->setTo('paulo.henrik.oliver@gmail.com')
-                ->setSubject('Contato Milatec')
-                ->send('Nome: ' . $formData['name']
+            $email = new Email('Smtp');
+            $email->setFrom(['contato2@solayriz.com.br' => 'Contato Solayriz'])
+                ->setTo('contato@solayriz.com.br')
+                ->setSubject('Contato Solayriz')
+                ->send('Nome: ' . $formData['   name']
+                    . "\n". ' Valor: ' . $formData['vlr']
                     . "\n". ' Email: ' . $formData['email']
-                    . "\n". ' Mensagem: ' . $formData['msg']);
+                    . "\n". ' Telefone: ' . $formData['tel']
+                    . "\n". ' Mensagem: ' . $formData['email']);
         }
 
 
