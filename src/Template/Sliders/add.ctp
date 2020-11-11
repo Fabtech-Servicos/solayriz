@@ -32,7 +32,9 @@
                 echo $this->Form->control('name');
                 echo $this->Form->control('description',['id' => 'editor']);
                 echo $this->Form->control('photo',['type' => 'file']);
+                echo "Dimensões recomedads 1920px x 750px"
               ?>
+
             </div>
             <!-- /.box-body -->
 

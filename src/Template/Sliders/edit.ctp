@@ -32,9 +32,12 @@
                 echo $this->Form->control('name');
                 echo $this->Form->control('description',['id' => 'editor']);
                 echo $this->Form->control('photo',['type' => 'file']);
+                echo "Dimensões recomedads 1920px x 750px"
               ?>
-                <img style="max-width: 120px" src="<?= "/files/Sliders/photo/" . $slider->photo ?>">
+
+
             </div>
+            <img style="max-width: 120px; margin-left: 10px" src="<?= "/files/Sliders/photo/" . $slider->photo ?>">
             <!-- /.box-body -->
 
           <?php echo $this->Form->submit(__('Submit')); ?>
