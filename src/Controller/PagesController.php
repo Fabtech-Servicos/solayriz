@@ -98,21 +98,36 @@ class PagesController extends AppController
 
 
 
-        if ($this->request->is('post')){
-            $formData = $this->request->getData();
-
-            $states = isset($formData['states']) ? implode($formData['states']) : '-';
+//        if ($this->request->is('post')){
+//            $formData = $this->request->getData();
+//
+//            $states = isset($formData['states']) ? implode($formData['states']) : '-';
 //            var_dump($formData);
 //            die();
 
-            $email = new Email('gmail');
-            $email->setFrom(['henrique@fabtechinfo.com.br' => 'Contato InnovarSeg'])
-                ->setTo('paulo.henrik.oliver@gmail.com')
-                ->setSubject('Solicitação se serviço')
-                ->send('Nome: ' . $formData['nome']
+//            $email = new Email('gmail');
+//            $email->setFrom(['henrique@fabtechinfo.com.br' => 'Contato InnovarSeg'])
+//                ->setTo('paulo.henrik.oliver@gmail.com')
+//                ->setSubject('Solicitação se serviço')
+//                ->send('Nome: ' . $formData['nome']
+//                    . "\n". ' Email: ' . $formData['email']
+//                    . "\n". ' Telefone: ' . $formData['tel']
+//                    . "\n". ' Serviço: ' . $states);
+//        }
+
+
+        if ($this->request->is('post')){
+            $formData = $this->request->getData();
+
+            $email = new Email('default');
+            $email->setFrom(['contato2@solayriz.com.br' => 'Contato Solayriz'])
+                ->setTo('contato@solayriz.com.br')
+                ->setSubject('Contato Solayriz')
+                ->send('Nome: ' . $formData['   name']
+                    . "\n". ' Valor: ' . $formData['vlr']
                     . "\n". ' Email: ' . $formData['email']
                     . "\n". ' Telefone: ' . $formData['tel']
-                    . "\n". ' Serviço: ' . $states);
+                    . "\n". ' Mensagem: ' . $formData['email']);
         }
 
 
