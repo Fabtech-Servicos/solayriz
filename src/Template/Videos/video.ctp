@@ -1,3 +1,4 @@
+<?php $this->assign('title', 'Vídeos - '); ?>
 
 <section class="breadcrumb-area" style="background-image: url(/images/resources/breadcrumb-bg.jpg);">
     <div class="container">

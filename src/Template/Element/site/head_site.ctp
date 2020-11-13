@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Solayriz Slz Engenharia</title>
+    <title><?= $this->fetch('title') ?>Solayriz Slz Engenharia</title>
 
     <!-- responsive meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1">

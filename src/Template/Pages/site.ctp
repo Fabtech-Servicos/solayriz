@@ -458,7 +458,7 @@
                         <span>Preencha o formulário e um de nossos consultores entrará em contato para fazer um orçamento.</span>
                     </div>
                     <div class="consultation">
-                        <?php echo $this->Form->create(null, ['class' => 'consultation-form']) ?>
+                        <?php echo $this->Form->create(null,['class' => 'consultation-form', 'type' => 'file']) ?>
                         <div class="row">
                             <div class="col-xl-7">
                                 <div class="single-box">
@@ -476,40 +476,40 @@
                             <div class="col-xl-6">
                                 <div class="single-box">
                                     <input type="text" name="tel" value="" placeholder="Telefone"
-                                           data-mask="(00) 00000-0000'" required="">
+                                           data-mask="(00) 00000-0000" required="">
                                 </div>
                             </div>
                             <div class="col-xl-6">
                                 <div class="single-box">
-                                    <select class="selectpicker" data-width="100%">
+                                    <select class="selectpicker" data-width="100%" name="est">
                                         <option selected="selected">Escolha seu estado</option>
-                                        <option value="AC">Acre</option>
-                                        <option value="AL">Alagoas</option>
-                                        <option value="AP">Amapá</option>
-                                        <option value="AM">Amazonas</option>
-                                        <option value="BA">Bahia</option>
-                                        <option value="CE">Ceará</option>
-                                        <option value="DF">Distrito Federal</option>
-                                        <option value="ES">Espirito Santo</option>
-                                        <option value="GO">Goiás</option>
-                                        <option value="MA">Maranhão</option>
-                                        <option value="MS">Mato Grosso do Sul</option>
-                                        <option value="MT">Mato Grosso</option>
-                                        <option value="MG">Minas Gerais</option>
-                                        <option value="PA">Pará</option>
-                                        <option value="PB">Paraíba</option>
-                                        <option value="PR">Paraná</option>
-                                        <option value="PE">Pernambuco</option>
-                                        <option value="PI">Piauí</option>
-                                        <option value="RJ">Rio de Janeiro</option>
-                                        <option value="RN">Rio Grande do Norte</option>
-                                        <option value="RS">Rio Grande do Sul</option>
-                                        <option value="RO">Rondônia</option>
-                                        <option value="RR">Roraima</option>
-                                        <option value="SC">Santa Catarina</option>
-                                        <option value="SP">São Paulo</option>
-                                        <option value="SE">Sergipe</option>
-                                        <option value="TO">Tocantins</option>
+                                        <option value="Acre">Acre</option>
+                                        <option value="Alagoas">Alagoas</option>
+                                        <option value="Amapá">Amapá</option>
+                                        <option value="Amazonas">Amazonas</option>
+                                        <option value="Bahia">Bahia</option>
+                                        <option value="Ceará">Ceará</option>
+                                        <option value="Distrito Federal">Distrito Federal</option>
+                                        <option value="Espirito Santo">Espirito Santo</option>
+                                        <option value="Goiás">Goiás</option>
+                                        <option value="Maranhão">Maranhão</option>
+                                        <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+                                        <option value="Mato Grosso">Mato Grosso</option>
+                                        <option value="Minas Gerais">Minas Gerais</option>
+                                        <option value="Pará">Pará</option>
+                                        <option value="Paraíba">Paraíba</option>
+                                        <option value="Paraná">Paraná</option>
+                                        <option value="Pernambuco">Pernambuco</option>
+                                        <option value="Pernambuco">Piauí</option>
+                                        <option value="Rio de Janeiro">Rio de Janeiro</option>
+                                        <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+                                        <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+                                        <option value="Rondônia">Rondônia</option>
+                                        <option value="Roraima">Roraima</option>
+                                        <option value="Santa Catarina<">Santa Catarina</option>
+                                        <option value="São Paulo">São Paulo</option>
+                                        <option value="Sergipe">Sergipe</option>
+                                        <option value="Tocantins">Tocantins</option>
                                     </select>
                                 </div>
                             </div>
@@ -522,10 +522,10 @@
                             </div>
                             <div class="col-xl-5">
                                 <div class="single-box">
-                                    <select class="selectpicker" data-width="100%">
+                                    <select class="selectpicker" data-width="100%" name="tipo">
                                         <option selected="selected">Tipo de instalação</option>
                                         <?php foreach ($int as $in): ?>
-                                            <option value="in"><?= $in->title ?></option>
+                                            <option value="<?= $in->title ?>"><?= $in->title ?></option>
                                         <?php endforeach; ?>
                                     </select>
                                 </div>
@@ -539,7 +539,7 @@
                                         <i class="fa fa-cloud-upload"></i>
                                         <span style="cursor: pointer">Anexe sua conta de energia!</span>
                                     </label>
-                                    <input style="display: none" id="file-upload" type="file"/>
+                                    <input style="display: none" id="file-upload" type="file" name="file" value="file">
                                 </div>
                             </div>
                         </div>

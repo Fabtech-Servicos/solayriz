@@ -92,50 +92,36 @@ class PagesController extends AppController
         $ct = $this->Categories->find('all')->order(['id DESC']);
         $int = $this->Installation->find('all');
 
-
-
         $videos = $this->Videos->find('all')->order(['id DESC'])->limit(4);
 
-
-
-//        if ($this->request->is('post')){
-//            $formData = $this->request->getData();
-//
-//            $states = isset($formData['states']) ? implode($formData['states']) : '-';
-//            var_dump($formData);
-//            die();
-
-//            $email = new Email('gmail');
-//            $email->setFrom(['henrique@fabtechinfo.com.br' => 'Contato InnovarSeg'])
-//                ->setTo('paulo.henrik.oliver@gmail.com')
-//                ->setSubject('Solicitação se serviço')
-//                ->send('Nome: ' . $formData['nome']
-//                    . "\n". ' Email: ' . $formData['email']
-//                    . "\n". ' Telefone: ' . $formData['tel']
-//                    . "\n". ' Serviço: ' . $states);
-//        }
-
-
         if ($this->request->is('post')){
+        $formData = $this->request->getData();
+        $email = new Email('default');
 
-            $formData = $this->request->getData();
+        $file = $_FILES['file'];
 
-            $email = new Email('default');
-            $email->setFrom(['contato2@solayriz.com.br' => 'Orçamento Solayriz'])
-                ->setTo('contato@solayriz.com.br')
-                ->setSubject('Orçamento Solayriz')
-                ->send('Nome: ' . $formData['name']
-                    . "\n". ' Valor: ' . $formData['vlr']
-                    . "\n". ' Email: ' . $formData['email']
-                    . "\n". ' Telefone: ' . $formData['tel']
-                    . "\n". ' Mensagem: ' . $formData['email']);
+//            adicionar anexo
+        $email->addAttachments([
+            $file['name'] => [
+                'file' => $file['tmp_name'],
+                'mimetype' => $file['type']
+            ]
+        ]);
+//           end adicionar anexo
+
+        $email->setFrom(['contato2@solayriz.com.br' => 'Orçamento Solayriz'])
+            ->setTo('contato@solayriz.com.br')
+            ->setSubject('Orçamento Solayriz')
+            ->send(' Nome: ' . $formData['name']
+                . "\n". ' Valor da conta: ' . $formData['vlr']
+                . "\n". ' Email: ' . $formData['email']
+                . "\n". ' Telefone: ' . $formData['tel']
+                . "\n". ' Mensagem: ' . $formData['email']
+                . "\n". ' Estado: ' . $formData['est']
+                . "\n". ' Tipo de instalação: ' . $formData['tipo']
+            );
 
         }
-
-
-
-
-
 
 
         $this->set('sliders', $sliders);
