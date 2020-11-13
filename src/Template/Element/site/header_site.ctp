@@ -61,7 +61,7 @@
                                         </div>
                                         <div class="text">
                                             <h3>Email</h3>
-                                            <p>contato@solayrizengenharia</p>
+                                            <p>contato@solayriz.com.br</p>
                                         </div>
                                     </div>
                                 </li>

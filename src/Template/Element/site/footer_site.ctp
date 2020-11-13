@@ -17,7 +17,7 @@
                         <div class="text">
                             <p> Av. Luciano Monteiro Sobral, 300 - Luzia <br> Aracaju - SE, 49048-000</p>
                             <ul>
-                                <li>contato@solayrizengenharia</li>
+                                <li>contato@solayriz.com.br</li>
                                 <li>De segunda a sexta das 07:00hs as 18:00hs</li>
                             </ul>
                             <a class="btn-two" href="https://www.google.com/search?sxsrf=ALeKk01T0JzbY7xQsqF42mYek1jdEj1ktg:1603936758131&ei=6yGaX_DuM6TD5OUPmoClgA4&q=solayriz%20engenharia%20endere%C3%A7o&oq=solayriz+engenharia+endere%C3%A7o&gs_lcp=CgZwc3ktYWIQAzIECCMQJ1CeRlieRmD-R2gAcAB4AIABvgGIAfEGkgEDMC41mAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=psy-ab&ved=2ahUKEwi5m9eF2tjsAhVzIbkGHQifAEkQvS4wAHoECAUQGw&uact=5&npsic=0&rflfq=1&rlha=0&rllag=-10933671,-37066617,1234&tbm=lcl&rldimm=3826243102577998974&lqi=Ch1zb2xheXJpeiBlbmdlbmhhcmlhIGVuZGVyZcOnbyICSAFaKgoTc29sYXlyaXogZW5nZW5oYXJpYSITc29sYXlyaXogZW5nZW5oYXJpYQ&rldoc=1&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!2m1!1e3!3sIAE,lf:1,lf_ui:2&rlst=f#rlfi=hd:;si:3826243102577998974,l,Ch1zb2xheXJpeiBlbmdlbmhhcmlhIGVuZGVyZcOnbyICSAFaKgoTc29sYXlyaXogZW5nZW5oYXJpYSITc29sYXlyaXogZW5nZW5oYXJpYQ;mv:[[-10.9250926,-37.057432399999996],[-10.942250399999999,-37.0758025]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!2m1!1e3!3sIAE,lf:1,lf_ui:2" target="_blank">Mapa<span class="icon-null"></span></a>
