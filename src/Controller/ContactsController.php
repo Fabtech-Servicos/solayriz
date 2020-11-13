@@ -18,14 +18,13 @@ class ContactsController extends AppController
             $email->setFrom(['contato2@solayriz.com.br' => 'Contato Solayriz'])
                 ->setTo('contato@solayriz.com.br')
                 ->setSubject('Contato Solayriz')
-                ->send('Nome: ' . $formData['   name']
-                    . "\n". ' Valor: ' . $formData['vlr']
+                ->send(' Nome: ' . $formData['name']
                     . "\n". ' Email: ' . $formData['email']
                     . "\n". ' Telefone: ' . $formData['tel']
-                    . "\n". ' Mensagem: ' . $formData['email']);
+                    . "\n". ' Mensagem: ' . $formData['message']);
         }
 
-
+        header('Location: /'); exit();
     }
 
     public function beforeFilter(Event $event)

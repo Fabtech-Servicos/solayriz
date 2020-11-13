@@ -44,17 +44,17 @@
                 <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
                     <div class="contact-form">
                         <div class="inner">
-                            <form id="contact-form" name="contact_form" class="default-form" action="inc/sendmail.php" method="post">
+                                <?php echo $this->Form->create(null,['class' => 'default-form', 'id' => 'contact-form']) ?>
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="input-box">
-                                            <input type="text" name="form_name" value="" placeholder="Nome" required="">
+                                            <input type="text" name="name" value="" placeholder="Nome" required="">
                                         </div>
                                     </div>
 
                                     <div class="col-md-6">
                                         <div class="input-box">
-                                            <input type="text" name="form_phone" value=""  data-mask="(00) 00000-0000" placeholder="Telefone">
+                                            <input type="text" name="tel" value=""  data-mask="(00) 00000-0000" placeholder="Telefone">
                                         </div>
                                     </div>
                                 </div>
@@ -62,7 +62,7 @@
                                 <div class="row">
                                   <div class="col-md-12">
                                     <div class="input-box">
-                                        <input type="email" name="form_email" value="" placeholder="Email" required="">
+                                        <input type="email" name="email" value="" placeholder="Email" required="">
                                     </div>
                                   </div>
                                 </div>
@@ -70,7 +70,7 @@
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="input-box">
-                                            <textarea name="form_message" placeholder="Mensagem..." required=""></textarea>
+                                            <textarea name="message" placeholder="Mensagem..." required=""></textarea>
                                         </div>
                                     </div>
                                 </div>
@@ -82,7 +82,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </form>
+                            <?php echo $this->Form->end(); ?>
                         </div>
                     </div>
                 </div>
