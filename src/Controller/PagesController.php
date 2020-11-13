@@ -116,7 +116,6 @@ class PagesController extends AppController
                 . "\n". ' Valor da conta: ' . $formData['vlr']
                 . "\n". ' Email: ' . $formData['email']
                 . "\n". ' Telefone: ' . $formData['tel']
-                . "\n". ' Mensagem: ' . $formData['email']
                 . "\n". ' Estado: ' . $formData['est']
                 . "\n". ' Tipo de instalação: ' . $formData['tipo']
             );
