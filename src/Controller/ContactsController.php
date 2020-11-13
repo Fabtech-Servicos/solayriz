@@ -24,7 +24,7 @@ class ContactsController extends AppController
                     . "\n". ' Mensagem: ' . $formData['message']);
         }
 
-        header('Location: /'); exit();
+//        header('Location: /'); exit();
     }
 
     public function beforeFilter(Event $event)
