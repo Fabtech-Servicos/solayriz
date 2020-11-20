@@ -223,7 +223,7 @@
                                     </div>
                                 </div>
                                 <div class="categories">
-                                    <h5><?= $proj->category_id ?></h5>
+                                    <h5><?= $proj->category->title ?></h5>
                                 </div>
                                 <div class="title-box">
                                     <h3><?= $proj->name ?></h3>
