@@ -86,9 +86,7 @@ class PagesController extends AppController
         $about = $this->About->find('all', array('limit' => 3))->order(['id' => 'desc']);
         $servic = $this->Portfolio->find('all', array('limit' => 3))->order(['id' => 'desc']);
         $servico = $this->Portfolio->find('all');
-        $projects = $this->Projects->find('all')
-            ->contain(['Categories'])
-            ->order(['projects.id DESC'])->limit(9);
+        $projects = $this->Projects->find('all')->order(['id DESC'])->limit(9);
         $blog = $this->Blog->find('all')->order(['id DESC'])->limit(3);
         $services = $this->Services->find('all')->order(['id DESC']);
         $ct = $this->Categories->find('all')->order(['id DESC']);
