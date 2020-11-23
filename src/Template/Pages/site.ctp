@@ -222,9 +222,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="categories">
-                                    <h5><?= $proj->category_id ?></h5>
-                                </div>
+<!--                                <div class="categories">-->
+<!--                                    <h5>//= $proj->category_id </h5>-->
+<!--                                </div>-->
                                 <div class="title-box">
                                     <h3><?= $proj->name ?></h3>
                                     <span>Solayriz</span>
